@@ -1,3 +1,3 @@
 Projecto de Web Semantica - Site preparado para a WS
-Jo‹o Rodrigues
+Joao Rodrigues
 Diogo Laginha
