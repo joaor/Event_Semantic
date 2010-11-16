@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1703413">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>The Script</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;Coliseu Lisboa - 14 de Fevereiro de 2011&lt;br /&gt;
+&lt;br /&gt;
+Plateia em Pé * 22,00 Euros&lt;br /&gt;
+Abertura de Portas * 20h00&lt;br /&gt;
+Início do Espectáculo * 21h00&lt;/div&gt;</terms:description>
+    <terms:date>Mon, 14 Feb 2011 21:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1703413+The+Script"/>
+    <ov:machineTag>lastfm:event=1703413</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/52248367.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/52248367.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/52248367.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/52248367.png"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8918228"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/The+Script"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1703413+The+Script#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/52248367.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/52248367.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/52248367.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/52248367.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8918228">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Coliseu dos Recreios</rdfs:label>
+    <geo:lat>38.716644</geo:lat>
+    <geo:long>-9.140886</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8918228#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8918228+Coliseu+dos+Recreios"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8918228+Coliseu+dos+Recreios#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8918228#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Lisbon, Portugal</rdfs:label>
+    <v:street-address></v:street-address>
+    <v:locality>Lisbon</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code></v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/The+Script">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>The Script</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/The+Script"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/The+Script#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1703413&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1703413</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1703413"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1703413&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:54:58-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1703413"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/52248367.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/52248367.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/52248367.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/52248367.png"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8918228"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8918228#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/The+Script"/>
+  </rdf:Description>
+
+</rdf:RDF>

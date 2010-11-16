@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1567327">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>San Francisco Symphony</rdfs:label>
+    <terms:date>Mon, 06 Jun 2011 21:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1567327+San+Francisco+Symphony+at+Coliseu+dos+Recreios+on+6+June+2011"/>
+    <ov:machineTag>lastfm:event=1567327</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/3992734.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/3992734.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/3992734.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/3992734.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8810239"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/San+Francisco+Symphony"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Michael+Tilson+Thomas"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Laura+Claycomb"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Katarina+Karn%C3%A9us"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Coro+Gulbenkian"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1567327+San+Francisco+Symphony+at+Coliseu+dos+Recreios+on+6+June+2011#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/3992734.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/3992734.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/3992734.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/3992734.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8810239">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Coliseu dos Recreios</rdfs:label>
+    <geo:lat>38.716644</geo:lat>
+    <geo:long>-9.140886</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8810239#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8810239+Coliseu+dos+Recreios"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8810239+Coliseu+dos+Recreios#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8810239#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rua das Portas de Santo Antão, 96, Lisboa, Portugal,  1150-269</rdfs:label>
+    <v:street-address>Rua das Portas de Santo Antão, 96</v:street-address>
+    <v:locality>Lisboa</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1150-269</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/San+Francisco+Symphony">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>San Francisco Symphony</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/San+Francisco+Symphony"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/San+Francisco+Symphony#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Michael+Tilson+Thomas">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Michael Tilson Thomas</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Michael+Tilson+Thomas"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Michael+Tilson+Thomas#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Laura+Claycomb">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Laura Claycomb</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Laura+Claycomb"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Laura+Claycomb#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Katarina+Karn%C3%A9us">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Katarina Karnéus</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Katarina+Karn%C3%A9us"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Katarina+Karn%C3%A9us#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Coro+Gulbenkian">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Coro Gulbenkian</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Coro+Gulbenkian"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Coro+Gulbenkian#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1567327&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1567327</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1567327"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1567327&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:56:10-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1567327"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/3992734.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/3992734.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/3992734.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/3992734.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8810239"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8810239#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/San+Francisco+Symphony"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Michael+Tilson+Thomas"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Laura+Claycomb"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Katarina+Karn%C3%A9us"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Coro+Gulbenkian"/>
+  </rdf:Description>
+
+</rdf:RDF>

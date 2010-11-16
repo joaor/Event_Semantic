@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1727991">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Z-Oil Music Fest '11</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;&lt;a href=&quot;http://www.last.fm/label/Zelia+Records/&quot; class=&quot;bbcode_label&quot;&gt;Zelia Records&lt;/a&gt;&lt;/div&gt;</terms:description>
+    <terms:date>Wed, 02 Feb 2011 21:41:01</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/festival/1727991+Z-Oil+Music+Fest+%2711"/>
+    <ov:machineTag>lastfm:event=1727991</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/53759267.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/53759267.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/53759267.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/53759267.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8862450"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/New+Zeuhland"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Nobre+Cavalgada+Pelos+C%C3%A9us+Da+Calif%C3%B3rnia"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Vinte+e+Tr%C3%AAs+Olhos+Cansados"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/The+Geometry+Of+Fucking"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Lightning+Bot"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/The+Inner+Act+Bras-Filling+Proclamation"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Ludwig+Van+Botoven"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/PAPERCUNTROCKET"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Mitus+Urbanus"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/%D2%88"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Drums+Of+The+Dead"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/festival/1727991+Z-Oil+Music+Fest+%2711#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/53759267.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/53759267.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/53759267.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/53759267.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8862450">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Parque da Cidade</rdfs:label>
+    <geo:lat>41.167881</geo:lat>
+    <geo:long>-8.677937</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8862450#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8862450+Parque+da+Cidade"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8862450+Parque+da+Cidade#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8862450#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Porto, Portugal</rdfs:label>
+    <v:street-address></v:street-address>
+    <v:locality>Porto</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code></v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/New+Zeuhland">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>New Zeuhland</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/New+Zeuhland"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/New+Zeuhland#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Nobre+Cavalgada+Pelos+C%C3%A9us+Da+Calif%C3%B3rnia">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Nobre Cavalgada Pelos Céus Da Califórnia</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Nobre+Cavalgada+Pelos+C%C3%A9us+Da+Calif%C3%B3rnia"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Nobre+Cavalgada+Pelos+C%C3%A9us+Da+Calif%C3%B3rnia#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Vinte+e+Tr%C3%AAs+Olhos+Cansados">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Vinte e Três Olhos Cansados</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Vinte+e+Tr%C3%AAs+Olhos+Cansados"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Vinte+e+Tr%C3%AAs+Olhos+Cansados#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/The+Geometry+Of+Fucking">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>The Geometry Of Fucking</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/The+Geometry+Of+Fucking"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/The+Geometry+Of+Fucking#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Lightning+Bot">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Lightning Bot</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Lightning+Bot"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Lightning+Bot#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/The+Inner+Act+Bras-Filling+Proclamation">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>The Inner Act Bras-Filling Proclamation</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/The+Inner+Act+Bras-Filling+Proclamation"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/The+Inner+Act+Bras-Filling+Proclamation#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Ludwig+Van+Botoven">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Ludwig Van Botoven</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Ludwig+Van+Botoven"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Ludwig+Van+Botoven#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/PAPERCUNTROCKET">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>PAPERCUNTROCKET</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/PAPERCUNTROCKET"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/PAPERCUNTROCKET#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Mitus+Urbanus">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Mitus Urbanus</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Mitus+Urbanus"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Mitus+Urbanus#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/%D2%88">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>҈</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/%D2%88"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/%D2%88#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Drums+Of+The+Dead">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Drums Of The Dead</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Drums+Of+The+Dead"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Drums+Of+The+Dead#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1727991&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1727991</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1727991"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1727991&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:47:02-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1727991"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/53759267.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/53759267.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/53759267.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/53759267.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8862450"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8862450#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/New+Zeuhland"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Nobre+Cavalgada+Pelos+C%C3%A9us+Da+Calif%C3%B3rnia"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Vinte+e+Tr%C3%AAs+Olhos+Cansados"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/The+Geometry+Of+Fucking"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Lightning+Bot"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/The+Inner+Act+Bras-Filling+Proclamation"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Ludwig+Van+Botoven"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/PAPERCUNTROCKET"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Mitus+Urbanus"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/%D2%88"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Drums+Of+The+Dead"/>
+  </rdf:Description>
+
+</rdf:RDF>

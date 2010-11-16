@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artist>
+  <name>Dub Inc</name>
+  <mbid></mbid>
+  <url>http://www.last.fm/music/+noredirect/Dub+Inc</url>
+  <image size="small">http://userserve-ak.last.fm/serve/34/5692815.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/5692815.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/5692815.jpg</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/5692815.jpg</image>
+  <image size="mega">http://userserve-ak.last.fm/serve/_/5692815/Dub+Inc+Dub_Inc_N_B1_BD.jpg</image>
+  <streamable>0</streamable>
+  <stats>
+    <listeners>1807</listeners>
+    <playcount>47979</playcount>
+      </stats>
+
+  <similar>
+	    <artist>
+	  <name>Dub Incorporation</name>
+	  <url>http://www.last.fm/music/Dub+Incorporation</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/16291589.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/16291589.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/16291589.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/16291589.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/16291589/Dub+Incorporation+Dub_Inc.jpg</image>
+	</artist>
+    <artist>
+	  <name>Tiken Jah Fakoly</name>
+	  <url>http://www.last.fm/music/Tiken+Jah+Fakoly</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/2151669.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/2151669.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/2151669.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/2151669.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/2151669/Tiken+Jah+Fakoly.jpg</image>
+	</artist>
+    <artist>
+	  <name>Danakil</name>
+	  <url>http://www.last.fm/music/Danakil</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/46659215.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/46659215.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/46659215.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/46659215.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/46659215/Danakil.jpg</image>
+	</artist>
+    <artist>
+	  <name>Alborosie</name>
+	  <url>http://www.last.fm/music/Alborosie</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/28651823.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/28651823.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/28651823.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/28651823.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/28651823/Alborosie.jpg</image>
+	</artist>
+    <artist>
+	  <name>Lyricson</name>
+	  <url>http://www.last.fm/music/Lyricson</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/33992.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/33992.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/33992.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/33992.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/33992/Lyricson.jpg</image>
+	</artist>
+  </similar>
+    <tags>
+        <tag>
+	  <name>reggae</name>
+	  <url>http://www.last.fm/tag/reggae</url>
+	</tag>
+        <tag>
+	  <name>dub</name>
+	  <url>http://www.last.fm/tag/dub</url>
+	</tag>
+        <tag>
+	  <name>dub reggae roots</name>
+	  <url>http://www.last.fm/tag/dub%20reggae%20roots</url>
+	</tag>
+        <tag>
+	  <name>chillout</name>
+	  <url>http://www.last.fm/tag/chillout</url>
+	</tag>
+        <tag>
+	  <name>dour festival 2009</name>
+	  <url>http://www.last.fm/tag/dour%20festival%202009</url>
+	</tag>
+      </tags>
+      <bio>
+    <published></published>
+    <summary></summary>
+    <content></content>
+  </bio>
+  </artist></lfm>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1586285">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>The Sun Comes Out World Tour</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;Logo após a explosiva participação no Campeonato do Mundo, Shakira, uma das mais cativantes e globais estrelas da história recente, com mais de 214 nomeações para prémios a nível mundial e mais de 50 milhões de álbuns vendidos por todo o mundo, anuncia a digressão de 2010 e o ansiado regresso à Europa. A digressão europeia, produzida pela Live Nation, começa dia 16 de Novembro em Lyon e chega a Portugal, dia 21 de Novembro, para um concerto único no Pavilhão Atlântico&lt;br /&gt;
+&lt;br /&gt;
+Shakira actuou este fim-de-semana em Glastonbury, dia 26 de Junho, e vai actuar também na cerimónia de encerramento do Campeonato do Mundo de 2010, no dia 11 de Julho.&lt;br /&gt;
+&lt;br /&gt;
+Mantendo o espírito de originalidade, bem como os ritmos sensuais e o delicioso espírito imprevisível, a digressão promete levar ao limite a experiência de um concerto ao vivo, dando aos fãs um espectáculo pulsante que extravasa todas as barreiras musicais.&lt;br /&gt;
+&lt;br /&gt;
+O último êxito de Shakira e hino oficial do Campeonato do Mundo 2010, Waka Waka (This Time For Africa) espalhou-se pelo planeta, imediatamente a seguir à performance de Shakira no concerto de lançamento do Campeonato do Mundo na África do Sul. A canção explodiu a um nível global, com o vídeo a tornar-se rapidamente um dos mais vistos no YouTube no mês de Junho e com a música a atingir o primeiro lugar dos tops em mais de 15 países.&lt;br /&gt;
+&lt;br /&gt;
+Shakira também vai cantar músicas da sua colecção de êxitos, incluíndo Waka Waka, She Wolf, La Tortura e o single Hips Don''t Lie que alcançou o primeiro lugar do top de vendas americano, foi número um em 55 países e tornou-se no tema mais tocado de sempre nas rádios pop norte-americanas. Durante a digressão vai ser ainda possível ouvir algumas canções do novo álbum, Sale El Sol que será editado no Outono de 2010.&lt;br /&gt;
+&lt;br /&gt;
+Shakira é uma cantora/compositora vencedora de Grammys, entertainer, produtora e porta-voz pela educação universal. É fundadora e presidente da Associação Pés Descalços (Piez Descalzos), membro fundador da ALAS Foundation e embaixadora da 1GOAL e UNICEF.&lt;br /&gt;
+&lt;br /&gt;
+HOT TICKET – Entrada Túnel 1 Norte&lt;br /&gt;
+&lt;br /&gt;
+‘She Wolf’ Package (Entrada Antecipada)&lt;br /&gt;
+ &lt;br /&gt;
+• Bilhete de Plateia em Pé &lt;br /&gt;
+• Entrada antecipada no Pavilhão Atlântico, antes da abertura de portas ao público&lt;br /&gt;
+• Entrada privilegiada para o concerto&lt;br /&gt;
+• Brinde exclusivo Shakira&lt;br /&gt;
+• Programa da tournée Shakira&lt;br /&gt;
+• Laminado comemorativo da tournée Shakira&lt;br /&gt;
+&lt;br /&gt;
+    * Idade Mínima 3 anos&lt;br /&gt;
+    * Promotor Everything Is New&lt;br /&gt;
+&lt;br /&gt;
+    * Início de venda dos Bilhetes: 05-07-2010 10:00&lt;br /&gt;
+    * Fim de Venda de bilhetes: 21-11-2010 23:59&lt;br /&gt;
+    * Duração do espectáculo: 120 minutos&lt;/div&gt;</terms:description>
+    <terms:date>Sun, 21 Nov 2010 20:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1586285+The+Sun+Comes+Out+World+Tour"/>
+    <ov:machineTag>lastfm:event=1586285</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/52831111.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/52831111.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/52831111.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/52831111.png"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8778515"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Shakira"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1586285+The+Sun+Comes+Out+World+Tour#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/52831111.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/52831111.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/52831111.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/52831111.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8778515">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Pavilhão Atlântico</rdfs:label>
+    <geo:lat>38.767312</geo:lat>
+    <geo:long>-9.093591</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8778515#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8778515+Pavilh%C3%A3o+Atl%C3%A2ntico"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8778515+Pavilh%C3%A3o+Atl%C3%A2ntico#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8778515#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rossio dos Olivais, , Portugal,  1990 - 231</rdfs:label>
+    <v:street-address>Rossio dos Olivais</v:street-address>
+    <v:locality></v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1990 - 231</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Shakira">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Shakira</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Shakira"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Shakira#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1586285&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1586285</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1586285"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1586285&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:51:02-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1586285"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/52831111.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/52831111.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/52831111.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/52831111.png"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8778515"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8778515#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Shakira"/>
+  </rdf:Description>
+
+</rdf:RDF>

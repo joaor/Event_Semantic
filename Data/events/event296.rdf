@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1567155">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Amsterdam Baroque Orchestra and Choir</rdfs:label>
+    <terms:date>Mon, 18 Apr 2011 19:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1567155+Amsterdam+Baroque+Orchestra+and+Choir+at+Calouste+Gulbenkian+Foundation+on+18+April+2011"/>
+    <ov:machineTag>lastfm:event=1567155</ov:machineTag>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8833186"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Amsterdam+Baroque+Orchestra+and+Choir"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Ton+Koopman"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Klaus+Mertens"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Marlis+Petersen"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Maarten+Engeltjes"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Tilman+Litchdi"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1567155+Amsterdam+Baroque+Orchestra+and+Choir+at+Calouste+Gulbenkian+Foundation+on+18+April+2011#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8833186">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Calouste Gulbenkian Foundation</rdfs:label>
+    <geo:lat>38.735529</geo:lat>
+    <geo:long>-9.154232</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8833186#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8833186+Calouste+Gulbenkian+Foundation"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8833186+Calouste+Gulbenkian+Foundation#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8833186#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Av. de Berna, 45A, Lisboa, Portugal,  1067-001</rdfs:label>
+    <v:street-address>Av. de Berna, 45A</v:street-address>
+    <v:locality>Lisboa</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1067-001</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Amsterdam+Baroque+Orchestra+and+Choir">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Amsterdam Baroque Orchestra and Choir</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Amsterdam+Baroque+Orchestra+and+Choir"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Amsterdam+Baroque+Orchestra+and+Choir#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Ton+Koopman">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Ton Koopman</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Ton+Koopman"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Ton+Koopman#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Klaus+Mertens">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Klaus Mertens</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Klaus+Mertens"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Klaus+Mertens#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Marlis+Petersen">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Marlis Petersen</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Marlis+Petersen"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Marlis+Petersen#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Maarten+Engeltjes">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Maarten Engeltjes</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Maarten+Engeltjes"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Maarten+Engeltjes#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Tilman+Litchdi">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Tilman Litchdi</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Tilman+Litchdi"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Tilman+Litchdi#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1567155&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1567155</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1567155"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1567155&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:55:42-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1567155"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8833186"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8833186#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Amsterdam+Baroque+Orchestra+and+Choir"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Ton+Koopman"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Klaus+Mertens"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Marlis+Petersen"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Maarten+Engeltjes"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Tilman+Litchdi"/>
+  </rdf:Description>
+
+</rdf:RDF>

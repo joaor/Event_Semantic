@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1716011">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>POP DELUXE 2010</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;Depois do sucesso da primeira edição em 2009, em que participaram artistas como Patrick Watson, Piano Magic e os The Inivisble, o festival ‘Pop Deluxe’ está de regresso à cidade invicta para duas noites ao som da melhor musica pop.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Nouvelle Vague e Jono McCleery são os primeiros nomes anunciados para o 'Pop Deluxe 2010', um festival único que reúne, nos dias 3 e 4 de Dezembro, alguns dos mais aclamados nomes da música pop da actualidade no Teatro Sá da Bandeira, no Porto.&lt;br /&gt;
+&lt;br /&gt;
+ &lt;br /&gt;
+&lt;br /&gt;
+O londrino Jono McCleery assim como o projecto nacional FogeFogeBandido sobem ao palco no dia 3 e dia 4 é a vez da banda francesa Nouvelle Vague. Por anunciar ficam ainda três nomes, que irão completar o cartaz deste festival.&lt;br /&gt;
+&lt;br /&gt;
+ &lt;br /&gt;
+&lt;br /&gt;
+Nos dias 3 e 4 de Dezembro as portas da Teatro Sá da Bandeira abrem às 21:00 e encerram às 01:30. Os bilhetes já estão à venda na rede Ticketline (&lt;a href=&quot;http://www.ticketline.pt&quot; rel=&quot;nofollow&quot;&gt;www.ticketline.pt&lt;/a&gt;), Fnac e Teatro Sá da Bandeira por 25 euros. Apenas no Teatro Sá da Bandeira estão ainda disponíveis bilhetes para os 2 dias (passe) e bilhetes de 1 dia para duas pessoas por 40 euros.&lt;br /&gt;
+&lt;br /&gt;
+Dia 3&lt;br /&gt;
+Junip&lt;br /&gt;
+Foge Fode Bandido&lt;br /&gt;
+Jono Mccleery&lt;br /&gt;
+&lt;br /&gt;
+Dia 4&lt;br /&gt;
+Nouvelle Vague&lt;br /&gt;
+The Hundred In The Hands&lt;br /&gt;
+Spokes&lt;/div&gt;</terms:description>
+    <terms:date>Fri, 03 Dec 2010 22:19:01</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/festival/1716011+POP+DELUXE+2010"/>
+    <ov:machineTag>lastfm:event=1716011</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/15023817.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/15023817.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/15023817.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/15023817.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8803444"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Nouvelle+Vague"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Junip"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/The+Hundred+in+the+Hands"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Spokes"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Foge+Foge+Bandido"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Jono+McCleery"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/festival/1716011+POP+DELUXE+2010#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/15023817.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/15023817.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/15023817.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/15023817.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8803444">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Teatro Sá da Bandeira</rdfs:label>
+    <geo:lat>41.146886</geo:lat>
+    <geo:long>-8.608865</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8803444#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8803444+Teatro+S%C3%A1+da+Bandeira"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8803444+Teatro+S%C3%A1+da+Bandeira#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8803444#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rua Sá da Bandeira, 108, Porto, Portugal,  4000-427</rdfs:label>
+    <v:street-address>Rua Sá da Bandeira, 108</v:street-address>
+    <v:locality>Porto</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>4000-427</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Nouvelle+Vague">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Nouvelle Vague</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Nouvelle+Vague"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Nouvelle+Vague#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Junip">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Junip</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Junip"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Junip#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/The+Hundred+in+the+Hands">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>The Hundred in the Hands</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/The+Hundred+in+the+Hands"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/The+Hundred+in+the+Hands#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Spokes">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Spokes</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Spokes"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Spokes#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Foge+Foge+Bandido">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Foge Foge Bandido</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Foge+Foge+Bandido"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Foge+Foge+Bandido#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Jono+McCleery">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Jono McCleery</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Jono+McCleery"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Jono+McCleery#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1716011&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1716011</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1716011"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1716011&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:45:31-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1716011"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/15023817.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/15023817.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/15023817.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/15023817.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8803444"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8803444#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Nouvelle+Vague"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Junip"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/The+Hundred+in+the+Hands"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Spokes"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Foge+Foge+Bandido"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Jono+McCleery"/>
+  </rdf:Description>
+
+</rdf:RDF>

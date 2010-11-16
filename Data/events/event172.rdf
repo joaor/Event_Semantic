@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1715194">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Daniel Higgs</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;Inclassificável é a única forma de classificar Daniel Higgs. Desde os tempos em que liderava os Lungfish, decididamente a mais intrincada e definitivamente a menos hardcore de todas as bandas da Dischord, editora de Ian McKaye (primeiro dos Minor Threat, depois dos Fugazi) que mais ou menos inventou o género, até à mais recente aproximação às músicas primitivas, o seu trabalho vem implicando um distanciamento, uma capacidade para transcender expectativas, estilos e, sobretudo, comparações. Pessoas como Daniel Higgs não se comparam. A dimensão espiritual da sua música é a única dimensão que existe. Apátrida, absorvida por uma ancestralidade cósmica cujas raízes tanto se encontram na América como no Magrebe ou na Índia, celebra a visão de alguém que inspira numa golfada a respiração do mundo.&lt;br /&gt;
+&lt;br /&gt;
+Paradoxalmente, Daniel Higgs conhece actualmente, no momento maior da sua entrega ao desconhecido, uma exposição mediática inaudita, fruto das documentações frequentes que a influente editora de Chicago Thrill Jockey tem feito do seu trabalho (“Say God”, deste ano, é o álbum mais recente). Uma clareira para tirar do escuro esta espécie de tremor. MP&lt;br /&gt;
+&lt;br /&gt;
++ Info: Site | Myspace | Thril Jockey | Vídeo | Vídeo | Vídeo&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+David Maranha &amp;amp; Gabriel Ferrandini&lt;br /&gt;
+&lt;br /&gt;
+Entradas: 8€&lt;/div&gt;</terms:description>
+    <terms:date>Sat, 13 Nov 2010 23:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1715194+Daniel+Higgs+at+ZDB+-+Z%C3%A9+dos+Bois+on+13+November+2010"/>
+    <ov:machineTag>lastfm:event=1715194</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/377404.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/377404.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/377404.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/377404.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8792545"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Daniel+Higgs"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/David+Maranha+%26+Gabriel+Ferrandini"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1715194+Daniel+Higgs+at+ZDB+-+Z%C3%A9+dos+Bois+on+13+November+2010#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/377404.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/377404.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/377404.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/377404.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8792545">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>ZDB - Zé dos Bois</rdfs:label>
+    <geo:lat>38.711822</geo:lat>
+    <geo:long>-9.144539</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8792545#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8792545+ZDB+-+Z%C3%A9+dos+Bois"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8792545+ZDB+-+Z%C3%A9+dos+Bois#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8792545#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>R. da Barroca 59, Lisboa, Portugal,  1200</rdfs:label>
+    <v:street-address>R. da Barroca 59</v:street-address>
+    <v:locality>Lisboa</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1200</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Daniel+Higgs">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Daniel Higgs</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Daniel+Higgs"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Daniel+Higgs#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/David+Maranha+%26+Gabriel+Ferrandini">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>David Maranha &amp; Gabriel Ferrandini</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/David+Maranha+%26+Gabriel+Ferrandini"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/David+Maranha+%26+Gabriel+Ferrandini#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1715194&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1715194</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1715194"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1715194&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:50:02-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1715194"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/377404.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/377404.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/377404.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/377404.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8792545"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8792545#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Daniel+Higgs"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/David+Maranha+%26+Gabriel+Ferrandini"/>
+  </rdf:Description>
+
+</rdf:RDF>

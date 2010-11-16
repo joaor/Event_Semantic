@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artist>
+  <name>Rodrigo Leao</name>
+  <mbid></mbid>
+  <url>http://www.last.fm/music/+noredirect/Rodrigo+Leao</url>
+  <image size="small">http://userserve-ak.last.fm/serve/34/27499637.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/27499637.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/27499637.jpg</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/27499637.jpg</image>
+  <image size="mega">http://userserve-ak.last.fm/serve/_/27499637/Rodrigo+Leao+rodrigoleao400.jpg</image>
+  <streamable>0</streamable>
+  <stats>
+    <listeners>1068</listeners>
+    <playcount>11994</playcount>
+      </stats>
+
+  <similar>
+	    <artist>
+	  <name>Rodrigo Leão</name>
+	  <url>http://www.last.fm/music/Rodrigo+Le%C3%A3o</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/2959100.gif</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/2959100.gif</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/2959100.gif</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/2959100.gif</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/2959100/Rodrigo+Leo+rodrigoleao2maior.gif</image>
+	</artist>
+    <artist>
+	  <name>Rodrigo Leão &amp; Vox Ensemble</name>
+	  <url>http://www.last.fm/music/Rodrigo%2BLe%25C3%25A3o%2B%2526%2BVox%2BEnsemble</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/349319.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/349319.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/349319.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/349319.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/349319/Rodrigo+Leo++Vox+Ensemble.jpg</image>
+	</artist>
+    <artist>
+	  <name>Rodrigo Leão &amp; Cinema Ensemble</name>
+	  <url>http://www.last.fm/music/Rodrigo%2BLe%25C3%25A3o%2B%2526%2BCinema%2BEnsemble</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/30594811.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/30594811.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/30594811.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/30594811.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/30594811/Rodrigo+Leo++Cinema+Ensemble+rodrigo_cinema_ensemble_cor_00.jpg</image>
+	</artist>
+    <artist>
+	  <name>Jorge Palma</name>
+	  <url>http://www.last.fm/music/Jorge+Palma</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/2204178.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/2204178.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/2204178.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/2204178.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/2204178/Jorge+Palma.jpg</image>
+	</artist>
+    <artist>
+	  <name>Deolinda</name>
+	  <url>http://www.last.fm/music/Deolinda</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/44295447.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/44295447.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/44295447.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/44295447.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/44295447/Deolinda+75271_rita+carmo.jpg</image>
+	</artist>
+  </similar>
+    <tags>
+        <tag>
+	  <name>joyitas</name>
+	  <url>http://www.last.fm/tag/joyitas</url>
+	</tag>
+      </tags>
+      <bio>
+    <published></published>
+    <summary></summary>
+    <content></content>
+  </bio>
+  </artist></lfm>

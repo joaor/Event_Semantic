@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1662774">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Band of Horses</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;ANFITEATRO	25,00 €&lt;br /&gt;
+DOUTORAIS	32,00 €&lt;br /&gt;
+DOUTORAIS Extra.	32,00 €&lt;/div&gt;</terms:description>
+    <terms:date>Mon, 07 Feb 2011 13:25:01</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1662774+Band+of+Horses+at+Aula+Magna+on+7+February+2011"/>
+    <ov:machineTag>lastfm:event=1662774</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/53216745.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/53216745.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/53216745.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/53216745.png"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8778468"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Band+of+Horses"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1662774+Band+of+Horses+at+Aula+Magna+on+7+February+2011#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/53216745.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/53216745.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/53216745.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/53216745.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8778468">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Aula Magna</rdfs:label>
+    <geo:lat>38.752791</geo:lat>
+    <geo:long>-9.156304</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8778468#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8778468+Aula+Magna"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8778468+Aula+Magna#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8778468#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Alameda da Universidade, Lisboa, Portugal,  1649-004</rdfs:label>
+    <v:street-address>Alameda da Universidade</v:street-address>
+    <v:locality>Lisboa</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1649-004</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Band+of+Horses">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Band of Horses</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Band+of+Horses"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Band+of+Horses#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1662774&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1662774</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1662774"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1662774&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:54:54-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1662774"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/53216745.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/53216745.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/53216745.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/53216745.png"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8778468"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8778468#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Band+of+Horses"/>
+  </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1672476">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Torche</rdfs:label>
+    <terms:date>Thu, 18 Nov 2010 22:41:01</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1672476+Torche+at+Plano+B+on+18+November+2010"/>
+    <ov:machineTag>lastfm:event=1672476</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/6482925.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/6482925.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/6482925.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/6482925.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8797865"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Torche"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Men+Eater"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1672476+Torche+at+Plano+B+on+18+November+2010#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/6482925.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/6482925.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/6482925.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/6482925.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8797865">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Plano B</rdfs:label>
+    <geo:lat>41.146502</geo:lat>
+    <geo:long>-8.614003</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8797865#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8797865+Plano+B"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8797865+Plano+B#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8797865#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rua Cândido dos Reis 30, Porto, Portugal,  4050-151</rdfs:label>
+    <v:street-address>Rua Cândido dos Reis 30</v:street-address>
+    <v:locality>Porto</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>4050-151</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Torche">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Torche</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Torche"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Torche#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Men+Eater">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Men Eater</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Men+Eater"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Men+Eater#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1672476&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1672476</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1672476"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1672476&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:43:08-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1672476"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/6482925.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/6482925.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/6482925.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/6482925.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8797865"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8797865#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Torche"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Men+Eater"/>
+  </rdf:Description>
+
+</rdf:RDF>

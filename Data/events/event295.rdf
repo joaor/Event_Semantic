@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1567151">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Gustav Mahler Jugendorchester</rdfs:label>
+    <terms:date>Sun, 17 Apr 2011 21:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1567151+Gustav+Mahler+Jugendorchester+at+Calouste+Gulbenkian+Foundation+on+17+April+2011"/>
+    <ov:machineTag>lastfm:event=1567151</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/41028665.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/41028665.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/41028665.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/41028665.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8833186"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Gustav+Mahler+Jugendorchester"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Thomas+Hampson"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Philippe+Jordan"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Burkhard+Fritz"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1567151+Gustav+Mahler+Jugendorchester+at+Calouste+Gulbenkian+Foundation+on+17+April+2011#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/41028665.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/41028665.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/41028665.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/41028665.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8833186">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Calouste Gulbenkian Foundation</rdfs:label>
+    <geo:lat>38.735529</geo:lat>
+    <geo:long>-9.154232</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8833186#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8833186+Calouste+Gulbenkian+Foundation"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8833186+Calouste+Gulbenkian+Foundation#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8833186#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Av. de Berna, 45A, Lisboa, Portugal,  1067-001</rdfs:label>
+    <v:street-address>Av. de Berna, 45A</v:street-address>
+    <v:locality>Lisboa</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1067-001</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Gustav+Mahler+Jugendorchester">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Gustav Mahler Jugendorchester</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Gustav+Mahler+Jugendorchester"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Gustav+Mahler+Jugendorchester#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Thomas+Hampson">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Thomas Hampson</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Thomas+Hampson"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Thomas+Hampson#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Philippe+Jordan">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Philippe Jordan</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Philippe+Jordan"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Philippe+Jordan#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Burkhard+Fritz">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Burkhard Fritz</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Burkhard+Fritz"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Burkhard+Fritz#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1567151&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1567151</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1567151"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1567151&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:55:39-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1567151"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/41028665.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/41028665.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/41028665.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/41028665.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8833186"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8833186#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Gustav+Mahler+Jugendorchester"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Thomas+Hampson"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Philippe+Jordan"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Burkhard+Fritz"/>
+  </rdf:Description>
+
+</rdf:RDF>

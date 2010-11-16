@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artist>
+  <name>Os Velhos</name>
+  <mbid></mbid>
+  <url>http://www.last.fm/music/Os+Velhos</url>
+  <image size="small">http://userserve-ak.last.fm/serve/34/41212591.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/41212591.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/41212591.jpg</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/41212591.jpg</image>
+  <image size="mega">http://userserve-ak.last.fm/serve/500/41212591/Os+Velhos+velhos3.jpg</image>
+  <streamable>1</streamable>
+  <stats>
+    <listeners>266</listeners>
+    <playcount>3439</playcount>
+      </stats>
+
+  <similar>
+	    <artist>
+	  <name>Os Quais</name>
+	  <url>http://www.last.fm/music/Os+Quais</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/24920333.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/24920333.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/24920333.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/24920333.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/24920333/Os+Quais+quais_baixa_rua.jpg</image>
+	</artist>
+    <artist>
+	  <name>Os Capitães da Areia</name>
+	  <url>http://www.last.fm/music/Os+Capit%C3%A3es+da+Areia</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/34706833.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/34706833.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/34706833.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/34706833.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/34706833/Os+Capites+da+Areia+capites_calas.jpg</image>
+	</artist>
+    <artist>
+	  <name>Os Golpes</name>
+	  <url>http://www.last.fm/music/Os+Golpes</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/13822183.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/13822183.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/13822183.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/13822183.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/13822183/Os+Golpes.jpg</image>
+	</artist>
+    <artist>
+	  <name>Manuel Fúria</name>
+	  <url>http://www.last.fm/music/Manuel+F%C3%BAria</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/8453293.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/8453293.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/8453293.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/8453293.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/8453293/Manuel+Fria+Manel+em+fria.jpg</image>
+	</artist>
+    <artist>
+	  <name>Os Tornados</name>
+	  <url>http://www.last.fm/music/Os+Tornados</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/28501583.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/28501583.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/28501583.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/28501583.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/28501583/Os+Tornados+02.jpg</image>
+	</artist>
+  </similar>
+    <tags>
+        <tag>
+	  <name>amor furia</name>
+	  <url>http://www.last.fm/tag/amor%20furia</url>
+	</tag>
+        <tag>
+	  <name>portuguese</name>
+	  <url>http://www.last.fm/tag/portuguese</url>
+	</tag>
+        <tag>
+	  <name>portugal</name>
+	  <url>http://www.last.fm/tag/portugal</url>
+	</tag>
+        <tag>
+	  <name>roque ene role</name>
+	  <url>http://www.last.fm/tag/roque%20ene%20role</url>
+	</tag>
+        <tag>
+	  <name>indie</name>
+	  <url>http://www.last.fm/tag/indie</url>
+	</tag>
+      </tags>
+      <bio>
+    <published></published>
+    <summary></summary>
+    <content></content>
+  </bio>
+  </artist></lfm>

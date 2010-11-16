@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artist>
+  <name>mao morta</name>
+  <mbid></mbid>
+  <url>http://www.last.fm/music/+noredirect/mao+morta</url>
+  <image size="small"></image>
+  <image size="medium"></image>
+  <image size="large"></image>
+  <image size="extralarge"></image>
+  <image size="mega"></image>
+  <streamable>0</streamable>
+  <stats>
+    <listeners>147</listeners>
+    <playcount>1866</playcount>
+      </stats>
+
+  <similar>
+	    <artist>
+	  <name>Mão Morta</name>
+	  <url>http://www.last.fm/music/M%C3%A3o+Morta</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/45155309.png</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/45155309.png</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/45155309.png</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/45155309.png</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/45155309/Mo+Morta+Ns.png</image>
+	</artist>
+    <artist>
+	  <name>Bizarra Locomotiva</name>
+	  <url>http://www.last.fm/music/Bizarra+Locomotiva</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/19644.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/19644.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/19644.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/19644.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/19644/Bizarra+Locomotiva.jpg</image>
+	</artist>
+    <artist>
+	  <name>Linda Martini</name>
+	  <url>http://www.last.fm/music/Linda+Martini</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/5870181.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/5870181.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/5870181.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/5870181.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/5870181/Linda+Martini+l_6766bc9e0f06ad8d7fbc7a85d45a.jpg</image>
+	</artist>
+    <artist>
+	  <name>Mundo Cão</name>
+	  <url>http://www.last.fm/music/Mundo+C%C3%A3o</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/603407.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/603407.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/603407.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/603407.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/603407/Mundo+Co.jpg</image>
+	</artist>
+    <artist>
+	  <name>Pop Dell'Arte</name>
+	  <url>http://www.last.fm/music/Pop+Dell%27Arte</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/5308758.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/5308758.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/5308758.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/5308758.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/5308758/Pop+DellArte+pestepopdellarte.jpg</image>
+	</artist>
+  </similar>
+    <tags>
+      </tags>
+      <bio>
+    <published></published>
+    <summary></summary>
+    <content></content>
+  </bio>
+  </artist></lfm>

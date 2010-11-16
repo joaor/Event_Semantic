@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artist>
+  <name>drive by shooting</name>
+  <mbid></mbid>
+  <url>http://www.last.fm/music/drive+by+shooting</url>
+  <image size="small">http://userserve-ak.last.fm/serve/34/49121715.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/49121715.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/49121715.jpg</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/49121715.jpg</image>
+  <image size="mega">http://userserve-ak.last.fm/serve/500/49121715/drive+by+shooting+IMG_6169.jpg</image>
+  <streamable>1</streamable>
+  <stats>
+    <listeners>400</listeners>
+    <playcount>3712</playcount>
+      </stats>
+
+  <similar>
+	    <artist>
+	  <name>Coogans Bluff</name>
+	  <url>http://www.last.fm/music/Coogans+Bluff</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/301990.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/301990.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/301990.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/301990.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/301990/Coogans+Bluff.jpg</image>
+	</artist>
+    <artist>
+	  <name>orwo6</name>
+	  <url>http://www.last.fm/music/orwo6</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/14407691.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/14407691.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/14407691.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/14407691.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/14407691/orwo6++3.jpg</image>
+	</artist>
+    <artist>
+	  <name>MayBe A Wretch</name>
+	  <url>http://www.last.fm/music/MayBe+A+Wretch</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/8953063.gif</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/8953063.gif</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/8953063.gif</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/8953063.gif</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/8953063/MayBe+A+Wretch+MAW_Brcke_1.gif</image>
+	</artist>
+    <artist>
+	  <name>arvid noir</name>
+	  <url>http://www.last.fm/music/arvid+noir</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/13151771.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/13151771.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/13151771.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/13151771.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/13151771/arvid+noir++4.jpg</image>
+	</artist>
+    <artist>
+	  <name>Orwo 6</name>
+	  <url>http://www.last.fm/music/Orwo+6</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/49671.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/49671.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/49671.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/49671.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/49671/Orwo+6.jpg</image>
+	</artist>
+  </similar>
+    <tags>
+        <tag>
+	  <name>stoner rock</name>
+	  <url>http://www.last.fm/tag/stoner%20rock</url>
+	</tag>
+        <tag>
+	  <name>punk</name>
+	  <url>http://www.last.fm/tag/punk</url>
+	</tag>
+        <tag>
+	  <name>stoner</name>
+	  <url>http://www.last.fm/tag/stoner</url>
+	</tag>
+        <tag>
+	  <name>schweinerock</name>
+	  <url>http://www.last.fm/tag/schweinerock</url>
+	</tag>
+        <tag>
+	  <name>punkrock in stonerland</name>
+	  <url>http://www.last.fm/tag/punkrock%20in%20stonerland</url>
+	</tag>
+      </tags>
+      <bio>
+    <published></published>
+    <summary></summary>
+    <content></content>
+  </bio>
+  </artist></lfm>

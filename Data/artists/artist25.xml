@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artist>
+  <name>toques do caramulo</name>
+  <mbid></mbid>
+  <url>http://www.last.fm/music/toques+do+caramulo</url>
+  <image size="small">http://userserve-ak.last.fm/serve/34/3263405.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/3263405.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/3263405.jpg</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/3263405.jpg</image>
+  <image size="mega">http://userserve-ak.last.fm/serve/500/3263405/toques+do+caramulo+ToquesCaramulo.jpg</image>
+  <streamable>0</streamable>
+  <stats>
+    <listeners>41</listeners>
+    <playcount>1520</playcount>
+      </stats>
+
+  <similar>
+	    <artist>
+	  <name>monte lunai</name>
+	  <url>http://www.last.fm/music/monte+lunai</url>
+	  <image size="small"></image>
+	  <image size="medium"></image>
+	  <image size="large"></image>
+	  <image size="extralarge"></image>
+	  <image size="mega"></image>
+	</artist>
+    <artist>
+	  <name>Galandum Galundaina</name>
+	  <url>http://www.last.fm/music/Galandum+Galundaina</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/31747.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/31747.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/31747.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/31747.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/31747/Galandum+Galundaina.jpg</image>
+	</artist>
+    <artist>
+	  <name>Quadrilha</name>
+	  <url>http://www.last.fm/music/Quadrilha</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/580830.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/580830.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/580830.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/580830.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/580830/Quadrilha.jpg</image>
+	</artist>
+    <artist>
+	  <name>Pé na Terra</name>
+	  <url>http://www.last.fm/music/P%C3%A9+na+Terra</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/2251696.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/2251696.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/2251696.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/2251696.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/2251696/P+na+Terra.jpg</image>
+	</artist>
+    <artist>
+	  <name>Carminho</name>
+	  <url>http://www.last.fm/music/Carminho</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/29166687.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/29166687.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/29166687.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/29166687.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/29166687/Carminho++2.jpg</image>
+	</artist>
+  </similar>
+    <tags>
+        <tag>
+	  <name>folk</name>
+	  <url>http://www.last.fm/tag/folk</url>
+	</tag>
+        <tag>
+	  <name>world</name>
+	  <url>http://www.last.fm/tag/world</url>
+	</tag>
+        <tag>
+	  <name>portuguese</name>
+	  <url>http://www.last.fm/tag/portuguese</url>
+	</tag>
+      </tags>
+      <bio>
+    <published></published>
+    <summary></summary>
+    <content></content>
+  </bio>
+  </artist></lfm>

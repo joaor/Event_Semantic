@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artist>
+  <name>GCDayer</name>
+  <mbid></mbid>
+  <url>http://www.last.fm/music/GCDayer</url>
+  <image size="small">http://userserve-ak.last.fm/serve/34/24379345.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/24379345.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/24379345.jpg</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/24379345.jpg</image>
+  <image size="mega">http://userserve-ak.last.fm/serve/500/24379345/GCDayer+l_105032424aae40e1bea8f76154be.jpg</image>
+  <streamable>1</streamable>
+  <stats>
+    <listeners>46</listeners>
+    <playcount>404</playcount>
+      </stats>
+
+  <similar>
+	    <artist>
+	  <name>Taking the Stairs</name>
+	  <url>http://www.last.fm/music/Taking+the+Stairs</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/42018985.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/42018985.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/42018985.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/42018985.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/42018985/Taking+the+Stairs.jpg</image>
+	</artist>
+    <artist>
+	  <name>Azembla's Quartet</name>
+	  <url>http://www.last.fm/music/Azembla%27s+Quartet</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/9557781.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/9557781.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/9557781.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/9557781.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/9557781/Azemblas+Quartet+r3.jpg</image>
+	</artist>
+    <artist>
+	  <name>DOPO</name>
+	  <url>http://www.last.fm/music/DOPO</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/46047.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/46047.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/46047.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/46047.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/46047/DOPO.jpg</image>
+	</artist>
+    <artist>
+	  <name>B Fachada</name>
+	  <url>http://www.last.fm/music/B+Fachada</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/35512087.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/35512087.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/35512087.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/35512087.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/35512087/B+Fachada++1.jpg</image>
+	</artist>
+    <artist>
+	  <name>Rodrigo Amado</name>
+	  <url>http://www.last.fm/music/Rodrigo+Amado</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/54115753.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/54115753.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/54115753.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/54115753.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/54115753/Rodrigo+Amado.jpg</image>
+	</artist>
+  </similar>
+    <tags>
+      </tags>
+      <bio>
+    <published></published>
+    <summary></summary>
+    <content></content>
+  </bio>
+  </artist></lfm>

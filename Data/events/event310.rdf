@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1557867">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Pray Silence Festival 2011</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;Organized by the highly successful Pray Silence Productions (&lt;a href=&quot;http://www.praysilence.org&quot; rel=&quot;nofollow&quot;&gt;www.praysilence.org&lt;/a&gt;), Pray Silence Festival celebrates dark, alternative music and alternative lifestyles in general.&lt;br /&gt;
+&lt;br /&gt;
+The line-up will include some of the best Gothic Rock, Deathrock, Electro-Punk, Post-Punk, Industrial, Synth and Batcave bands in the planet.&lt;br /&gt;
+&lt;br /&gt;
+Worldwide renowned DJs will allow continuous celebration with special parties until dawn, including a fetish party with fantastic performers from all over the world.&lt;br /&gt;
+&lt;br /&gt;
+Taking place in Lisbon, Portugal on August 26th, 27th and 28th of 2011, darkness will fall over sunny Portugal.&lt;br /&gt;
+&lt;br /&gt;
+We are happy to welcome PSF-Guests from all over the world celebrating three days of music, fashion and culture.&lt;br /&gt;
+&lt;br /&gt;
+More information will be continuously added to PraySilence.org.&lt;/div&gt;</terms:description>
+    <terms:date>Fri, 26 Aug 2011 22:34:01</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/festival/1557867+Pray+Silence+Festival+2011"/>
+    <ov:machineTag>lastfm:event=1557867</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/53641139.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/53641139.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/53641139.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/53641139.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8808192"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/In+the+Nursery"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Gary+Numan"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Clan+of+Xymox"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Zeromancer"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Diary+of+Dreams"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Psyche"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Heimataerde"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Ordo+Rosarius+Equilibrio"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Nachtmahr"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Nosferatu"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Attrition"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Abney+Park"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Two+Witches"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Rhombus"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/The+Last+Dance"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Inertia"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Tyske+Ludder"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Hanin+Elias"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Uberbyte"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Kommunity+FK"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Obscenity+Trial"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Vendemmian"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Leaether+Strip"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Seraphim+Shock"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Luxury+Stranger"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Jacquy+Bitch"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Phantom+Vision"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Mechanical+Cabaret"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/The+Arch"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/The+Realm"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Sapphire+Solace"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Deviant+UK"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Pretentious%2C+Moi%3F"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Sinmasters"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/E-Men"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Steven+Severin"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/NOCTIVAGUS"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Grooving+in+Green"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Merciful+Nuns"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Method+Cell"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/La+Chanson+Noire"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/The+Last+Cry"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Lupine"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Nightporter"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Der+Klinke"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/festival/1557867+Pray+Silence+Festival+2011#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/53641139.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/53641139.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/53641139.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/53641139.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8808192">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>TBA</rdfs:label>
+    <geo:lat>38.742613</geo:lat>
+    <geo:long>-9.145217</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8808192#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8808192+TBA"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8808192+TBA#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8808192#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Estrada da Correia nº3, Lisboa, Portugal,  1600</rdfs:label>
+    <v:street-address>Estrada da Correia nº3</v:street-address>
+    <v:locality>Lisboa</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1600</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/In+the+Nursery">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>In the Nursery</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/In+the+Nursery"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/In+the+Nursery#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Gary+Numan">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Gary Numan</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Gary+Numan"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Gary+Numan#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Clan+of+Xymox">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Clan of Xymox</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Clan+of+Xymox"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Clan+of+Xymox#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Zeromancer">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Zeromancer</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Zeromancer"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Zeromancer#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Diary+of+Dreams">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Diary of Dreams</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Diary+of+Dreams"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Diary+of+Dreams#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Psyche">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Psyche</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Psyche"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Psyche#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Heimataerde">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Heimataerde</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Heimataerde"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Heimataerde#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Ordo+Rosarius+Equilibrio">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Ordo Rosarius Equilibrio</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Ordo+Rosarius+Equilibrio"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Ordo+Rosarius+Equilibrio#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Nachtmahr">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Nachtmahr</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Nachtmahr"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Nachtmahr#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Nosferatu">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Nosferatu</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Nosferatu"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Nosferatu#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Attrition">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Attrition</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Attrition"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Attrition#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Abney+Park">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Abney Park</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Abney+Park"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Abney+Park#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Two+Witches">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Two Witches</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Two+Witches"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Two+Witches#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Rhombus">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Rhombus</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Rhombus"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Rhombus#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/The+Last+Dance">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>The Last Dance</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/The+Last+Dance"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/The+Last+Dance#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Inertia">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Inertia</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Inertia"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Inertia#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Tyske+Ludder">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Tyske Ludder</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Tyske+Ludder"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Tyske+Ludder#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Hanin+Elias">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Hanin Elias</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Hanin+Elias"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Hanin+Elias#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Uberbyte">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Uberbyte</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Uberbyte"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Uberbyte#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Kommunity+FK">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Kommunity FK</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Kommunity+FK"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Kommunity+FK#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Obscenity+Trial">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Obscenity Trial</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Obscenity+Trial"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Obscenity+Trial#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Vendemmian">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Vendemmian</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Vendemmian"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Vendemmian#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Leaether+Strip">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Leaether Strip</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Leaether+Strip"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Leaether+Strip#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Seraphim+Shock">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Seraphim Shock</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Seraphim+Shock"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Seraphim+Shock#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Luxury+Stranger">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Luxury Stranger</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Luxury+Stranger"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Luxury+Stranger#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Jacquy+Bitch">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Jacquy Bitch</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Jacquy+Bitch"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Jacquy+Bitch#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Phantom+Vision">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Phantom Vision</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Phantom+Vision"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Phantom+Vision#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Mechanical+Cabaret">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Mechanical Cabaret</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Mechanical+Cabaret"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Mechanical+Cabaret#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/The+Arch">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>The Arch</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/The+Arch"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/The+Arch#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/The+Realm">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>The Realm</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/The+Realm"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/The+Realm#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Sapphire+Solace">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Sapphire Solace</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Sapphire+Solace"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Sapphire+Solace#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Deviant+UK">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Deviant UK</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Deviant+UK"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Deviant+UK#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Pretentious%2C+Moi%3F">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Pretentious, Moi?</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Pretentious%2C+Moi%3F"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Pretentious%2C+Moi%3F#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Sinmasters">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Sinmasters</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Sinmasters"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Sinmasters#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/E-Men">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>E-Men</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/E-Men"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/E-Men#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Steven+Severin">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Steven Severin</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Steven+Severin"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Steven+Severin#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/NOCTIVAGUS">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>NOCTIVAGUS</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/NOCTIVAGUS"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/NOCTIVAGUS#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Grooving+in+Green">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Grooving in Green</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Grooving+in+Green"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Grooving+in+Green#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Merciful+Nuns">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Merciful Nuns</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Merciful+Nuns"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Merciful+Nuns#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Method+Cell">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Method Cell</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Method+Cell"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Method+Cell#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/La+Chanson+Noire">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>La Chanson Noire</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/La+Chanson+Noire"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/La+Chanson+Noire#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/The+Last+Cry">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>The Last Cry</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/The+Last+Cry"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/The+Last+Cry#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Lupine">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Lupine</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Lupine"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Lupine#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Nightporter">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Nightporter</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Nightporter"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Nightporter#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Der+Klinke">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Der Klinke</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Der+Klinke"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Der+Klinke#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1557867&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1557867</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1557867"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1557867&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:56:21-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1557867"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/53641139.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/53641139.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/53641139.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/53641139.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8808192"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8808192#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/In+the+Nursery"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Gary+Numan"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Clan+of+Xymox"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Zeromancer"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Diary+of+Dreams"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Psyche"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Heimataerde"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Ordo+Rosarius+Equilibrio"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Nachtmahr"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Nosferatu"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Attrition"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Abney+Park"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Two+Witches"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Rhombus"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/The+Last+Dance"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Inertia"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Tyske+Ludder"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Hanin+Elias"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Uberbyte"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Kommunity+FK"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Obscenity+Trial"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Vendemmian"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Leaether+Strip"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Seraphim+Shock"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Luxury+Stranger"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Jacquy+Bitch"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Phantom+Vision"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Mechanical+Cabaret"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/The+Arch"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/The+Realm"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Sapphire+Solace"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Deviant+UK"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Pretentious%2C+Moi%3F"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Sinmasters"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/E-Men"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Steven+Severin"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/NOCTIVAGUS"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Grooving+in+Green"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Merciful+Nuns"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Method+Cell"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/La+Chanson+Noire"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/The+Last+Cry"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Lupine"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Nightporter"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Der+Klinke"/>
+  </rdf:Description>
+
+</rdf:RDF>

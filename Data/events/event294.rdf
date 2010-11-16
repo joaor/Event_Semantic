@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1716130">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Grave Digger + Grand Magus + Sister Sin</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;BILHETES À VENDA A DIA 15.11.2010&lt;br /&gt;
+&lt;br /&gt;
+20€ - PRE-VENDA&lt;br /&gt;
+25€ - DIA&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+Mais infos em breve...&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href=&quot;http://www.myspace.com/notredameproductions&quot; rel=&quot;nofollow&quot;&gt;www.myspace.com/notredameproductions&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.myspace.com/sidebbar&quot; rel=&quot;nofollow&quot;&gt;www.myspace.com/sidebbar&lt;/a&gt;&lt;/div&gt;</terms:description>
+    <terms:date>Sun, 17 Apr 2011 02:53:01</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1716130+Grave+Digger+-+Grand+Magus+-+Sister+Sin"/>
+    <ov:machineTag>lastfm:event=1716130</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/170966.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/170966.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/170966.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/170966.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8788327"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Grave+Digger"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Grand+Magus"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Sister+Sin"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1716130+Grave+Digger+-+Grand+Magus+-+Sister+Sin#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/170966.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/170966.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/170966.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/170966.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8788327">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Cine-Teatro de Corroios</rdfs:label>
+    <geo:lat>38.643393</geo:lat>
+    <geo:long>-9.156789</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8788327#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8788327+Cine-Teatro+de+Corroios"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8788327+Cine-Teatro+de+Corroios#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8788327#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rua Ginásio Clube de Corroios, Corroios, Seixal, Setúbal, Portugal,  2855</rdfs:label>
+    <v:street-address>Rua Ginásio Clube de Corroios</v:street-address>
+    <v:locality>Corroios, Seixal, Setúbal</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>2855</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Grave+Digger">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Grave Digger</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Grave+Digger"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Grave+Digger#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Grand+Magus">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Grand Magus</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Grand+Magus"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Grand+Magus#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Sister+Sin">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Sister Sin</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Sister+Sin"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Sister+Sin#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1716130&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1716130</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1716130"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1716130&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:55:32-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1716130"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/170966.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/170966.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/170966.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/170966.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8788327"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8788327#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Grave+Digger"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Grand+Magus"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Sister+Sin"/>
+  </rdf:Description>
+
+</rdf:RDF>

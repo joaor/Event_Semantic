@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/907624">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>VALE DE PANDORA EVENTOS AUDITÓRIO DA   A.C.R.</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;HARUKO (Alemanha) , auditório da A.C.R&lt;br /&gt;
+&lt;br /&gt;
+localização - &lt;a href=&quot;http://maps.google.com/maps/ms?ie=UTF8&amp;amp;hl=pt-BR&amp;amp;msa=0&amp;amp;ll=40.844715,-8.394145&amp;amp;spn=0.002946,0.006931&amp;amp;t=h&amp;amp;z=18&amp;amp;msid=106148994491783786101.0004610949970ed2f190e&quot; rel=&quot;nofollow&quot;&gt;http://maps.google.com/maps/ms?ie=UTF8&amp;amp;hl=pt-BR&amp;amp;msa=0&amp;amp;ll=40.844715,-8.394145&amp;amp;spn=0.002946,0.006931&amp;amp;t=h&amp;amp;z=18&amp;amp;msid=106148994491783786101.0004610949970ed2f190e&lt;/a&gt;&lt;/div&gt;</terms:description>
+    <terms:date>Fri, 12 Nov 2010 21:30:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/907624+VALE+DE+PANDORA+EVENTOS+AUDIT%C3%93RIO+DA+++A.C.R."/>
+    <ov:machineTag>lastfm:event=907624</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/33222691.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/33222691.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/33222691.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/33222691.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8998464"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Haruko"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/907624+VALE+DE+PANDORA+EVENTOS+AUDIT%C3%93RIO+DA+++A.C.R.#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/33222691.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/33222691.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/33222691.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/33222691.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8998464">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Avenida vale do caima</rdfs:label>
+    <geo:lat>40.843106</geo:lat>
+    <geo:long>-8.395533</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8998464#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8998464+Avenida+vale+do+caima"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8998464+Avenida+vale+do+caima#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8998464#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Avenida vale do caima AUDITÓRIO DA  A.C.R., vale de cambra, Portugal,  3730</rdfs:label>
+    <v:street-address>Avenida vale do caima AUDITÓRIO DA  A.C.R.</v:street-address>
+    <v:locality>vale de cambra</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>3730</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Haruko">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Haruko</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Haruko"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Haruko#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=907624&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 907624</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/907624"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=907624&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:41:55-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/907624"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/33222691.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/33222691.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/33222691.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/33222691.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8998464"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8998464#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Haruko"/>
+  </rdf:Description>
+
+</rdf:RDF>

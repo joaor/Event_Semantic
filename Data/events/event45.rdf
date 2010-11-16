@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1698440">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Cosmology Iberian Tour 2010</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;COSMOLOGY IBERIAN TOUR 2010&lt;br /&gt;
+24 NOVEMBER 2010 | PT | PORTO | PLANO B | 22:00 | 9€&lt;br /&gt;
+&lt;br /&gt;
+ROLO TOMASSI | UK | &lt;a href=&quot;http://www.myspace.com/rolotomassi&quot; rel=&quot;nofollow&quot;&gt;http://www.myspace.com/rolotomassi&lt;/a&gt;&lt;br /&gt;
+EAK | Portugal | &lt;a href=&quot;http://www.myspace.com/muzeak&quot; rel=&quot;nofollow&quot;&gt;http://www.myspace.com/muzeak&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+venue: PLANO B | Porto | Rua Cândido dos Reis 30&lt;br /&gt;
+tickets: 9€ [ exclusively available at the box ]&lt;br /&gt;
+doors: 22:00&lt;br /&gt;
+web: &lt;a href=&quot;http://www.swr-inc.net&quot; rel=&quot;nofollow&quot;&gt;http://www.swr-inc.net&lt;/a&gt; | &lt;a href=&quot;http://www.loversandlollypops.net&quot; rel=&quot;nofollow&quot;&gt;http://www.loversandlollypops.net&lt;/a&gt;&lt;br /&gt;
+info: &lt;a href=&quot;mailto:swr_inc@hotmail.com&quot;&gt;swr_inc@hotmail.com&lt;/a&gt; | +351 961958558 | +351 919895651&lt;br /&gt;
+&lt;br /&gt;
+ORG: SWR inc. - &lt;a href=&quot;http://www.swr-inc.net&quot; rel=&quot;nofollow&quot;&gt;http://www.swr-inc.net&lt;/a&gt; | Lovers &amp;amp; Lollypops - &lt;a href=&quot;http://www.loversandlollypops.net&quot; rel=&quot;nofollow&quot;&gt;http://www.loversandlollypops.net&lt;/a&gt;&lt;/div&gt;</terms:description>
+    <terms:date>Wed, 24 Nov 2010 19:06:01</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1698440+Cosmology+Iberian+Tour+2010"/>
+    <ov:machineTag>lastfm:event=1698440</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/47741291.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/47741291.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/47741291.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/47741291.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8797865"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Rolo+Tomassi"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/EAK"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1698440+Cosmology+Iberian+Tour+2010#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/47741291.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/47741291.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/47741291.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/47741291.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8797865">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Plano B</rdfs:label>
+    <geo:lat>41.146502</geo:lat>
+    <geo:long>-8.614003</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8797865#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8797865+Plano+B"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8797865+Plano+B#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8797865#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rua Cândido dos Reis 30, Porto, Portugal,  4050-151</rdfs:label>
+    <v:street-address>Rua Cândido dos Reis 30</v:street-address>
+    <v:locality>Porto</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>4050-151</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Rolo+Tomassi">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Rolo Tomassi</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Rolo+Tomassi"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Rolo+Tomassi#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/EAK">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>EAK</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/EAK"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/EAK#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1698440&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1698440</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1698440"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1698440&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:44:00-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1698440"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/47741291.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/47741291.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/47741291.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/47741291.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8797865"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8797865#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Rolo+Tomassi"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/EAK"/>
+  </rdf:Description>
+
+</rdf:RDF>

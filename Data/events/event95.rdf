@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1697102">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Foge Foge Bandido</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;«O “Foge Foge Bandido” foi um namoro de acasos, descobrir a música das pessoas e não dos músicos e atribuir ao tempo a tarefa de seleccionar o material. Foi tentar ao máximo expressar o processo, com a consciência, claro, de que o acaso se estende ao próprio entendimento desse processo e de que se calhar não percebi nada».&lt;br /&gt;
+(Manuel Cruz)&lt;/div&gt;</terms:description>
+    <terms:date>Wed, 12 Jan 2011 21:30:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1697102+Foge+Foge+Bandido+at+Theatro+Circo+on+12+January+2011"/>
+    <ov:machineTag>lastfm:event=1697102</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/13079631.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/13079631.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/13079631.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/13079631.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8778522"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Foge+Foge+Bandido"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1697102+Foge+Foge+Bandido+at+Theatro+Circo+on+12+January+2011#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/13079631.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/13079631.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/13079631.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/13079631.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8778522">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Theatro Circo</rdfs:label>
+    <geo:lat>41.54893</geo:lat>
+    <geo:long>-8.421664</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8778522#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8778522+Theatro+Circo"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8778522+Theatro+Circo#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8778522#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Av. da Liberdade, 697, Braga, Portugal,  4710-251</rdfs:label>
+    <v:street-address>Av. da Liberdade, 697</v:street-address>
+    <v:locality>Braga</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>4710-251</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Foge+Foge+Bandido">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Foge Foge Bandido</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Foge+Foge+Bandido"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Foge+Foge+Bandido#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1697102&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1697102</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1697102"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1697102&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:46:39-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1697102"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/13079631.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/13079631.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/13079631.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/13079631.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8778522"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8778522#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Foge+Foge+Bandido"/>
+  </rdf:Description>
+
+</rdf:RDF>

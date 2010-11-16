@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1689675">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Daniel Carter</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;Em colaboração com a Filho Único&lt;br /&gt;
+&lt;br /&gt;
+The Dream, editado em 2006, foi o primeiro, e único até à data, disco que mostrou a interessados e curiosos o elevado nível de excepção em que este trio de músicos sediado em Nova Iorque navega. Com uma dinâmica de colectivo fluida e pujante, assente numa congruência admirável de dinâmicas e registos ao longo do disco, uma combinação quase homeoestática de  improvisações mais extensas e breves interlúdios, o álbum  expõe Daniel Carter a  tocar piano pela primeira vez, num estilo reminiscente do incontornável Cecil  Taylor ou de Dave  Burrell, William Parker a espraiar-se em encantações amplas em tuba e Federico Ughi ai rmando-se como um baterista com níveis de energia e entrega evocatórias de um Rashied Ali, do período  Interstellar Space de Coltrane. No entanto, é com base na instrumentação típica e querida a cada um deles, Carter em sopros e piano, Parker no contrabaixo e Ughi na bateria, que a actuação no Teatro Maria Matos tomará forma e conteúdo.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+saxofone alto e piano Daniel Carter  &lt;br /&gt;
+contrabaixo William Parker&lt;br /&gt;
+bateria Federico Ughi&lt;br /&gt;
+&lt;br /&gt;
+ &lt;br /&gt;
+Preço:    12€ / &amp;lt;30 anos 6€&lt;/div&gt;</terms:description>
+    <terms:date>Thu, 16 Dec 2010 22:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1689675+Daniel+Carter+at+Teatro+Maria+Matos+on+16+December+2010"/>
+    <ov:machineTag>lastfm:event=1689675</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/43430001.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/43430001.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/43430001.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/43430001.png"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8795498"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Daniel+Carter"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/William+Parker"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Federico+Ughi"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1689675+Daniel+Carter+at+Teatro+Maria+Matos+on+16+December+2010#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/43430001.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/43430001.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/43430001.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/43430001.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8795498">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Teatro Maria Matos</rdfs:label>
+    <geo:lat>38.74595</geo:lat>
+    <geo:long>-9.138745</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8795498#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8795498+Teatro+Maria+Matos"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8795498+Teatro+Maria+Matos#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8795498#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Avenida Frei Miguel Contreiras, 52, Lisboa, Portugal,  1700-213</rdfs:label>
+    <v:street-address>Avenida Frei Miguel Contreiras, 52</v:street-address>
+    <v:locality>Lisboa</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1700-213</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Daniel+Carter">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Daniel Carter</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Daniel+Carter"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Daniel+Carter#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/William+Parker">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>William Parker</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/William+Parker"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/William+Parker#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Federico+Ughi">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Federico Ughi</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Federico+Ughi"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Federico+Ughi#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1689675&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1689675</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1689675"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1689675&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:54:03-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1689675"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/43430001.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/43430001.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/43430001.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/43430001.png"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8795498"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8795498#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Daniel+Carter"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/William+Parker"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Federico+Ughi"/>
+  </rdf:Description>
+
+</rdf:RDF>

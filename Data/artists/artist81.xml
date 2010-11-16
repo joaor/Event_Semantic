@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artist>
+  <name>Ishkur</name>
+  <mbid></mbid>
+  <url>http://www.last.fm/music/Ishkur</url>
+  <image size="small">http://userserve-ak.last.fm/serve/34/283201.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/283201.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/283201.jpg</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/283201.jpg</image>
+  <image size="mega">http://userserve-ak.last.fm/serve/_/283201/Ishkur.jpg</image>
+  <streamable>0</streamable>
+  <stats>
+    <listeners>58</listeners>
+    <playcount>556</playcount>
+      </stats>
+
+  <similar>
+	    <artist>
+	  <name>iRAe</name>
+	  <url>http://www.last.fm/music/iRAe</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/337141.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/337141.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/337141.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/337141.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/337141/iRAe.jpg</image>
+	</artist>
+    <artist>
+	  <name>Penitência</name>
+	  <url>http://www.last.fm/music/Penit%C3%AAncia</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/599603.gif</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/599603.gif</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/599603.gif</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/599603.gif</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/599603/Penitncia.gif</image>
+	</artist>
+    <artist>
+	  <name>Arachula</name>
+	  <url>http://www.last.fm/music/Arachula</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/40486581.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/40486581.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/40486581.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/40486581.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/40486581/Arachula++Portugal.jpg</image>
+	</artist>
+    <artist>
+	  <name>Cripta Oculta</name>
+	  <url>http://www.last.fm/music/Cripta+Oculta</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/27068283.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/27068283.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/27068283.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/27068283.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/27068283/Cripta+Oculta.jpg</image>
+	</artist>
+    <artist>
+	  <name>Scarificare</name>
+	  <url>http://www.last.fm/music/Scarificare</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/16742757.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/16742757.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/16742757.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/16742757.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/16742757/Scarificare.jpg</image>
+	</artist>
+  </similar>
+    <tags>
+        <tag>
+	  <name>black metal</name>
+	  <url>http://www.last.fm/tag/black%20metal</url>
+	</tag>
+        <tag>
+	  <name>altar of the metal gods</name>
+	  <url>http://www.last.fm/tag/altar%20of%20the%20metal%20gods</url>
+	</tag>
+        <tag>
+	  <name>altar of the metal gods black metal</name>
+	  <url>http://www.last.fm/tag/altar%20of%20the%20metal%20gods%20black%20metal</url>
+	</tag>
+        <tag>
+	  <name>lusitanian black metal</name>
+	  <url>http://www.last.fm/tag/lusitanian%20black%20metal</url>
+	</tag>
+      </tags>
+      <bio>
+    <published></published>
+    <summary></summary>
+    <content></content>
+  </bio>
+  </artist></lfm>

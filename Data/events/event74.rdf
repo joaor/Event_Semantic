@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1648715">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>&quot;Sombra&quot; Moonspell </rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;Os &lt;a href=&quot;http://www.last.fm/music/Moonspell&quot; class=&quot;bbcode_artist&quot;&gt;Moonspell&lt;/a&gt; encontram-se neste momento numa fase muito intensa da sua carreira, entre a preparação do próximo disco de originais (nas palavras da banda “a música mais excitante e intensa que escrevemos em todos estes anos”); uma agenda plena de festivais, com destaque para a estreia no festival Optimus Alive deste ano; e a reconstrução acústica do melhor do seu repertório para apresentar no espectáculo “SOMBRA” que sairá em tour exclusiva por todo o país de Outubro a Dezembro.&lt;br /&gt;
+“SOMBRA” - A FACETA ACÚSTICA DOS MOONSPELL&lt;br /&gt;
+Entre a Luz e a Escuridão nasce esta “SOMBRA” que vem sublinhar a riqueza melódica do Metal, estilo capaz de abraçar influências como o gótico, o étnico e o electrónico e desmistificar a ideia redutora que muitos têm do género. Mais do que uma proposta para os fãs da banda e curiosos do estilo, este espectáculo destina-se também a um público aberto a novas sonoridades e abordagens.&lt;br /&gt;
+A banda vai criar de raiz versões acústicas e semi-acústicas dos seus temas mais emblemáticos. E vão dar igual importância a momentos que se revelem inesperados e surpreendentes, como a versão acústica de um tema dos Madredeus.&lt;br /&gt;
+Os MOONSPELL serão acompanhados em todos os espectáculos pelo coro feminino CRYSTAL MOUNTAIN SINGERS e pelos OPUS DIABOLICUM, um quinteto composto por quatro violoncelistas e um percussionista. Este projecto, que nasceu como um tributo aos Moonspell interpretando neste instrumento clássico alguns dos seus temas mais marcantes, asseguram também a primeira parte do espectáculo.&lt;br /&gt;
+&lt;br /&gt;
+TOUR “SOMBRA”&lt;br /&gt;
+&lt;br /&gt;
+30 e 31 Out :: Lisboa :: Cinema São Jorge&lt;br /&gt;
+13 Nov :: Arcos de Valdevez :: Casa das Artes&lt;br /&gt;
+19 Nov :: Guimarães :: CAE S. Mamede                    &lt;br /&gt;
+30 Nov :: Alcochete :: Forum Cultural&lt;br /&gt;
+23 Nov :: Porto :: Casa da Música&lt;br /&gt;
+2 Dez :: Leiria :: Teatro José Lúcio Silva&lt;br /&gt;
+       &lt;br /&gt;
+3 Dez :: Ilhavo :: Centro Cultural&lt;br /&gt;
+&lt;br /&gt;
+4 Dez :: Caldas da Rainha :: CCC&lt;br /&gt;
+                            &lt;br /&gt;
+7 Dez :: Guarda :: Teatro Municipal&lt;br /&gt;
+                                                          &lt;br /&gt;
+9 Dez :: Portalegre :: CAEP&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href=&quot;http://www.myspace.com/moonspell&quot; rel=&quot;nofollow&quot;&gt;http://www.myspace.com/moonspell&lt;/a&gt;&lt;/div&gt;</terms:description>
+    <terms:date>Fri, 03 Dec 2010 21:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1648715+%22Sombra%22+Moonspell+"/>
+    <ov:machineTag>lastfm:event=1648715</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/2181591.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/2181591.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/2181591.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/2181591.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/9007094"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Moonspell"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1648715+%22Sombra%22+Moonspell+#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/2181591.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/2181591.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/2181591.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/2181591.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/9007094">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Centro Cultural de Ílhavo</rdfs:label>
+    <geo:lat>40.599464</geo:lat>
+    <geo:long>-8.66558</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/9007094#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/9007094+Centro+Cultural+de+%C3%8Dlhavo"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/9007094+Centro+Cultural+de+%C3%8Dlhavo#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/9007094#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Avenida 25 de Abril, Ílhavo, Portugal,  3830</rdfs:label>
+    <v:street-address>Avenida 25 de Abril</v:street-address>
+    <v:locality>Ílhavo</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>3830</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Moonspell">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Moonspell</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Moonspell"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Moonspell#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1648715&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1648715</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1648715"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1648715&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:45:30-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1648715"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/2181591.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/2181591.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/2181591.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/2181591.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/9007094"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/9007094#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Moonspell"/>
+  </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1734171">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Minta</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;&lt;a href=&quot;http://www.last.fm/music/Minta&quot; class=&quot;bbcode_artist&quot;&gt;Minta&lt;/a&gt;&lt;a href=&quot;http://www.last.fm/music/Minta%2B%2526%2BThe%2BBrook%2BTrout&quot; class=&quot;bbcode_artist&quot;&gt;Minta &amp;amp; The Brook Trout&lt;/a&gt;&lt;/div&gt;</terms:description>
+    <terms:date>Sat, 27 Nov 2010 22:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1734171+Minta+at+Mercado+Quebra+Costas+on+27+November+2010"/>
+    <ov:machineTag>lastfm:event=1734171</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/35873361.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/35873361.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/35873361.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/35873361.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/9028646"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Minta"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Minta+%26+The+Brook+Trout"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1734171+Minta+at+Mercado+Quebra+Costas+on+27+November+2010#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/35873361.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/35873361.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/35873361.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/35873361.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/9028646">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Mercado Quebra Costas</rdfs:label>
+    <geo:lat>40.208876</geo:lat>
+    <geo:long>-8.428102</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/9028646#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/9028646+Mercado+Quebra+Costas"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/9028646+Mercado+Quebra+Costas#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/9028646#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Coimbra, Portugal</rdfs:label>
+    <v:street-address></v:street-address>
+    <v:locality>Coimbra</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code></v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Minta">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Minta</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Minta"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Minta#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Minta+%26+The+Brook+Trout">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Minta &amp; The Brook Trout</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Minta+%26+The+Brook+Trout"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Minta+%26+The+Brook+Trout#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1734171&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1734171</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1734171"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1734171&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:48:20-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1734171"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/35873361.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/35873361.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/35873361.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/35873361.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/9028646"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/9028646#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Minta"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Minta+%26+The+Brook+Trout"/>
+  </rdf:Description>
+
+</rdf:RDF>

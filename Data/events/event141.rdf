@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1550228">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>The Wall Live</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;O espectáculo vai apresentar um muro de 73 metros de largura e 10 metros de altura e projeções em larga escala – Waters diz que sistemas modernos de projeção permitem a eles emitir imagens no muro inteiro, assim como novos gráficos de vídeo dinâmicos e imagens visuais. Também vai apresentar o famoso avião caindo, enormes bonecos infláveis e pirotecnia.&lt;/div&gt;</terms:description>
+    <terms:date>Mon, 21 Mar 2011 21:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1550228+The+Wall+Live"/>
+    <ov:machineTag>lastfm:event=1550228</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/2224985.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/2224985.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/2224985.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/2224985.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8778515"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Roger+Waters"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1550228+The+Wall+Live#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/2224985.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/2224985.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/2224985.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/2224985.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8778515">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Pavilhão Atlântico</rdfs:label>
+    <geo:lat>38.767312</geo:lat>
+    <geo:long>-9.093591</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8778515#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8778515+Pavilh%C3%A3o+Atl%C3%A2ntico"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8778515+Pavilh%C3%A3o+Atl%C3%A2ntico#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8778515#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rossio dos Olivais, , Portugal,  1990 - 231</rdfs:label>
+    <v:street-address>Rossio dos Olivais</v:street-address>
+    <v:locality></v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1990 - 231</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Roger+Waters">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Roger Waters</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Roger+Waters"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Roger+Waters#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1550228&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1550228</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1550228"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1550228&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:48:43-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1550228"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/2224985.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/2224985.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/2224985.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/2224985.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8778515"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8778515#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Roger+Waters"/>
+  </rdf:Description>
+
+</rdf:RDF>

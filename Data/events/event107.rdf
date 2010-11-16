@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1462230">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Katie Melua</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;ADIADO 14 de Março&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href=&quot;http://www.last.fm/music/Katie+Melua&quot; class=&quot;bbcode_artist&quot;&gt;Katie Melua&lt;/a&gt; tem concerto marcado no Coliseu do Porto para o dia 11 de Outubro, segundo o site da sala de espectáculos.&lt;br /&gt;
+&lt;br /&gt;
+A cantora georgiana radicada em Inglaterra está a preparar o seu novo álbum de estúdio. O sucessor de «&lt;a title=&quot;Katie Melua - Pictures&quot; href=&quot;http://www.last.fm/music/Katie+Melua/Pictures&quot; class=&quot;bbcode_album&quot;&gt;Pictures&lt;/a&gt;» (2007) é o quarto disco de originais de Katie e conta com a produção de William Orbit.&lt;/div&gt;</terms:description>
+    <terms:date>Mon, 14 Mar 2011 21:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1462230+Katie+Melua"/>
+    <ov:machineTag>lastfm:event=1462230</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/50578493.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/50578493.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/50578493.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/50578493.png"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8781705"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Katie+Melua"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1462230+Katie+Melua#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/50578493.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/50578493.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/50578493.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/50578493.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8781705">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Coliseu do Porto</rdfs:label>
+    <geo:lat>41.14698</geo:lat>
+    <geo:long>-8.606671</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8781705#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8781705+Coliseu+do+Porto"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8781705+Coliseu+do+Porto#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8781705#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rua de Passos Manuel, 137, Porto, Portugal,  4000-385</rdfs:label>
+    <v:street-address>Rua de Passos Manuel, 137</v:street-address>
+    <v:locality>Porto</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>4000-385</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Katie+Melua">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Katie Melua</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Katie+Melua"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Katie+Melua#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1462230&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1462230</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1462230"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1462230&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:47:15-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1462230"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/50578493.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/50578493.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/50578493.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/50578493.png"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8781705"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8781705#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Katie+Melua"/>
+  </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artist>
+  <name>Andras Schiff</name>
+  <mbid>83af7e7e-30d6-4721-a77a-5b83689cd785</mbid>
+  <url>http://www.last.fm/music/+noredirect/Andras+Schiff</url>
+  <image size="small">http://userserve-ak.last.fm/serve/34/227927.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/227927.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/227927.jpg</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/227927.jpg</image>
+  <image size="mega">http://userserve-ak.last.fm/serve/_/227927/Andras+Schiff.jpg</image>
+  <streamable>1</streamable>
+  <stats>
+    <listeners>8271</listeners>
+    <playcount>107999</playcount>
+      </stats>
+
+  <similar>
+	    <artist>
+	  <name>András Schiff</name>
+	  <url>http://www.last.fm/music/Andr%C3%A1s+Schiff</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/34186741.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/34186741.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/34186741.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/34186741.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/34186741/Andrs+Schiff.jpg</image>
+	</artist>
+    <artist>
+	  <name>Alfred Brendel</name>
+	  <url>http://www.last.fm/music/Alfred+Brendel</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/332568.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/332568.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/332568.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/332568.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/332568/Alfred+Brendel.jpg</image>
+	</artist>
+    <artist>
+	  <name>Murray Perahia</name>
+	  <url>http://www.last.fm/music/Murray+Perahia</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/523440.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/523440.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/523440.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/523440.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/523440/Murray+Perahia.jpg</image>
+	</artist>
+    <artist>
+	  <name>Angela Hewitt</name>
+	  <url>http://www.last.fm/music/Angela+Hewitt</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/91941.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/91941.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/91941.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/91941.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/91941/Angela+Hewitt.jpg</image>
+	</artist>
+    <artist>
+	  <name>Sviatoslav Richter</name>
+	  <url>http://www.last.fm/music/Sviatoslav+Richter</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/24804231.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/24804231.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/24804231.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/24804231.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/24804231/Sviatoslav+Richter.jpg</image>
+	</artist>
+  </similar>
+    <tags>
+        <tag>
+	  <name>classical</name>
+	  <url>http://www.last.fm/tag/classical</url>
+	</tag>
+        <tag>
+	  <name>piano</name>
+	  <url>http://www.last.fm/tag/piano</url>
+	</tag>
+        <tag>
+	  <name>classical piano</name>
+	  <url>http://www.last.fm/tag/classical%20piano</url>
+	</tag>
+        <tag>
+	  <name>pianist</name>
+	  <url>http://www.last.fm/tag/pianist</url>
+	</tag>
+        <tag>
+	  <name>pakaune</name>
+	  <url>http://www.last.fm/tag/pakaune</url>
+	</tag>
+      </tags>
+      <bio>
+    <published>Fri, 25 Jan 2008 15:36:03 +0000</published>
+    <summary><![CDATA[See <a href="http://www.last.fm/music/Andr%C3%A1s+Schiff" class="bbcode_artist">Andr&aacute;s Schiff</a>.]]></summary>
+    <content><![CDATA[See <a href="http://www.last.fm/music/Andr%C3%A1s+Schiff" class="bbcode_artist">Andr&aacute;s Schiff</a>.
+    
+User-contributed text is available under the Creative Commons By-SA License and may also be available under the GNU FDL.]]></content>
+  </bio>
+  </artist></lfm>

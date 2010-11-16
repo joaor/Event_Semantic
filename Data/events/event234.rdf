@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1627519">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>D.R.I. adiado para Março!</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;&lt;a href=&quot;http://www.myspace.com/hellxis&quot; rel=&quot;nofollow&quot;&gt;http://www.myspace.com/hellxis&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+ 	&lt;br /&gt;
+DRI em Março 2011&lt;br /&gt;
+&lt;br /&gt;
+Lamentamos informar que devido á inclusão dos DRI na Persistence Tour 2010, em substituição dos Sepultura, as duas datas previstas para Portugal, nos dias 2 e 3 de Dezembro, foram adiadas para Março.&lt;br /&gt;
+&lt;br /&gt;
+Logo que tenhamos datas definitivas anunciaremos os concertos.&lt;br /&gt;
+&lt;br /&gt;
+As nossas desculpas.&lt;br /&gt;
+&lt;br /&gt;
+HELL XIS AGENCY&lt;br /&gt;
+&lt;br /&gt;
+ALIVE WE RIDE&lt;/div&gt;</terms:description>
+    <terms:date>Fri, 03 Dec 2010 20:50:01</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1627519+D.R.I.+adiado+para+Mar%C3%A7o%21"/>
+    <ov:machineTag>lastfm:event=1627519</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/2943251.gif"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/2943251.gif"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/2943251.gif"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/2943251.gif"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8788327"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/D.R.I."/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1627519+D.R.I.+adiado+para+Mar%C3%A7o%21#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/2943251.gif">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/2943251.gif">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/2943251.gif">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/2943251.gif">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8788327">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Cine-Teatro de Corroios</rdfs:label>
+    <geo:lat>38.643393</geo:lat>
+    <geo:long>-9.156789</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8788327#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8788327+Cine-Teatro+de+Corroios"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8788327+Cine-Teatro+de+Corroios#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8788327#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rua Ginásio Clube de Corroios, Corroios, Seixal, Setúbal, Portugal,  2855</rdfs:label>
+    <v:street-address>Rua Ginásio Clube de Corroios</v:street-address>
+    <v:locality>Corroios, Seixal, Setúbal</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>2855</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/D.R.I.">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>D.R.I.</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/D.R.I."/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/D.R.I.#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1627519&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1627519</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1627519"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1627519&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:52:55-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1627519"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/2943251.gif"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/2943251.gif"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/2943251.gif"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/2943251.gif"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8788327"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8788327#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/D.R.I."/>
+  </rdf:Description>
+
+</rdf:RDF>

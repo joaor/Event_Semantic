@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1656504">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>14º OuTonalidades</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;&lt;a href=&quot;http://www.myspace.com/corsage&quot; rel=&quot;nofollow&quot;&gt;www.myspace.com/corsage&lt;/a&gt;&lt;br /&gt;
+O som dos Corsage é um pop singular, de canções curtas, dançáveis, intensas, introspectivas. Uma revelação, agora no OuTonalidades.&lt;br /&gt;
+&lt;br /&gt;
+PROGRAMA &lt;br /&gt;
+&lt;a href=&quot;http://issuu.com/dorfeu/docs/libreto_outonalidades2010&quot; rel=&quot;nofollow&quot;&gt;http://issuu.com/dorfeu/docs/libreto_outonalidades2010&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.facebook.com/outonalidades&quot; rel=&quot;nofollow&quot;&gt;http://www.facebook.com/outonalidades&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.myspace.com/outonalidades2010&quot; rel=&quot;nofollow&quot;&gt;http://www.myspace.com/outonalidades2010&lt;/a&gt;&lt;/div&gt;</terms:description>
+    <terms:date>Fri, 26 Nov 2010 23:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1656504+14%C2%BA+OuTonalidades"/>
+    <ov:machineTag>lastfm:event=1656504</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/23674423.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/23674423.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/23674423.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/23674423.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/9144679"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Corsage"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1656504+14%C2%BA+OuTonalidades#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/23674423.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/23674423.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/23674423.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/23674423.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/9144679">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Bar Cine-Teatro de Estarreja</rdfs:label>
+    <geo:lat>40.752196</geo:lat>
+    <geo:long>-8.570115</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/9144679#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/9144679+Bar+Cine-Teatro+de+Estarreja"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/9144679+Bar+Cine-Teatro+de+Estarreja#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/9144679#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Estarreja, Portugal</rdfs:label>
+    <v:street-address></v:street-address>
+    <v:locality>Estarreja</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code></v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Corsage">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Corsage</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Corsage"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Corsage#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1656504&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1656504</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1656504"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1656504&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:44:22-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1656504"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/23674423.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/23674423.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/23674423.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/23674423.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/9144679"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/9144679#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Corsage"/>
+  </rdf:Description>
+
+</rdf:RDF>

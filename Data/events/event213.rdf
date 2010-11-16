@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1732469">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Rodrigo Pinheiro</rdfs:label>
+    <terms:date>Fri, 26 Nov 2010 23:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1732469+Rodrigo+Pinheiro+at+ZDB+-+Z%C3%A9+dos+Bois+on+26+November+2010"/>
+    <ov:machineTag>lastfm:event=1732469</ov:machineTag>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8792545"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Rodrigo+Pinheiro"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Gabriel+Ferrandini"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Hern%C3%A2ni+Faustino"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Nobuyasu+Furuya"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Eduardo+L%C3%A1la"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1732469+Rodrigo+Pinheiro+at+ZDB+-+Z%C3%A9+dos+Bois+on+26+November+2010#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8792545">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>ZDB - Zé dos Bois</rdfs:label>
+    <geo:lat>38.711822</geo:lat>
+    <geo:long>-9.144539</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8792545#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8792545+ZDB+-+Z%C3%A9+dos+Bois"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8792545+ZDB+-+Z%C3%A9+dos+Bois#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8792545#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>R. da Barroca 59, Lisboa, Portugal,  1200</rdfs:label>
+    <v:street-address>R. da Barroca 59</v:street-address>
+    <v:locality>Lisboa</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1200</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Rodrigo+Pinheiro">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Rodrigo Pinheiro</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Rodrigo+Pinheiro"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Rodrigo+Pinheiro#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Gabriel+Ferrandini">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Gabriel Ferrandini</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Gabriel+Ferrandini"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Gabriel+Ferrandini#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Hern%C3%A2ni+Faustino">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Hernâni Faustino</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Hern%C3%A2ni+Faustino"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Hern%C3%A2ni+Faustino#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Nobuyasu+Furuya">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Nobuyasu Furuya</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Nobuyasu+Furuya"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Nobuyasu+Furuya#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Eduardo+L%C3%A1la">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Eduardo Lála</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Eduardo+L%C3%A1la"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Eduardo+L%C3%A1la#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1732469&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1732469</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1732469"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1732469&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:52:05-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1732469"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8792545"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8792545#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Rodrigo+Pinheiro"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Gabriel+Ferrandini"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Hern%C3%A2ni+Faustino"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Nobuyasu+Furuya"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Eduardo+L%C3%A1la"/>
+  </rdf:Description>
+
+</rdf:RDF>

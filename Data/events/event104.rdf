@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1632337">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Extreme Devotion VII</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;2 days: 15€&lt;br /&gt;
+1 day: 10€&lt;/div&gt;</terms:description>
+    <terms:date>Fri, 04 Feb 2011 17:35:01</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/festival/1632337+Extreme+Devotion+VII"/>
+    <ov:machineTag>lastfm:event=1632337</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/50200801.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/50200801.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/50200801.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/50200801.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8889950"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Marthyrium"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Urna"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Infernal+Kingdom"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Spellcraft"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Myrkvid"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Eterna+Penumbra"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Imperivm"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/WARGOATCULT"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Infern%C3%BCs"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Nefastt"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/festival/1632337+Extreme+Devotion+VII#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/50200801.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/50200801.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/50200801.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/50200801.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8889950">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Metalpoint Coffee</rdfs:label>
+    <geo:lat>41.146489</geo:lat>
+    <geo:long>-8.592756</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8889950#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8889950+Metalpoint+Coffee"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8889950+Metalpoint+Coffee#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8889950#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rua do Heroísmo, Porto, Portugal</rdfs:label>
+    <v:street-address>Rua do Heroísmo</v:street-address>
+    <v:locality>Porto</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code></v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Marthyrium">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Marthyrium</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Marthyrium"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Marthyrium#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Urna">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Urna</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Urna"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Urna#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Infernal+Kingdom">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Infernal Kingdom</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Infernal+Kingdom"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Infernal+Kingdom#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Spellcraft">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Spellcraft</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Spellcraft"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Spellcraft#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Myrkvid">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Myrkvid</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Myrkvid"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Myrkvid#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Eterna+Penumbra">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Eterna Penumbra</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Eterna+Penumbra"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Eterna+Penumbra#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Imperivm">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Imperivm</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Imperivm"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Imperivm#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/WARGOATCULT">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>WARGOATCULT</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/WARGOATCULT"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/WARGOATCULT#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Infern%C3%BCs">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Infernüs</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Infern%C3%BCs"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Infern%C3%BCs#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Nefastt">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Nefastt</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Nefastt"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Nefastt#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1632337&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1632337</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1632337"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1632337&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:47:05-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1632337"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/50200801.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/50200801.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/50200801.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/50200801.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8889950"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8889950#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Marthyrium"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Urna"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Infernal+Kingdom"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Spellcraft"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Myrkvid"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Eterna+Penumbra"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Imperivm"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/WARGOATCULT"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Infern%C3%BCs"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Nefastt"/>
+  </rdf:Description>
+
+</rdf:RDF>

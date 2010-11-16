@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artist>
+  <name>Good Enemies</name>
+  <mbid></mbid>
+  <url>http://www.last.fm/music/Good+Enemies</url>
+  <image size="small">http://userserve-ak.last.fm/serve/34/53572851.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/53572851.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/53572851.jpg</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/53572851.jpg</image>
+  <image size="mega">http://userserve-ak.last.fm/serve/500/53572851/Good+Enemies+_MG_4137.jpg</image>
+  <streamable>1</streamable>
+  <stats>
+    <listeners>20</listeners>
+    <playcount>450</playcount>
+      </stats>
+
+  <similar>
+	    <artist>
+	  <name>Vera Oliveira</name>
+	  <url>http://www.last.fm/music/Vera+Oliveira</url>
+	  <image size="small"></image>
+	  <image size="medium"></image>
+	  <image size="large"></image>
+	  <image size="extralarge"></image>
+	  <image size="mega"></image>
+	</artist>
+    <artist>
+	  <name>Fábrica de Sonhos</name>
+	  <url>http://www.last.fm/music/F%C3%A1brica+de+Sonhos</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/45861635.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/45861635.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/45861635.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/45861635.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/45861635/Fbrica+de+Sonhos+Fbrica+2009+Cover.jpg</image>
+	</artist>
+    <artist>
+	  <name>Os Quais</name>
+	  <url>http://www.last.fm/music/Os+Quais</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/24920333.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/24920333.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/24920333.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/24920333.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/24920333/Os+Quais+quais_baixa_rua.jpg</image>
+	</artist>
+    <artist>
+	  <name>Smix Smox Smux</name>
+	  <url>http://www.last.fm/music/Smix+Smox+Smux</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/31327975.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/31327975.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/31327975.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/31327975.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/31327975/Smix+Smox+Smux+SSS_Beato_Instrumentos.jpg</image>
+	</artist>
+    <artist>
+	  <name>Feromona</name>
+	  <url>http://www.last.fm/music/Feromona</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/4761306.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/4761306.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/4761306.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/4761306.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/4761306/Feromona+arrasta+f.jpg</image>
+	</artist>
+  </similar>
+    <tags>
+      </tags>
+      <bio>
+    <published></published>
+    <summary></summary>
+    <content></content>
+  </bio>
+  </artist></lfm>

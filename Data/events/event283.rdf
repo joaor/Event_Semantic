@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1726094">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Rhino Bucket</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;Os RHINO BUCKET vão estar de volta a Portugal em 2011. Depois do fantástico concerto que quase esgotou o Musicbox em Fevereiro último, espera-se mais uma grande noite de Rock duro e puro.&lt;br /&gt;
+&lt;br /&gt;
+Surgidos em 1990, os RHINO BUCKET conquistam rapidamente os amantes de Rock. Os singles “One Night Stand” e “Blood on the Cross” atingiram o Top 40 da tabela da Billboard e banda tornou-se naturalmente presença assídua do programa Head Bangers Ball da MTV.&lt;br /&gt;
+&lt;br /&gt;
+O segundo disco, “Out of Print”, foi gravado em 1992 e conta com a produção do lendário Terry Manning, conhecido pelo seu trabalho com os Led Zeppelin e ZZ Top.&lt;br /&gt;
+&lt;br /&gt;
+Um ano mais tarde, Simon Wright, baterista dos AC/DC, juntou-se aos RHINO BUCKET para gravar o terceiro registo de originais, “Pain”. Seguiu-se uma extensa digressão que durou cerca de um ano.&lt;br /&gt;
+&lt;br /&gt;
+Depois de um hiato de quase dez anos, o ano de 2006 é marcado pelo regresso, em grande força, aos discos com “And Then It Got Ugly”. “Welcome to Hell”, o primeiro single foi um dos temas escolhidos para acompanhar Mickey Rourke numa das cenas do filme “The Wrestler” (2008).&lt;br /&gt;
+&lt;br /&gt;
+Em 2009, Simon Wright volta a juntar-se aos RHINO BUCKET para gravar “The Hardest Town”. Com um novo disco de originais no horizonte a banda prepara-se para arrasar uma vez mais o público da capital.&lt;br /&gt;
+&lt;br /&gt;
+Preço: 20 euros&lt;/div&gt;</terms:description>
+    <terms:date>Wed, 23 Feb 2011 22:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1726094+Rhino+Bucket+at+MusicBox+on+23+February+2011"/>
+    <ov:machineTag>lastfm:event=1726094</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/120065.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/120065.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/120065.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/120065.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8794101"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Rhino+Bucket"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1726094+Rhino+Bucket+at+MusicBox+on+23+February+2011#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/120065.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/120065.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/120065.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/120065.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8794101">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>MusicBox</rdfs:label>
+    <geo:lat>38.707152</geo:lat>
+    <geo:long>-9.143332</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8794101#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8794101+MusicBox"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8794101+MusicBox#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8794101#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rua Nova do Carvalho 24, Lisboa, Portugal,  1200-292</rdfs:label>
+    <v:street-address>Rua Nova do Carvalho 24</v:street-address>
+    <v:locality>Lisboa</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1200-292</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Rhino+Bucket">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Rhino Bucket</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Rhino+Bucket"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Rhino+Bucket#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1726094&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1726094</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1726094"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1726094&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:55:07-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1726094"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/120065.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/120065.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/120065.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/120065.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8794101"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8794101#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Rhino+Bucket"/>
+  </rdf:Description>
+
+</rdf:RDF>

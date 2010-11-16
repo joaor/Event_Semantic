@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1703272">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Musidanças 2010</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;O Musidanças pretende ser uma montra coesa da música das comunidades lusófonas que evoluem em Portugal e no Mundo. Para tal, a nossa programação é um elo entre culturas. Acreditamos que o segredo e a qualidade estão na mistura.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+24 Novembro - Quarta-Feira - (Musicbox)&lt;br /&gt;
+22h - Abertura de portas&lt;br /&gt;
+22h/23h - Projecção de documentário - 15' + Inicio Dj Knowledge&lt;br /&gt;
+23h/23h40 - Catarina dos Santos - afrobeat/alternativa/usa/portugal&lt;br /&gt;
+23h40/ 00h00 - Dj Knowledge&lt;br /&gt;
+00h00 /00h40 - La Dupla - hip hop/soul/jazz/espanha/portugal&lt;br /&gt;
+00h40/01h00 - Dj Knowledge&lt;br /&gt;
+01h00/ 01h40 - Banda Passatempo Musidanças/Patrocinadores&lt;br /&gt;
+01h40 /02H30 - Dj Knowledge&lt;br /&gt;
+&lt;br /&gt;
+25 Novembro - Quinta-Feira - (Musicbox)&lt;br /&gt;
+22h - Abertura de portas&lt;br /&gt;
+22h/23h - Projecção de documentário - 15' + Dj Creenwick&lt;br /&gt;
+23h/23h40 - Aline Frazão - afrobeat/madrid/angola&lt;br /&gt;
+23h40/ 00h00 - Dj Creenwickj&lt;br /&gt;
+00h00 /00h40 - Chullage - rap/hip hop/cabo verde/portugal&lt;br /&gt;
+00h40/01h00 - Dj Creenwick&lt;br /&gt;
+01h00/ 01h40 - Banda Passatempo Musidanças/Patrocinadores&lt;br /&gt;
+01h40 /02H30 - Dj Creenwick&lt;br /&gt;
+&lt;br /&gt;
+26 Novembro - Sexta-Feira - (Musicbox)&lt;br /&gt;
+22h - Abertura de portas&lt;br /&gt;
+22h/23h - Proj. de documentário - 15' + Dj Nunchuck&lt;br /&gt;
+23h/23h40 - Gingongo&lt;br /&gt;
+23h40/ 00h00 - Soul Movement&lt;br /&gt;
+00h00 /00h40 . Katharsis - folclórica/ska/portugal&lt;br /&gt;
+00h40/01h00 - Soul Movement&lt;br /&gt;
+01h00/ 01h40 - Banda Passatempo Musidanças/Patrocinadores&lt;br /&gt;
+01h40 /02H30 - Dj Nunchuck&lt;br /&gt;
+&lt;br /&gt;
+27 Novembro - Sábado - (Musicbox)&lt;br /&gt;
+22h - Abertura de portas&lt;br /&gt;
+22h/23h - Projecção de documentário - 15' + Dj Infestus&lt;br /&gt;
+23h/23h40 - Swck - movimento jerk em portugal&lt;br /&gt;
+23h40/00h00 - Dj Infestus&lt;br /&gt;
+00h00/00h40 . Semente - world dance and percussion&lt;br /&gt;
+00h40/01h00 - Dj Infestus&lt;br /&gt;
+Resultado da votação do passatempo Musidanças&lt;br /&gt;
+01h00/ 01h40 . Cabace - mundo/portugal&lt;br /&gt;
+01h40 /02H30 - Dj Infestus&lt;/div&gt;</terms:description>
+    <terms:date>Wed, 24 Nov 2010 11:07:01</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/festival/1703272+Musidan%C3%A7as+2010"/>
+    <ov:machineTag>lastfm:event=1703272</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/42783919.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/42783919.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/42783919.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/42783919.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8794101"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Aline+Fraz%C3%A3o"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Katharsis"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Chullage"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/soul+movement"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/DJ+Knowledge"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Semente"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Catarina+dos+Santos"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/SWK"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/La+Dupla"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/CaBaCe"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/festival/1703272+Musidan%C3%A7as+2010#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/42783919.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/42783919.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/42783919.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/42783919.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8794101">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>MusicBox</rdfs:label>
+    <geo:lat>38.707152</geo:lat>
+    <geo:long>-9.143332</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8794101#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8794101+MusicBox"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8794101+MusicBox#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8794101#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rua Nova do Carvalho 24, Lisboa, Portugal,  1200-292</rdfs:label>
+    <v:street-address>Rua Nova do Carvalho 24</v:street-address>
+    <v:locality>Lisboa</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1200-292</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Aline+Fraz%C3%A3o">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Aline Frazão</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Aline+Fraz%C3%A3o"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Aline+Fraz%C3%A3o#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Katharsis">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Katharsis</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Katharsis"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Katharsis#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Chullage">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Chullage</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Chullage"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Chullage#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/soul+movement">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>soul movement</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/soul+movement"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/soul+movement#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/DJ+Knowledge">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>DJ Knowledge</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/DJ+Knowledge"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/DJ+Knowledge#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Semente">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Semente</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Semente"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Semente#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Catarina+dos+Santos">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Catarina dos Santos</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Catarina+dos+Santos"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Catarina+dos+Santos#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/SWK">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>SWK</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/SWK"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/SWK#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/La+Dupla">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>La Dupla</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/La+Dupla"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/La+Dupla#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/CaBaCe">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>CaBaCe</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/CaBaCe"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/CaBaCe#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1703272&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1703272</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1703272"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1703272&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:51:24-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1703272"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/42783919.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/42783919.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/42783919.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/42783919.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8794101"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8794101#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Aline+Fraz%C3%A3o"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Katharsis"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Chullage"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/soul+movement"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/DJ+Knowledge"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Semente"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Catarina+dos+Santos"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/SWK"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/La+Dupla"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/CaBaCe"/>
+  </rdf:Description>
+
+</rdf:RDF>

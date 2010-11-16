@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1632692">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Parkway Drive</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;20€&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href=&quot;http://www.facebook.com/pages/Almada-Portugal/XUXA-JURASSICA-BOOKING-AGENCY-PORTUGAL/148793097587?__a=11&amp;amp&quot; rel=&quot;nofollow&quot;&gt;http://www.facebook.com/pages/Almada-Portugal/XUXA-JURASSICA-BOOKING-AGENCY-PORTUGAL/148793097587?__a=11&amp;amp&lt;/a&gt;;&lt;br /&gt;
+&lt;br /&gt;
+INFO:&lt;br /&gt;
+&lt;br /&gt;
+Localização:	Rua de Santiago, 19, 1100-493 Lisboa&lt;br /&gt;
+&lt;br /&gt;
+Horário:	21:00&lt;br /&gt;
+&lt;br /&gt;
+Bilhetes(Tickets): Loja Eastpak e Bar Boca do Inferno (Bairro Alto), Carbono (Lisboa) e no dia e local do evento a partir das 21h00. Info e Reservas: &lt;a href=&quot;mailto:infoxuxajurassica@gmail.com&quot;&gt;infoxuxajurassica@gmail.com&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+Preço: 20 €&lt;/div&gt;</terms:description>
+    <terms:date>Sun, 28 Nov 2010 21:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1632692+Parkway+Drive+at+Santiago+Alquimista+on+28+November+2010"/>
+    <ov:machineTag>lastfm:event=1632692</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/38115663.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/38115663.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/38115663.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/38115663.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8780511"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Parkway+Drive"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Reality+Slap"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/don%27t+disturb+my+circles"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1632692+Parkway+Drive+at+Santiago+Alquimista+on+28+November+2010#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/38115663.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/38115663.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/38115663.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/38115663.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8780511">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Santiago Alquimista</rdfs:label>
+    <geo:lat>38.711105</geo:lat>
+    <geo:long>-9.131645</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8780511#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8780511+Santiago+Alquimista"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8780511+Santiago+Alquimista#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8780511#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rua de Santiago, 19, , Portugal,  1100-493</rdfs:label>
+    <v:street-address>Rua de Santiago, 19</v:street-address>
+    <v:locality></v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1100-493</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Parkway+Drive">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Parkway Drive</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Parkway+Drive"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Parkway+Drive#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Reality+Slap">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Reality Slap</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Reality+Slap"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Reality+Slap#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/don%27t+disturb+my+circles">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>don't disturb my circles</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/don%27t+disturb+my+circles"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/don%27t+disturb+my+circles#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1632692&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1632692</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1632692"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1632692&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:52:17-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1632692"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/38115663.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/38115663.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/38115663.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/38115663.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8780511"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8780511#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Parkway+Drive"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Reality+Slap"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/don%27t+disturb+my+circles"/>
+  </rdf:Description>
+
+</rdf:RDF>

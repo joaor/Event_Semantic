@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1730106">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>V Festival Irmandade Metalica</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;Entrada = 8 Metais&lt;br /&gt;
+&lt;br /&gt;
+Abertura das portas = 16:00 Horas&lt;br /&gt;
+&lt;br /&gt;
+Inicio dos Concertos da Tarde = 17:00 Horas&lt;br /&gt;
+&lt;br /&gt;
+Pausa Para Jantar = 20:00 às 21:30 Horas&lt;br /&gt;
+&lt;br /&gt;
+Inicio dos Concertos Noite = 22:00 Horas&lt;/div&gt;</terms:description>
+    <terms:date>Sat, 13 Nov 2010 02:15:01</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/festival/1730106+V+Festival+Irmandade+Metalica"/>
+    <ov:machineTag>lastfm:event=1730106</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/53853861.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/53853861.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/53853861.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/53853861.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8951086"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/M.o.r.g."/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Drakkar"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Inquisitor"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/BLOODREALM"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Adamantine"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Artworx"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/festival/1730106+V+Festival+Irmandade+Metalica#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/53853861.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/53853861.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/53853861.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/53853861.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8951086">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Side B Bar</rdfs:label>
+    <geo:lat>38.731774</geo:lat>
+    <geo:long>-9.146916</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8951086#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8951086+Side+B+Bar"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8951086+Side+B+Bar#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8951086#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Benavente, Portugal</rdfs:label>
+    <v:street-address></v:street-address>
+    <v:locality>Benavente</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code></v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/M.o.r.g.">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>M.o.r.g.</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/M.o.r.g."/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/M.o.r.g.#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Drakkar">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Drakkar</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Drakkar"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Drakkar#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Inquisitor">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Inquisitor</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Inquisitor"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Inquisitor#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/BLOODREALM">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>BLOODREALM</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/BLOODREALM"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/BLOODREALM#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Adamantine">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Adamantine</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Adamantine"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Adamantine#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Artworx">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Artworx</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Artworx"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Artworx#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1730106&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1730106</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1730106"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1730106&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:49:47-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1730106"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/53853861.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/53853861.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/53853861.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/53853861.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8951086"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8951086#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/M.o.r.g."/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Drakkar"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Inquisitor"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/BLOODREALM"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Adamantine"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Artworx"/>
+  </rdf:Description>
+
+</rdf:RDF>

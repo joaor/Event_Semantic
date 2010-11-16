@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1705678">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Bloodgroup</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;OH DAMN! PRODCUTIONS APRESENTA&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+BLOODGROUP [ISL - Record Records]&lt;br /&gt;
+&lt;a href=&quot;http://www.bloodgroup.is/&quot; rel=&quot;nofollow&quot;&gt;http://www.bloodgroup.is/&lt;/a&gt;&lt;br /&gt;
+...&lt;br /&gt;
+&lt;br /&gt;
+Bloodgroup, uma das bandas mais respeitadas do momento na música electrónica, vai estar no Music Box, em Lisboa, no próximo dia 21 de Janeiro 2011, para uma performance incendiária.&lt;br /&gt;
+&lt;br /&gt;
+Depois de se darem a conhecer ao mundo, a partir da Islândia, com o primeiro álbum “Sticky Situation”, de 2007, estão agora em Lisboa, para apresentar o mais recente trabalho “Dry Land”, lançado em Dezembro de 2009, considerado um dos melhores discos do ano na sua terra mãe.&lt;br /&gt;
+&lt;br /&gt;
+Os Bloodgroup tornaram-se num caso de sucesso no país natal, tendo sido alvo das melhores críticas. De “Sticky Situation” a “Dry Land” tornaram-se num projecto de respeito que eleva a fasquia da música electrónica, dando-lhe um selo de qualidade e distinção. &lt;br /&gt;
+&lt;br /&gt;
+Habituados aos palcos, já marcaram presença em festivais internacionais como SXSW em Austin, Texas, NXNE em Toronto, Canada, Festival Roskilde na Dinamarca, CMJ em Nova Iorque, Eurosonic, Holanda e Iceland Airwaves, na Islândia.&lt;br /&gt;
+&lt;br /&gt;
+É um espectáculo intenso, com melodias “catchy”, batidas poderosas e contagiantes, num espectáculo dominado pelo electro, pop, indie, com referências aos The XX ou La Roux.&lt;br /&gt;
+&lt;br /&gt;
+Para os presentes poderão tambem contar com Hate Kudson e a dupla BIZT &amp;amp; FLAKE a fechar a noite.&lt;br /&gt;
+&lt;br /&gt;
+A comprovar dia 21 de Janeiro 2011, no Music Box, Lisboa, a partir das 23H&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+BIZT &amp;amp; FLAKE&lt;br /&gt;
+&lt;a href=&quot;http://www.myspace.com/thebizt&quot; rel=&quot;nofollow&quot;&gt;http://www.myspace.com/thebizt&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.myspace.com/yeahflake&quot; rel=&quot;nofollow&quot;&gt;http://www.myspace.com/yeahflake&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+HATE KUDSON&lt;br /&gt;
+&lt;a href=&quot;http://www.myspace.com/hatekudson&quot; rel=&quot;nofollow&quot;&gt;http://www.myspace.com/hatekudson&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+DATA: 21 JANEIRO 2011&lt;br /&gt;
+LOCAL: Music Box, Lisboa&lt;br /&gt;
+HORAS: 23h&lt;br /&gt;
+ENTRADA: 10€ c/oferta 1bb.&lt;br /&gt;
+&lt;br /&gt;
+Mais info: &lt;a href=&quot;mailto:ohdamnproductions@gmail.com&quot;&gt;ohdamnproductions@gmail.com&lt;/a&gt;&lt;br /&gt;
+Site: &lt;a href=&quot;http://www.ohdamnproductions.pt.vu&quot; rel=&quot;nofollow&quot;&gt;http://www.ohdamnproductions.pt.vu&lt;/a&gt;&lt;/div&gt;</terms:description>
+    <terms:date>Fri, 21 Jan 2011 22:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1705678+Bloodgroup+at+MusicBox+on+21+January+2011"/>
+    <ov:machineTag>lastfm:event=1705678</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/11998833.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/11998833.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/11998833.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/11998833.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8794101"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Bloodgroup"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Hate+Kudson"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Bizt+and+Flake"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1705678+Bloodgroup+at+MusicBox+on+21+January+2011#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/11998833.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/11998833.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/11998833.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/11998833.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8794101">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>MusicBox</rdfs:label>
+    <geo:lat>38.707152</geo:lat>
+    <geo:long>-9.143332</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8794101#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8794101+MusicBox"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8794101+MusicBox#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8794101#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rua Nova do Carvalho 24, Lisboa, Portugal,  1200-292</rdfs:label>
+    <v:street-address>Rua Nova do Carvalho 24</v:street-address>
+    <v:locality>Lisboa</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1200-292</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Bloodgroup">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Bloodgroup</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Bloodgroup"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Bloodgroup#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Hate+Kudson">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Hate Kudson</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Hate+Kudson"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Hate+Kudson#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Bizt+and+Flake">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Bizt and Flake</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Bizt+and+Flake"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Bizt+and+Flake#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1705678&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1705678</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1705678"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1705678&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:54:36-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1705678"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/11998833.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/11998833.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/11998833.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/11998833.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8794101"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8794101#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Bloodgroup"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Hate+Kudson"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Bizt+and+Flake"/>
+  </rdf:Description>
+
+</rdf:RDF>

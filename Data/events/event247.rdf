@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1733110">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Concerto Monte Lunai</rdfs:label>
+    <terms:date>Wed, 08 Dec 2010 21:30:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1733110+Concerto+Monte+Lunai"/>
+    <ov:machineTag>lastfm:event=1733110</ov:machineTag>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/9157046"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/monte+lunai"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1733110+Concerto+Monte+Lunai#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/9157046">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Auditório Recreios da Amadora</rdfs:label>
+    <geo:lat>38.758705</geo:lat>
+    <geo:long>-9.235282</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/9157046#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/9157046+Audit%C3%B3rio+Recreios+da+Amadora"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/9157046+Audit%C3%B3rio+Recreios+da+Amadora#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/9157046#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Amadora, Portugal</rdfs:label>
+    <v:street-address></v:street-address>
+    <v:locality>Amadora</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code></v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/monte+lunai">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>monte lunai</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/monte+lunai"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/monte+lunai#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1733110&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1733110</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1733110"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1733110&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:53:21-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1733110"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/9157046"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/9157046#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/monte+lunai"/>
+  </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1649195">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Tides From Nebula European Tour 2010</rdfs:label>
+    <terms:date>Tue, 30 Nov 2010 20:10:01</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1649195+Tides+From+Nebula+European+Tour+2010"/>
+    <ov:machineTag>lastfm:event=1649195</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/30551161.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/30551161.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/30551161.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/30551161.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8787213"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Tides+From+Nebula"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1649195+Tides+From+Nebula+European+Tour+2010#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/30551161.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/30551161.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/30551161.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/30551161.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8787213">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Insólito bar</rdfs:label>
+    <geo:lat>41.551889</geo:lat>
+    <geo:long>-8.42195</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8787213#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8787213+Ins%C3%B3lito+bar"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8787213+Ins%C3%B3lito+bar#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8787213#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Avenida Central, 47, Braga, Portugal,  4710</rdfs:label>
+    <v:street-address>Avenida Central, 47</v:street-address>
+    <v:locality>Braga</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>4710</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Tides+From+Nebula">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Tides From Nebula</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Tides+From+Nebula"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Tides+From+Nebula#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1649195&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1649195</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1649195"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1649195&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:44:57-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1649195"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/30551161.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/30551161.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/30551161.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/30551161.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8787213"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8787213#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Tides+From+Nebula"/>
+  </rdf:Description>
+
+</rdf:RDF>

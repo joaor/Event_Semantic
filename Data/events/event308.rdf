@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1726236">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Delta Tejo 2011</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;Esta garantido em 2011 no Alto da Ajuda o Delta Tejo 2011.&lt;br /&gt;
+Com muitas surpresas no ano em que a Delta Cafés comemora 50 Anos de Existência.&lt;br /&gt;
+Ivete Sangalo é um dos nomes que a Organização gostaria de ter em 2011.&lt;/div&gt;</terms:description>
+    <terms:date>Fri, 01 Jul 2011 01:28:01</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/festival/1726236+Delta+Tejo+2011"/>
+    <ov:machineTag>lastfm:event=1726236</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/53630739.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/53630739.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/53630739.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/53630739.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8918233"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Ivete+Sangalo+%28Por+Confirmar%29"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/festival/1726236+Delta+Tejo+2011#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/53630739.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/53630739.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/53630739.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/53630739.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8918233">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Alto da Ajuda</rdfs:label>
+    <geo:lat>38.713706</geo:lat>
+    <geo:long>-9.201058</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8918233#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8918233+Alto+da+Ajuda"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8918233+Alto+da+Ajuda#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8918233#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Estrada dos Marcos, Lisbon, Portugal,  1400</rdfs:label>
+    <v:street-address>Estrada dos Marcos</v:street-address>
+    <v:locality>Lisbon</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1400</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Ivete+Sangalo+%28Por+Confirmar%29">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Ivete Sangalo (Por Confirmar)</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Ivete+Sangalo+%28Por+Confirmar%29"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Ivete+Sangalo+%28Por+Confirmar%29#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1726236&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1726236</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1726236"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1726236&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:56:17-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1726236"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/53630739.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/53630739.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/53630739.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/53630739.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8918233"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8918233#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Ivete+Sangalo+%28Por+Confirmar%29"/>
+  </rdf:Description>
+
+</rdf:RDF>

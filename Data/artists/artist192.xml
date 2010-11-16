@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artist>
+  <name>uni_form</name>
+  <mbid></mbid>
+  <url>http://www.last.fm/music/uni_form</url>
+  <image size="small">http://userserve-ak.last.fm/serve/34/46403029.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/46403029.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/46403029.jpg</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/46403029.jpg</image>
+  <image size="mega">http://userserve-ak.last.fm/serve/500/46403029/uni_form+band1.jpg</image>
+  <streamable>1</streamable>
+  <stats>
+    <listeners>1323</listeners>
+    <playcount>19578</playcount>
+      </stats>
+
+  <similar>
+	    <artist>
+	  <name>Interpol</name>
+	  <url>http://www.last.fm/music/Interpol</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/385982.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/385982.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/385982.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/385982.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/385982/Interpol.jpg</image>
+	</artist>
+    <artist>
+	  <name>Freebass</name>
+	  <url>http://www.last.fm/music/Freebass</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/44902925.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/44902925.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/44902925.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/44902925.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/44902925/Freebass+2.jpg</image>
+	</artist>
+    <artist>
+	  <name>Julian Plenti</name>
+	  <url>http://www.last.fm/music/Julian+Plenti</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/36276143.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/36276143.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/36276143.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/36276143.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/36276143/Julian+Plenti+banks1.jpg</image>
+	</artist>
+    <artist>
+	  <name>Cut City</name>
+	  <url>http://www.last.fm/music/Cut+City</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/2474939.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/2474939.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/2474939.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/2474939.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/2474939/Cut+City.jpg</image>
+	</artist>
+    <artist>
+	  <name>(((S)))</name>
+	  <url>http://www.last.fm/music/%28%28%28S%29%29%29</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/44273889.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/44273889.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/44273889.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/44273889.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/44273889/S++phantom+pix_eite_1.jpg</image>
+	</artist>
+  </similar>
+    <tags>
+        <tag>
+	  <name>post-punk</name>
+	  <url>http://www.last.fm/tag/post-punk</url>
+	</tag>
+        <tag>
+	  <name>indie rock</name>
+	  <url>http://www.last.fm/tag/indie%20rock</url>
+	</tag>
+        <tag>
+	  <name>alternative portuguese rock electro</name>
+	  <url>http://www.last.fm/tag/alternative%20portuguese%20rock%20electro</url>
+	</tag>
+        <tag>
+	  <name>indie</name>
+	  <url>http://www.last.fm/tag/indie</url>
+	</tag>
+        <tag>
+	  <name>interpol</name>
+	  <url>http://www.last.fm/tag/interpol</url>
+	</tag>
+      </tags>
+      <bio>
+    <published>Sat, 3 May 2008 04:20:04 +0000</published>
+    <summary><![CDATA[<a href="http://uniformproject.com/" rel="nofollow">http://uniformproject.com/</a>  <a href="http://www.myspace.com/uniformproject" rel="nofollow">http://www.myspace.com/uniformproject</a>]]></summary>
+    <content><![CDATA[<a href="http://uniformproject.com/" rel="nofollow">http://uniformproject.com/</a>  <a href="http://www.myspace.com/uniformproject" rel="nofollow">http://www.myspace.com/uniformproject</a>
+    
+User-contributed text is available under the Creative Commons By-SA License and may also be available under the GNU FDL.]]></content>
+  </bio>
+  </artist></lfm>

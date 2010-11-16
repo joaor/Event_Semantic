@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1733069">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Haruko na SHE</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;A jovem songwritter alemã Susanne Stanglow, conhecida por &lt;a href=&quot;http://www.last.fm/music/Haruko&quot; class=&quot;bbcode_artist&quot;&gt;Haruko&lt;/a&gt; , estará em digressão nacional e chega a Évora dia 13 de Novembro, actuando na Sociedade Harmonia Eborense.&lt;br /&gt;
+&lt;br /&gt;
+A primeira parte ficará a cargo do Islandês &lt;a href=&quot;http://www.last.fm/music/Hlynur+Gudjonsson&quot; class=&quot;bbcode_artist&quot;&gt;Hlynur Gudjonsson&lt;/a&gt;  &lt;br /&gt;
+&lt;br /&gt;
+Conta-se com uma passagem pelo último album &lt;a title=&quot;Haruko - Wild Geese&quot; href=&quot;http://www.last.fm/music/Haruko/Wild+Geese&quot; class=&quot;bbcode_album&quot;&gt;Wild Geese&lt;/a&gt;  , no qual a sua guitarra e a sua frágil e intima voz tanto o caracterizam.&lt;/div&gt;</terms:description>
+    <terms:date>Sat, 13 Nov 2010 23:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1733069+Haruko+na+SHE"/>
+    <ov:machineTag>lastfm:event=1733069</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/33222691.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/33222691.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/33222691.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/33222691.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8856303"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Haruko"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Hlynur+Gudjonsson"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1733069+Haruko+na+SHE#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/33222691.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/33222691.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/33222691.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/33222691.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8856303">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Sociedade Harmonia Eborense</rdfs:label>
+    <geo:lat>39.5166667</geo:lat>
+    <geo:long>-8.9666667</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8856303#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8856303+Sociedade+Harmonia+Eborense"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8856303+Sociedade+Harmonia+Eborense#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8856303#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Praça do Giraldo 72, Évora, Portugal</rdfs:label>
+    <v:street-address>Praça do Giraldo 72</v:street-address>
+    <v:locality>Évora</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code></v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Haruko">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Haruko</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Haruko"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Haruko#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Hlynur+Gudjonsson">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Hlynur Gudjonsson</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Hlynur+Gudjonsson"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Hlynur+Gudjonsson#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1733069&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1733069</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1733069"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1733069&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:48:03-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1733069"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/33222691.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/33222691.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/33222691.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/33222691.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8856303"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8856303#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Haruko"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Hlynur+Gudjonsson"/>
+  </rdf:Description>
+
+</rdf:RDF>

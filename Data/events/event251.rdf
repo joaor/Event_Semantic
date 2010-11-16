@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1726091">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Jeff Lober Fusion</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;Quatro dos maiores nomes de Jazz Fusão vem a Portugal para um concerto único.&lt;br /&gt;
+Jeff Lorber lidera o elenco. Nomeado várias vezes para os Prémios Grammy, o teclista, compositor e produtor inscreveu o seu nome em alguns dos temas mais emblemáticos do género como &amp;quot;Rain dance&amp;quot; ou &amp;quot;He has a hat&amp;quot;.&lt;br /&gt;
+O seu último disco editado em Junho deste ano - Now is the time - tem tido criticas fantásticas e conta com participações de peso. Para além de alguns dos músicos que o vão acompanhar nesta tour euroeia colaboram nomes como Vinnie Colaiuta, Dave Weckl, Randy Brecker e Jimmy Haslip.&lt;br /&gt;
+Eric Marienthal pode ser mais conhecido por ter pertencido à Chick Corea Elektric Band mas a sua carreira a solo e as colaborações com nomes como Lee Ritenour, Billy Joel, Stevie Wonder, B. B. King ou Barbra Streisand fazem deste saxofonista um dos nomes de referência no meio.&lt;br /&gt;
+Sonny Emory é um dos bateristas mais respeitados entre os músicos e o público. Tocou com alguns dos maiores nomes da industria musical como Stanley Clarke, Al Jarreau, Bruce Hornsby e Jean Luc-Ponty. É ainda um dos bateristas mais solicitados para dar clínicas e conferências em todo o Mundo.&lt;br /&gt;
+Por último, mas não menos importante, Victor Bailey no baixo. Weather Report, Mike Stern, Omar Hakim, Sonny Rollins, Madonna e Sting são alguns dos muitos nomes que já tiveram o privilegio de contar com a presença de Bailey nos seus discos e concertos. Sem dúvida um dos melhores executantes deste instrumento de todos os tempos.&lt;br /&gt;
+Um concerto a não perder. Mesmo.&lt;/div&gt;</terms:description>
+    <terms:date>Thu, 09 Dec 2010 22:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1726091+Jeff+Lober+Fusion+at+MusicBox+on+9+December+2010"/>
+    <ov:machineTag>lastfm:event=1726091</ov:machineTag>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8794101"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Jeff+Lober+Fusion"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1726091+Jeff+Lober+Fusion+at+MusicBox+on+9+December+2010#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8794101">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>MusicBox</rdfs:label>
+    <geo:lat>38.707152</geo:lat>
+    <geo:long>-9.143332</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8794101#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8794101+MusicBox"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8794101+MusicBox#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8794101#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rua Nova do Carvalho 24, Lisboa, Portugal,  1200-292</rdfs:label>
+    <v:street-address>Rua Nova do Carvalho 24</v:street-address>
+    <v:locality>Lisboa</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1200-292</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Jeff+Lober+Fusion">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Jeff Lober Fusion</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Jeff+Lober+Fusion"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Jeff+Lober+Fusion#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1726091&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1726091</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1726091"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1726091&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:53:36-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1726091"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8794101"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8794101#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Jeff+Lober+Fusion"/>
+  </rdf:Description>
+
+</rdf:RDF>

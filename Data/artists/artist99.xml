@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artist>
+  <name>Rodrigo Pinheiro</name>
+  <mbid></mbid>
+  <url>http://www.last.fm/music/Rodrigo+Pinheiro</url>
+  <image size="small"></image>
+  <image size="medium"></image>
+  <image size="large"></image>
+  <image size="extralarge"></image>
+  <image size="mega"></image>
+  <streamable>0</streamable>
+  <stats>
+    <listeners>16</listeners>
+    <playcount>34</playcount>
+      </stats>
+
+  <similar>
+	    <artist>
+	  <name>Robert Mitchell</name>
+	  <url>http://www.last.fm/music/Robert+Mitchell</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/2450469.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/2450469.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/2450469.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/2450469.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/2450469/Robert+Mitchell+mitchell.jpg</image>
+	</artist>
+    <artist>
+	  <name>Stefan Orins Trio</name>
+	  <url>http://www.last.fm/music/Stefan+Orins+Trio</url>
+	  <image size="small"></image>
+	  <image size="medium"></image>
+	  <image size="large"></image>
+	  <image size="extralarge"></image>
+	  <image size="mega"></image>
+	</artist>
+    <artist>
+	  <name>Stephan Ziron</name>
+	  <url>http://www.last.fm/music/Stephan+Ziron</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/46250047.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/46250047.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/46250047.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/46250047.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/46250047/Stephan+Ziron.jpg</image>
+	</artist>
+    <artist>
+	  <name>Lou Reed / Laurie Anderson / John Zorn</name>
+	  <url>http://www.last.fm/music/Lou%2BReed%2B%252F%2BLaurie%2BAnderson%2B%252F%2BJohn%2BZorn</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/19827293.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/19827293.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/19827293.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/19827293.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/19827293/Lou+Reed++Laurie+Anderson++John+Zorn+R13096001209375797.jpg</image>
+	</artist>
+    <artist>
+	  <name>Derek Bailey &amp; Jamie Muir</name>
+	  <url>http://www.last.fm/music/Derek%2BBailey%2B%2526%2BJamie%2BMuir</url>
+	  <image size="small"></image>
+	  <image size="medium"></image>
+	  <image size="large"></image>
+	  <image size="extralarge"></image>
+	  <image size="mega"></image>
+	</artist>
+  </similar>
+    <tags>
+        <tag>
+	  <name>jazz</name>
+	  <url>http://www.last.fm/tag/jazz</url>
+	</tag>
+        <tag>
+	  <name>piano</name>
+	  <url>http://www.last.fm/tag/piano</url>
+	</tag>
+        <tag>
+	  <name>experimental</name>
+	  <url>http://www.last.fm/tag/experimental</url>
+	</tag>
+        <tag>
+	  <name>free improvisation</name>
+	  <url>http://www.last.fm/tag/free%20improvisation</url>
+	</tag>
+      </tags>
+      <bio>
+    <published></published>
+    <summary></summary>
+    <content></content>
+  </bio>
+  </artist></lfm>

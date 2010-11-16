@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artist>
+  <name>Los Angeles Philharmonic</name>
+  <mbid>98e4313e-dfb0-4084-805c-3e42ef9301d0</mbid>
+  <url>http://www.last.fm/music/Los+Angeles+Philharmonic</url>
+  <image size="small">http://userserve-ak.last.fm/serve/34/605826.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/605826.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/605826.jpg</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/605826.jpg</image>
+  <image size="mega">http://userserve-ak.last.fm/serve/_/605826/Los+Angeles+Philharmonic.jpg</image>
+  <streamable>1</streamable>
+  <stats>
+    <listeners>2266</listeners>
+    <playcount>14699</playcount>
+      </stats>
+
+  <similar>
+	    <artist>
+	  <name>Maxine Sullivan &amp; Her Orchestra</name>
+	  <url>http://www.last.fm/music/Maxine%2BSullivan%2B%2526%2BHer%2BOrchestra</url>
+	  <image size="small"></image>
+	  <image size="medium"></image>
+	  <image size="large"></image>
+	  <image size="extralarge"></image>
+	  <image size="mega"></image>
+	</artist>
+    <artist>
+	  <name>Dorothy Kirsten</name>
+	  <url>http://www.last.fm/music/Dorothy+Kirsten</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/25210997.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/25210997.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/25210997.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/25210997.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/25210997/Dorothy+Kirsten.jpg</image>
+	</artist>
+    <artist>
+	  <name>Buck &amp; Bubbles</name>
+	  <url>http://www.last.fm/music/Buck%2B%2526%2BBubbles</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/36372983.gif</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/36372983.gif</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/36372983.gif</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/36372983.gif</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/36372983/Buck++Bubbles.gif</image>
+	</artist>
+    <artist>
+	  <name>André Kostelanetz &amp; His Orchestra</name>
+	  <url>http://www.last.fm/music/Andr%25C3%25A9%2BKostelanetz%2B%2526%2BHis%2BOrchestra</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/48369361.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/48369361.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/48369361.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/48369361.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/48369361/Andr+Kostelanetz++His+Orchestra+Andr+Kostelanetz++His+Orchestr.jpg</image>
+	</artist>
+    <artist>
+	  <name>Philharmonia Orchestra</name>
+	  <url>http://www.last.fm/music/Philharmonia+Orchestra</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/457362.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/457362.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/457362.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/457362.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/457362/Philharmonia+Orchestra.jpg</image>
+	</artist>
+  </similar>
+    <tags>
+        <tag>
+	  <name>classical</name>
+	  <url>http://www.last.fm/tag/classical</url>
+	</tag>
+        <tag>
+	  <name>symphony orchestra</name>
+	  <url>http://www.last.fm/tag/symphony%20orchestra</url>
+	</tag>
+        <tag>
+	  <name>with miranda</name>
+	  <url>http://www.last.fm/tag/with%20miranda</url>
+	</tag>
+        <tag>
+	  <name>hollywood bowl</name>
+	  <url>http://www.last.fm/tag/hollywood%20bowl</url>
+	</tag>
+        <tag>
+	  <name>with katie</name>
+	  <url>http://www.last.fm/tag/with%20katie</url>
+	</tag>
+      </tags>
+      <bio>
+    <published></published>
+    <summary></summary>
+    <content></content>
+  </bio>
+  </artist></lfm>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1718505">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Zul Zelub + Eddie Prévost</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;Zul Zelub é o novo projecto do pianista, musicólogo, performer Jorge Lima Barreto. Nascido das cinzas de Telectu, defunto duo com Vítor Rua que andou na vanguarda da música em Portugal e no estrangeiro nas últimas três décadas, Zul Zelub pratica uma música aberta, com inflexões de jazz vanguardista, música improvisada com embrulho electrónico.&lt;br /&gt;
+&lt;br /&gt;
+O parceiro de Lima Barreto neste novo grupo, Jonas Runa, doutorado em música electrónica e com uma sólida formação musical, é um nome a reter, o futuro o dirá. Computer music pressupõe uma utilização científica do computador e não o simples descarregar de texturas musicais mais ou menos orgânicas.&lt;br /&gt;
+&lt;br /&gt;
+Eddie Prévost foi um dos parceiros preferenciais dos Telectu e a sua adaptabilidade às exigências de Lima Barreto justificam que o tenha convidado para este novo projecto.&lt;br /&gt;
+&lt;br /&gt;
+Prévost é um baterista de jazz que trilhou novos caminhos na improvisação total, evidente no seminal grupo britânico AMM, de que foi fundador em 1965.&lt;br /&gt;
+&lt;br /&gt;
+Zul Zelub poderá ser visto como um imaginário poético no acto de compor/executar, na invenção, no imprevisto, na inspiração, na emocionalidade. É uma atitude conceptual radical, uma ciberviagem.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+JAZZ&lt;br /&gt;
+SEX 10 DE DEZEMBRO&lt;br /&gt;
+Pequeno Auditório&lt;br /&gt;
+21h30 · Duração: 1h00&lt;br /&gt;
+M12 · 5 Euros (preço único)&lt;/div&gt;</terms:description>
+    <terms:date>Fri, 10 Dec 2010 21:30:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1718505+Zul+Zelub+-+Eddie+Pr%C3%A9vost"/>
+    <ov:machineTag>lastfm:event=1718505</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/12800.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/12800.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/12800.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/12800.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8778924"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Jorge+Lima+Barreto"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Eddie+Pr%C3%A9vost"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Jonas+Runa"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1718505+Zul+Zelub+-+Eddie+Pr%C3%A9vost#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/12800.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/12800.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/12800.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/12800.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8778924">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Culturgest</rdfs:label>
+    <geo:lat>38.739983</geo:lat>
+    <geo:long>-9.142508</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8778924#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8778924+Culturgest"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8778924+Culturgest#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8778924#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rua Arco do Cego, Lisboa, Portugal,  1000-300</rdfs:label>
+    <v:street-address>Rua Arco do Cego</v:street-address>
+    <v:locality>Lisboa</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1000-300</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Jorge+Lima+Barreto">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Jorge Lima Barreto</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Jorge+Lima+Barreto"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Jorge+Lima+Barreto#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Eddie+Pr%C3%A9vost">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Eddie Prévost</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Eddie+Pr%C3%A9vost"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Eddie+Pr%C3%A9vost#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Jonas+Runa">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Jonas Runa</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Jonas+Runa"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Jonas+Runa#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1718505&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1718505</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1718505"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1718505&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:53:43-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1718505"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/12800.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/12800.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/12800.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/12800.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8778924"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8778924#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Jorge+Lima+Barreto"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Eddie+Pr%C3%A9vost"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Jonas+Runa"/>
+  </rdf:Description>
+
+</rdf:RDF>

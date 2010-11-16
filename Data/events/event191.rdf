@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1732419">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>BEFORE THE TORN - Casa de Lafões</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;Provavelmente ultimo concerto de Before The Torn antes do lançamento do novo álbum, e ultimo concerto do ano.&lt;/div&gt;</terms:description>
+    <terms:date>Sun, 21 Nov 2010 16:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1732419+BEFORE+THE+TORN+-+Casa+de+Laf%C3%B5es"/>
+    <ov:machineTag>lastfm:event=1732419</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/107916.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/107916.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/107916.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/107916.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8813385"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Before+The+Torn"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Retroact"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Threat+Of+Decay"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1732419+BEFORE+THE+TORN+-+Casa+de+Laf%C3%B5es#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/107916.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/107916.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/107916.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/107916.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8813385">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Casa de Lafões</rdfs:label>
+    <geo:lat>38.712086</geo:lat>
+    <geo:long>-9.136065</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8813385#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8813385+Casa+de+Laf%C3%B5es"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8813385+Casa+de+Laf%C3%B5es#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8813385#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rua da Madalena, 199, Lisboa, Portugal,  1100-319</rdfs:label>
+    <v:street-address>Rua da Madalena, 199</v:street-address>
+    <v:locality>Lisboa</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1100-319</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Before+The+Torn">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Before The Torn</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Before+The+Torn"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Before+The+Torn#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Retroact">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Retroact</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Retroact"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Retroact#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Threat+Of+Decay">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Threat Of Decay</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Threat+Of+Decay"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Threat+Of+Decay#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1732419&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1732419</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1732419"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1732419&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:50:59-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1732419"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/107916.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/107916.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/107916.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/107916.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8813385"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8813385#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Before+The+Torn"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Retroact"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Threat+Of+Decay"/>
+  </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1726157">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>The Buzzbones</rdfs:label>
+    <terms:date>Fri, 19 Nov 2010 09:30:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1726157+The+Buzzbones+at+f%C3%A1brica+de+Som++Av.+Rodrigues+de+Freitas%2C+23-27+4300+on+19+November+2010"/>
+    <ov:machineTag>lastfm:event=1726157</ov:machineTag>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8966789"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/The+Buzzbones"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Luce"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1726157+The+Buzzbones+at+f%C3%A1brica+de+Som++Av.+Rodrigues+de+Freitas%2C+23-27+4300+on+19+November+2010#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8966789">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>fábrica de Som  Av. Rodrigues de Freitas, 23-27 4300</rdfs:label>
+    <geo:lat>41.1124687891809</geo:lat>
+    <geo:long>-8.59130859375</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8966789#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8966789+f%C3%A1brica+de+Som++Av.+Rodrigues+de+Freitas%2C+23-27+4300"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8966789+f%C3%A1brica+de+Som++Av.+Rodrigues+de+Freitas%2C+23-27+4300#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8966789#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Porto, Portugal</rdfs:label>
+    <v:street-address></v:street-address>
+    <v:locality>Porto</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code></v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/The+Buzzbones">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>The Buzzbones</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/The+Buzzbones"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/The+Buzzbones#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Luce">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Luce</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Luce"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Luce#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1726157&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1726157</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1726157"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1726157&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:43:14-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1726157"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8966789"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8966789#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/The+Buzzbones"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Luce"/>
+  </rdf:Description>
+
+</rdf:RDF>

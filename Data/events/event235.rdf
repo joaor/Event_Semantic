@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1655807">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Fim-de-semana Especial</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;sexta 3 Dezembro&lt;br /&gt;
+&lt;br /&gt;
+Masayoshi Fujita &amp;amp; Jan Jelinek (Japão/Alemanha)&lt;br /&gt;
+&lt;br /&gt;
+Esta  segunda  aparição  de  Jan  Jelinek  no  Teatro Maria Matos  em  2010 significa simplesmente o quão importante é para nós comungarmos a sua música. Depois da lição condensada do poderio bélico de Groupshow em Fevereiro, houve tempo para concretizar uma nova etapa na sua carreira e provar uma  vez mais  a sua generosidade sem limites ao estabelecer nova união perfeita, agora com o japonês Masayoshi Fujita. Se quisermos simplificar, há aqui uma nova hipótese de jazz; se quisermos tornar tudo mais  interessante,  explique-se que electrónica e  acústica  se  entrelaçam numa suspensão sonora abençoada pelo silêncio. Elogios nos resultados, claro, ao mestre Jelinek, que continua a entender o seu ambientalismo no modo mais rico e perpétuo possível; e a Fujita que, depois de um auto-explicativo álbum entitulado Rebuilding Vibes, aparece na cena europeia como um dos mais promissores talentos num instrumento modiicado à sua medida. E à nossa.&lt;br /&gt;
+&lt;br /&gt;
+vibrafone Masayoshi Fujita&lt;br /&gt;
+electrónica Jan Jelinek&lt;br /&gt;
+&lt;br /&gt;
+ &lt;br /&gt;
+&lt;br /&gt;
+Radian (Áustria)&lt;br /&gt;
+&lt;br /&gt;
+Tenha sido um golpe de sorte do tamanho do Danúbio ou um desígnio misterioso de alguém superior, o ano de 1996 testemunhou um decisivo acontecimento em Viena quando três jovens músicos apropriaram-se dos ventos quentes da electrónica que assolavam a capital austríaca para se dedicarem ao rock na sua forma mais interessante de então. Seja ainda classificado de electrónica ou algo já distante ou aparentado com o pós-rock, a música que nasceu do trio é um híbrido revolucionário que resiste com bravura em todos os cinco magníicos discos que os Radian perilham nos 15 anos de actividade. Contudo, o golpe  fatal é dado em palco, ao vivo, quando nos apercebemos da conquista do groove ou do caminho que percorrem atrás dos silêncios pela mão de Martin Brandlmayr, um baterista fora de comum que merece toda a vassalagem sempre que o virem em acção.&lt;br /&gt;
+&lt;br /&gt;
+bateria, sampler, sequenciador Martin Brandlmayr&lt;br /&gt;
+guitarra, computador, sintetizadores Stefan Németh&lt;br /&gt;
+baixo John Norman&lt;br /&gt;
+&lt;br /&gt;
+Apresentação em Lisboa apoiada pela Embaixada da Áustria&lt;br /&gt;
+&lt;br /&gt;
+ &lt;br /&gt;
+&lt;br /&gt;
+sábado 4 Dezembro&lt;br /&gt;
+&lt;br /&gt;
+Fennesz, Brandlmayr &amp;amp; Dafeldecker (Áustria)&lt;br /&gt;
+&lt;br /&gt;
+Tem  sido  interessante observar que promessas vingaram desse generoso contingente de músicos, editoras e projectos que Viena distribuiu durante os últimos 15 anos. O tempo tem essa faculdade filtrante inquestionável, e por  isso  é que  estes  três nomes  são  inderrubáveis para quem acredita que a música está sempre a renovar-se e a precisar de porta-estandartes. Fennesz  é,  dos  três,  o  que  ostenta  maior  fama  na  comunidade,  por tudo  aquilo que  fez pela  computer music  - Hotel  paral.lel  e,  sobretudo, Endless  summer  serão  sempre o  seu convite vitalício para o  red carpet da electrónica. Werner Dafeldecker  tornou-se peça  central na nova música europeia, colocando o seu contrabaixo a dialogar com grande parte dos improvisadores actuais. Martin Brandlmayr é um génio absoluto da bateria, conseguindo deslumbrar pela sua técnica invejável e pelo seu domínio da tecnologia, com os quais constrói um léxico rico, próprio e único, e retira do seu instrumento impossíveis estruturas de sons e ritmos. Com uma cumplicidade construída lentamente ao longo dos últimos cinco anos, dificilmente esperaremos em palco menos que a soma exacta das suas altas qualidades individuais.&lt;br /&gt;
+&lt;br /&gt;
+guitarra, computador Fennesz&lt;br /&gt;
+contrabaixo, efeitos Werner Dafeldecker&lt;br /&gt;
+bateria, sampler, sequenciador Martin Brandlmayr&lt;br /&gt;
+&lt;br /&gt;
+Apresentação em Lisboa apoiada pela Embaixada da Áustria&lt;br /&gt;
+&lt;br /&gt;
+ &lt;br /&gt;
+&lt;br /&gt;
+Ben Frost (Austrália)&lt;br /&gt;
+&lt;br /&gt;
+Theory  of  machines,  a  imponente  obra  de  2007  de  Ben  Frost,  ficou injustamente na penumbra depois da edição de By the throat em 2009. Passavam  poucas  semanas  após  o  lançamento  deste  álbum  quando recebemos nesta sala a Whale watching tour, com Frost em companhia dos seus amigos e colegas da Bedroom Community a desvendarem diante de nós, numa magníica polifonia, partes de By the throat. Um ano depois, ainda  em  paixão  com  esta  obra-prima,  quisemos  desaiá-lo  a  expor  a reconstrução desse seu portento, com Shazad Ismaily e Borgar Magnason a enriquecerem e a ampliicarem ao  limite a conhecida parede de som que Frost irá catapultar nesta escura e intensa noite polar de Dezembro. E  o  nosso  encontro  não  poderia  estar  a  acontecer  em melhor  altura, com o australiano a viver um autêntico annus mirabilis – para além de começar em breve um ano de acompanhamento e colaboração com Brian Eno, no âmbito de uma bolsa cultural da Rolex, Ben Frost juntará ao seu currículo várias novas obras: Solaris (peça inspirada pela obra homónima de Tarkovsky e escrita com Daníel Bjarnason), World  of darkness  (jogo para computador) e FAR (coreograia de Wayne McGregor).&lt;br /&gt;
+&lt;br /&gt;
+computador, guitarra Ben Frost&lt;br /&gt;
+bateria, percussão Shahzad Ismaily&lt;br /&gt;
+contrabaixo Borgar Magnason&lt;br /&gt;
+&lt;br /&gt;
+ &lt;br /&gt;
+&lt;br /&gt;
+Preço&lt;br /&gt;
+&lt;br /&gt;
+15€ / &amp;lt;30 anos 7,50€&lt;br /&gt;
+&lt;br /&gt;
+Preço especial 2 dias 22€ / 11€&lt;/div&gt;</terms:description>
+    <terms:date>Fri, 03 Dec 2010 22:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/festival/1655807+Fim-de-semana+Especial"/>
+    <ov:machineTag>lastfm:event=1655807</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/39552667.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/39552667.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/39552667.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/39552667.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8795498"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Fennesz"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Jan+Jelinek"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Ben+Frost"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Radian"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Dafeldecker"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Masayoshi+Fujita"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Brandlmayr"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/festival/1655807+Fim-de-semana+Especial#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/39552667.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/39552667.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/39552667.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/39552667.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8795498">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Teatro Maria Matos</rdfs:label>
+    <geo:lat>38.74595</geo:lat>
+    <geo:long>-9.138745</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8795498#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8795498+Teatro+Maria+Matos"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8795498+Teatro+Maria+Matos#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8795498#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Avenida Frei Miguel Contreiras, 52, Lisboa, Portugal,  1700-213</rdfs:label>
+    <v:street-address>Avenida Frei Miguel Contreiras, 52</v:street-address>
+    <v:locality>Lisboa</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1700-213</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Fennesz">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Fennesz</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Fennesz"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Fennesz#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Jan+Jelinek">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Jan Jelinek</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Jan+Jelinek"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Jan+Jelinek#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Ben+Frost">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Ben Frost</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Ben+Frost"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Ben+Frost#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Radian">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Radian</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Radian"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Radian#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Dafeldecker">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Dafeldecker</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Dafeldecker"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Dafeldecker#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Masayoshi+Fujita">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Masayoshi Fujita</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Masayoshi+Fujita"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Masayoshi+Fujita#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Brandlmayr">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Brandlmayr</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Brandlmayr"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Brandlmayr#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1655807&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1655807</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1655807"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1655807&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:52:57-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1655807"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/39552667.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/39552667.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/39552667.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/39552667.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8795498"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8795498#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Fennesz"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Jan+Jelinek"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Ben+Frost"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Radian"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Dafeldecker"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Masayoshi+Fujita"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Brandlmayr"/>
+  </rdf:Description>
+
+</rdf:RDF>

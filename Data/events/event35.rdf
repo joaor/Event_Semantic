@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1696504">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Festival NÁICE!</rdfs:label>
+    <terms:date>Fri, 19 Nov 2010 22:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1696504+Festival+N%C3%81ICE%21"/>
+    <ov:machineTag>lastfm:event=1696504</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/32827705.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/32827705.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/32827705.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/32827705.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8797865"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Fucked+Up"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/MYD"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/The+Shine"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/throes"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/L%26L+SS"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Sun-Explosion"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1696504+Festival+N%C3%81ICE%21#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/32827705.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/32827705.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/32827705.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/32827705.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8797865">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Plano B</rdfs:label>
+    <geo:lat>41.146502</geo:lat>
+    <geo:long>-8.614003</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8797865#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8797865+Plano+B"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8797865+Plano+B#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8797865#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rua Cândido dos Reis 30, Porto, Portugal,  4050-151</rdfs:label>
+    <v:street-address>Rua Cândido dos Reis 30</v:street-address>
+    <v:locality>Porto</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>4050-151</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Fucked+Up">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Fucked Up</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Fucked+Up"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Fucked+Up#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/MYD">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>MYD</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/MYD"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/MYD#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/The+Shine">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>The Shine</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/The+Shine"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/The+Shine#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/throes">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>throes</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/throes"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/throes#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/L%26L+SS">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>L&amp;L SS</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/L%26L+SS"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/L%26L+SS#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Sun-Explosion">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Sun-Explosion</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Sun-Explosion"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Sun-Explosion#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1696504&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1696504</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1696504"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1696504&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:43:31-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1696504"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/32827705.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/32827705.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/32827705.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/32827705.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8797865"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8797865#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Fucked+Up"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/MYD"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/The+Shine"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/throes"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/L%26L+SS"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Sun-Explosion"/>
+  </rdf:Description>
+
+</rdf:RDF>

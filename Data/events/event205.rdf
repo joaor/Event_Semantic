@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1733834">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>GCDayer</rdfs:label>
+    <terms:date>Thu, 25 Nov 2010 19:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1733834+GCDayer+at+Espa%C3%A7o+APAV+-+Cultura+on+25+November+2010"/>
+    <ov:machineTag>lastfm:event=1733834</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/24379345.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/24379345.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/24379345.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/24379345.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8953741"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/GCDayer"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Travmanka"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1733834+GCDayer+at+Espa%C3%A7o+APAV+-+Cultura+on+25+November+2010#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/24379345.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/24379345.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/24379345.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/24379345.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8953741">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Espaço APAV &amp; Cultura</rdfs:label>
+    <geo:lat>38.731053</geo:lat>
+    <geo:long>-9.137764</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8953741#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8953741+Espa%C3%A7o+APAV+%2526+Cultura"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8953741+Espa%C3%A7o+APAV+%2526+Cultura#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8953741#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Rua José Estêvão, 135 A, Lisboa, Portugal,  1150-201</rdfs:label>
+    <v:street-address>Rua José Estêvão, 135 A</v:street-address>
+    <v:locality>Lisboa</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1150-201</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/GCDayer">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>GCDayer</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/GCDayer"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/GCDayer#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Travmanka">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Travmanka</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Travmanka"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Travmanka#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1733834&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1733834</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1733834"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1733834&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:51:45-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1733834"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/24379345.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/24379345.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/24379345.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/24379345.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8953741"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8953741#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/GCDayer"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Travmanka"/>
+  </rdf:Description>
+
+</rdf:RDF>

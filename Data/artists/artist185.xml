@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artist>
+  <name>A Charanga</name>
+  <mbid></mbid>
+  <url>http://www.last.fm/music/A+Charanga</url>
+  <image size="small"></image>
+  <image size="medium"></image>
+  <image size="large"></image>
+  <image size="extralarge"></image>
+  <image size="mega"></image>
+  <streamable>0</streamable>
+  <stats>
+    <listeners>8</listeners>
+    <playcount>48</playcount>
+      </stats>
+
+  <similar>
+	    <artist>
+	  <name>Marcelo LS</name>
+	  <url>http://www.last.fm/music/Marcelo+LS</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/28744947.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/28744947.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/28744947.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/28744947.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/28744947/Marcelo+LS+Senna.jpg</image>
+	</artist>
+    <artist>
+	  <name>Rá-Tim-Bum</name>
+	  <url>http://www.last.fm/music/R%C3%A1-Tim-Bum</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/28995469.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/28995469.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/28995469.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/28995469.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/28995469/RTimBum.jpg</image>
+	</artist>
+    <artist>
+	  <name>Odair José e Caetano Veloso</name>
+	  <url>http://www.last.fm/music/Odair+Jos%C3%A9+e+Caetano+Veloso</url>
+	  <image size="small"></image>
+	  <image size="medium"></image>
+	  <image size="large"></image>
+	  <image size="extralarge"></image>
+	  <image size="mega"></image>
+	</artist>
+    <artist>
+	  <name>The Temptations</name>
+	  <url>http://www.last.fm/music/The+Temptations</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/278874.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/278874.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/278874.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/278874.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/278874/The+Temptations.jpg</image>
+	</artist>
+    <artist>
+	  <name>Odair José</name>
+	  <url>http://www.last.fm/music/Odair+Jos%C3%A9</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/15958659.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/15958659.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/15958659.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/15958659.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/15958659/Odair+Jos++14.jpg</image>
+	</artist>
+  </similar>
+    <tags>
+      </tags>
+      <bio>
+    <published></published>
+    <summary></summary>
+    <content></content>
+  </bio>
+  </artist></lfm>

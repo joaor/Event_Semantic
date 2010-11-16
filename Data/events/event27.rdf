@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1724777">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Jorge Palma</rdfs:label>
+    <terms:date>Sat, 13 Nov 2010 21:30:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1724777+Jorge+Palma+at+Casa+das+Artes+on+13+November+2010"/>
+    <ov:machineTag>lastfm:event=1724777</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/2204178.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/2204178.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/2204178.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/2204178.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8784968"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Jorge+Palma"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1724777+Jorge+Palma+at+Casa+das+Artes+on+13+November+2010#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/2204178.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/2204178.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/2204178.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/2204178.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8784968">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Casa das Artes</rdfs:label>
+    <geo:lat>41.55841</geo:lat>
+    <geo:long>-8.444997</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8784968#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8784968+Casa+das+Artes"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8784968+Casa+das+Artes#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8784968#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Parque de Sinçães, Vila Nova de Famalicão, Portugal,  4760-103</rdfs:label>
+    <v:street-address>Parque de Sinçães</v:street-address>
+    <v:locality>Vila Nova de Famalicão</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>4760-103</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Jorge+Palma">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Jorge Palma</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Jorge+Palma"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Jorge+Palma#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1724777&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1724777</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1724777"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1724777&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:42:30-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1724777"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/2204178.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/2204178.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/2204178.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/2204178.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8784968"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8784968#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Jorge+Palma"/>
+  </rdf:Description>
+
+</rdf:RDF>

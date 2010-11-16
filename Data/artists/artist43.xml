@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artist>
+  <name>mudo as maria</name>
+  <mbid></mbid>
+  <url>http://www.last.fm/music/mudo+as+maria</url>
+  <image size="small">http://userserve-ak.last.fm/serve/34/30216577.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/30216577.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/30216577.jpg</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/30216577.jpg</image>
+  <image size="mega">http://userserve-ak.last.fm/serve/500/30216577/mudo+as+maria+mudo+as+amria.jpg</image>
+  <streamable>1</streamable>
+  <stats>
+    <listeners>19</listeners>
+    <playcount>63</playcount>
+      </stats>
+
+  <similar>
+	    <artist>
+	  <name>montaña extendida</name>
+	  <url>http://www.last.fm/music/monta%C3%B1a+extendida</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/25231293.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/25231293.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/25231293.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/25231293.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/25231293/montaa+extendida+montaa1.jpg</image>
+	</artist>
+    <artist>
+	  <name>Bete Tete</name>
+	  <url>http://www.last.fm/music/Bete+Tete</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/23348491.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/23348491.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/23348491.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/23348491.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/23348491/Bete+Tete+beteteteforlastfm.jpg</image>
+	</artist>
+    <artist>
+	  <name>Omar Alejandro; &amp; The Pink Radish</name>
+	  <url>http://www.last.fm/music/Omar%2BAlejandro%253B%2B%2526%2BThe%2BPink%2BRadish</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/38698737.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/38698737.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/38698737.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/38698737.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/38698737/Omar+Alejandro++The+Pink+Radish+Andre+Breton++Octuber+2009.jpg</image>
+	</artist>
+    <artist>
+	  <name>Дом Колдуньи</name>
+	  <url>http://www.last.fm/music/%D0%94%D0%BE%D0%BC+%D0%9A%D0%BE%D0%BB%D0%B4%D1%83%D0%BD%D1%8C%D0%B8</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/27294181.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/27294181.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/27294181.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/27294181.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/27294181/IMG_1799.jpg</image>
+	</artist>
+    <artist>
+	  <name>Setsuko.ø</name>
+	  <url>http://www.last.fm/music/Setsuko.%C3%B8</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/3166139.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/3166139.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/3166139.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/3166139.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/500/3166139/Setsuko+simon.jpg</image>
+	</artist>
+  </similar>
+    <tags>
+        <tag>
+	  <name>lyrical</name>
+	  <url>http://www.last.fm/tag/lyrical</url>
+	</tag>
+        <tag>
+	  <name>music</name>
+	  <url>http://www.last.fm/tag/music</url>
+	</tag>
+        <tag>
+	  <name>artists</name>
+	  <url>http://www.last.fm/tag/artists</url>
+	</tag>
+        <tag>
+	  <name>vocals</name>
+	  <url>http://www.last.fm/tag/vocals</url>
+	</tag>
+        <tag>
+	  <name>weird</name>
+	  <url>http://www.last.fm/tag/weird</url>
+	</tag>
+      </tags>
+      <bio>
+    <published></published>
+    <summary></summary>
+    <content></content>
+  </bio>
+  </artist></lfm>

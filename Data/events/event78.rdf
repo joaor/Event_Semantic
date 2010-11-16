@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1526757">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>James</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;A banda de Tim Booth apresenta-se a 4 de Dezembro no Pavilhão Rosa Mota, no Porto.&lt;br /&gt;
+&lt;br /&gt;
+Os bilhetes custam entre 25 euros (plateia em pé) e 30 euros (bancada). &lt;br /&gt;
+&lt;br /&gt;
+Informações do artista: &lt;a href=&quot;http://www.last.fm/music/James&quot; class=&quot;bbcode_artist&quot;&gt;James&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+James no Festival Marés Vivas 2008&lt;br /&gt;
+&lt;a href=&quot;http://www.youtube.com/watch?v=snJb1yiQtf4&quot; rel=&quot;nofollow&quot;&gt;http://www.youtube.com/watch?v=snJb1yiQtf4&lt;/a&gt;&lt;/div&gt;</terms:description>
+    <terms:date>Sat, 04 Dec 2010 22:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1526757+James+at+Pavilh%C3%A3o+Rosa+Mota+on+4+December+2010"/>
+    <ov:machineTag>lastfm:event=1526757</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/47185175.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/47185175.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/47185175.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/47185175.png"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8866821"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/James"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1526757+James+at+Pavilh%C3%A3o+Rosa+Mota+on+4+December+2010#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/47185175.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/47185175.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/47185175.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/47185175.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8866821">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Pavilhão Rosa Mota</rdfs:label>
+    <geo:lat>41.154448</geo:lat>
+    <geo:long>-8.630597</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8866821#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8866821+Pavilh%C3%A3o+Rosa+Mota"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8866821+Pavilh%C3%A3o+Rosa+Mota#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8866821#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Jardins do Palácio de Cristal, Porto, Portugal,  4050</rdfs:label>
+    <v:street-address>Jardins do Palácio de Cristal</v:street-address>
+    <v:locality>Porto</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>4050</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/James">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>James</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/James"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/James#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1526757&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1526757</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1526757"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1526757&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:45:40-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1526757"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/47185175.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/47185175.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/47185175.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/47185175.png"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8866821"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8866821#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/James"/>
+  </rdf:Description>
+
+</rdf:RDF>

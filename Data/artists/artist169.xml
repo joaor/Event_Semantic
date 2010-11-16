@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artist>
+  <name>Pierre Hantai</name>
+  <mbid></mbid>
+  <url>http://www.last.fm/music/+noredirect/Pierre+Hantai</url>
+  <image size="small">http://userserve-ak.last.fm/serve/34/94984.jpg</image>
+  <image size="medium">http://userserve-ak.last.fm/serve/64/94984.jpg</image>
+  <image size="large">http://userserve-ak.last.fm/serve/126/94984.jpg</image>
+  <image size="extralarge">http://userserve-ak.last.fm/serve/252/94984.jpg</image>
+  <image size="mega">http://userserve-ak.last.fm/serve/_/94984/Pierre+Hantai.jpg</image>
+  <streamable>0</streamable>
+  <stats>
+    <listeners>512</listeners>
+    <playcount>8824</playcount>
+      </stats>
+
+  <similar>
+	    <artist>
+	  <name>Pierre Hantaï</name>
+	  <url>http://www.last.fm/music/Pierre+Hanta%C3%AF</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/142499.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/142499.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/142499.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/142499.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/142499/Pierre+Hanta.jpg</image>
+	</artist>
+    <artist>
+	  <name>Gustav Leonhardt</name>
+	  <url>http://www.last.fm/music/Gustav+Leonhardt</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/67856.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/67856.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/67856.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/67856.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/67856/Gustav+Leonhardt.jpg</image>
+	</artist>
+    <artist>
+	  <name>Jordi Savall</name>
+	  <url>http://www.last.fm/music/Jordi+Savall</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/182704.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/182704.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/182704.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/182704.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/182704/Jordi+Savall.jpg</image>
+	</artist>
+    <artist>
+	  <name>Lionel Rogg</name>
+	  <url>http://www.last.fm/music/Lionel+Rogg</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/7301685.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/7301685.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/7301685.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/7301685.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/7301685/Lionel+Rogg+Lionel10petit1005.jpg</image>
+	</artist>
+    <artist>
+	  <name>Jerome Hantai</name>
+	  <url>http://www.last.fm/music/Jerome+Hantai</url>
+	  <image size="small">http://userserve-ak.last.fm/serve/34/20758385.jpg</image>
+	  <image size="medium">http://userserve-ak.last.fm/serve/64/20758385.jpg</image>
+	  <image size="large">http://userserve-ak.last.fm/serve/126/20758385.jpg</image>
+	  <image size="extralarge">http://userserve-ak.last.fm/serve/252/20758385.jpg</image>
+	  <image size="mega">http://userserve-ak.last.fm/serve/_/20758385/Jerome+Hantai+Hantai46696.jpg</image>
+	</artist>
+  </similar>
+    <tags>
+        <tag>
+	  <name>french</name>
+	  <url>http://www.last.fm/tag/french</url>
+	</tag>
+        <tag>
+	  <name>classical</name>
+	  <url>http://www.last.fm/tag/classical</url>
+	</tag>
+        <tag>
+	  <name>perfect</name>
+	  <url>http://www.last.fm/tag/perfect</url>
+	</tag>
+        <tag>
+	  <name>clasica</name>
+	  <url>http://www.last.fm/tag/clasica</url>
+	</tag>
+        <tag>
+	  <name>johan sebastian bach</name>
+	  <url>http://www.last.fm/tag/johan%20sebastian%20bach</url>
+	</tag>
+      </tags>
+      <bio>
+    <published></published>
+    <summary></summary>
+    <content></content>
+  </bio>
+  </artist></lfm>

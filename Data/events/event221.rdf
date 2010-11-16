@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1680331">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Imogen Heap</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;NOVA DATA: 28 de Novembro -  Bilhetes já à venda nos locais habituais.&lt;br /&gt;
+&lt;br /&gt;
+-----&lt;br /&gt;
+Já são conhecidas as datas dos dois concertos que Imogen Heap  irá fazer em Portugal ainda este ano. A primeira é a 28 de Novembro na Aula Magna, em Lisboa. No dia 29 de Novembro sobe até ao Porto para um concerto no Hard Club - informação confirmada pela promotora Everything Is New.&lt;br /&gt;
+&lt;br /&gt;
+O anúncio foi feito na página oficial e a vinda a Portugal deverá servir para a apresentação do mais recente álbum Ellipse editado em 2009.&lt;/div&gt;</terms:description>
+    <terms:date>Sun, 28 Nov 2010 23:22:01</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1680331+Imogen+Heap+at+Aula+Magna+on+28+November+2010"/>
+    <ov:machineTag>lastfm:event=1680331</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/32645213.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/32645213.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/32645213.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/32645213.png"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8778468"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Imogen+Heap"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Geese"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1680331+Imogen+Heap+at+Aula+Magna+on+28+November+2010#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/32645213.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/32645213.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/32645213.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/32645213.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8778468">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Aula Magna</rdfs:label>
+    <geo:lat>38.752791</geo:lat>
+    <geo:long>-9.156304</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8778468#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8778468+Aula+Magna"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8778468+Aula+Magna#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8778468#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Alameda da Universidade, Lisboa, Portugal,  1649-004</rdfs:label>
+    <v:street-address>Alameda da Universidade</v:street-address>
+    <v:locality>Lisboa</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1649-004</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Imogen+Heap">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Imogen Heap</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Imogen+Heap"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Imogen+Heap#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Geese">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Geese</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Geese"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Geese#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1680331&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1680331</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1680331"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1680331&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:52:21-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1680331"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/32645213.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/32645213.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/32645213.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/32645213.png"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8778468"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8778468#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Imogen+Heap"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Geese"/>
+  </rdf:Description>
+
+</rdf:RDF>

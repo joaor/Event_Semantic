@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+<artist>
+  <name>Icon Vadis</name>
+  <mbid></mbid>
+  <url>http://www.last.fm/music/Icon+Vadis</url>
+  <image size="small"></image>
+  <image size="medium"></image>
+  <image size="large"></image>
+  <image size="extralarge"></image>
+  <image size="mega"></image>
+  <streamable>0</streamable>
+  <stats>
+    <listeners>0</listeners>
+    <playcount>0</playcount>
+      </stats>
+
+  <similar>
+	  </similar>
+    <tags>
+      </tags>
+      <bio>
+    <published></published>
+    <summary></summary>
+    <content></content>
+  </bio>
+  </artist></lfm>

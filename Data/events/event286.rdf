@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1461827">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Katie Melua</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;ADIADO 13 de Março&lt;br /&gt;
+&lt;br /&gt;
+A cantora britânico-georgiana juntou à data no Coliseu do Porto, prevista para o dia 11 de Outubro, um concerto em Lisboa, a decorrer no Campo Pequeno, um dia antes.&lt;br /&gt;
+&lt;br /&gt;
+Na bagagem, Katie Melua traz os temas do seu vindouro álbum de originais, “The House”, com edição prevista para 2010.&lt;br /&gt;
+&lt;br /&gt;
+Já à venda, os bilhetes para o concerto do Porto custam entre €30 e €55. Em Lisboa, o preço das entradas varia entre os €22,50 e os €75 (sendo que, quem comprar este último tipo de bilhetes, que dão acesso à zona Golden Circle, terá direito a um CD com quatro faixas ao vivo, bem como um passe laminado como recordação).&lt;br /&gt;
+&lt;br /&gt;
+Recorde-se que a autora de If You Were a Sailboat marcou presença na edição do ano passado do festival CoolJazzFest.&lt;/div&gt;</terms:description>
+    <terms:date>Sun, 13 Mar 2011 19:29:01</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1461827+Katie+Melua+at+Campo+Pequeno+on+13+March+2011"/>
+    <ov:machineTag>lastfm:event=1461827</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/50578493.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/50578493.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/50578493.png"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/50578493.png"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8778464"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Katie+Melua"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1461827+Katie+Melua+at+Campo+Pequeno+on+13+March+2011#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/50578493.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/50578493.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/50578493.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/50578493.png">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8778464">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Campo Pequeno</rdfs:label>
+    <geo:lat>38.742013</geo:lat>
+    <geo:long>-9.144965</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8778464#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8778464+Campo+Pequeno"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8778464+Campo+Pequeno#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8778464#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Campo Pequeno, , Portugal,  1000-082</rdfs:label>
+    <v:street-address>Campo Pequeno</v:street-address>
+    <v:locality></v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>1000-082</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Katie+Melua">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Katie Melua</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Katie+Melua"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Katie+Melua#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1461827&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1461827</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1461827"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1461827&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:55:16-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1461827"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/50578493.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/50578493.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/50578493.png"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/50578493.png"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8778464"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8778464#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Katie+Melua"/>
+  </rdf:Description>
+
+</rdf:RDF>

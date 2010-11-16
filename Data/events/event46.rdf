@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:terms="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:ov="http://open.vocab.org/terms/"
+  xmlns:event="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:mo="http://purl.org/ontology/mo/"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:v="http://www.w3.org/2006/vcard/ns#">
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/events/1735241">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/Performance"/>
+    <rdfs:label>Macy Gray</rdfs:label>
+    <terms:description>&lt;div class=&quot;bbcode&quot;&gt;Dez anos depois do início da sua carreira Macy Gray dedica-se de corpo e alma ao seu novo álbum, &amp;quot;The Sellout&amp;quot;, e com ele regressa aos palcos internacionais e nacionais, dia 23 de Novembro na Aula Magna, em Lisboa, e dia 24 de Novembro no Hard Club, no Porto.&lt;br /&gt;
+Ao longo da sua carreira Macy Gray vendeu 15 milhões de álbuns, recebeu dois prémios Grammy, dois MTV e com o álbum &amp;quot;I Try&amp;quot; conseguiu ter um dos singles de maior sucesso de todos os tempos. Depois do fracasso do álbum &amp;quot;Big Gray&amp;quot; decidiu então voltar-se para a sua zona de conforto, trabalhando no estúdio com um grupo restrito de amigos e músicos. Enquanto as novas canções ganhavam forma, o sentimento de rejeição deu lugar a uma grande determinação para se restabelecer como uma das cantoras dominantes. &amp;quot;Quando estava sozinha criei músicas de que eu gostava&amp;quot;, conta a cantora. &amp;quot;Foi com o meu próprio dinheiro, não tive de tocar para outra pessoa. Não estava a trabalhar para alguém.&amp;quot;&lt;br /&gt;
+O resultado do seu esforço – com o apropriado título &amp;quot;The Sellout&amp;quot; – é um regresso à forma para Gray, sendo este talvez o seu melhor álbum e que impulsiona o seu som para a frente em vez de se prender ao passado. Claro que há um estilo clássico pop-soul de Macy em músicas como &amp;quot;Lately&amp;quot;, mas ela ramifica-se pelas faixas como o épico rock-furacão &amp;quot;Kissed It&amp;quot; (que conta com um solo de guitarra do seu amigo de longa data, Slash) ou na funk jam ao estilo Prince, &amp;quot;Stalker&amp;quot;.&lt;br /&gt;
+Gray também abre o jogo no que toca às letras, preenchendo o seu auto-retrato enquanto artista. Muitas das suas músicas têm o seu toque pessoal, sendo outras mais angustiantes, seja profundamente confessional &amp;quot;On And On&amp;quot; ou o reparador &amp;quot;Still Hurts&amp;quot;. &amp;quot;Estava deprimida&amp;quot;, admite. &amp;quot;Estive entre duas ou três relações nessa altura e, por isso, a minha vida amorosa não estava bem.&amp;quot;&lt;br /&gt;
+Apesar da rejeição, da incerteza e da mágoa, &amp;quot;The Sellout&amp;quot; é um grande triunfo e sucesso. Sente-se de uma forma tão honesta e autêntica e ao mesmo tempo fácil, passando-se facilmente de uma faixa para outra. Não há nada forçado, nada que pareça fora do sítio. O álbum termina com a música &amp;quot;The Comeback&amp;quot;, uma declaração final do que foi concretizado e da esperança de que venham coisas melhores.&lt;br /&gt;
+Macy Gray regressa aos palcos internacionais e também a Portugal para se juntar aos seus fãs mostrando-lhes o melhor de si. Num concetro em que estão obviamente incluídos temas incontornáveis como &amp;quot;I Try&amp;quot;, &amp;quot;Sweet Baby&amp;quot; ou &amp;quot;When I See You&amp;quot;, o público português poderá ver uma Macy Gray completa e confiante que está pronta para voltar aos tops mundiais.&lt;br /&gt;
+É o regresso. E o &amp;quot;The Sellout&amp;quot;. E prova que Macy Gray não tem intenção de ir embora. A não perder ….&lt;/div&gt;</terms:description>
+    <terms:date>Wed, 24 Nov 2010 22:00:00</terms:date>
+    <foaf:homepage rdf:resource="http://www.last.fm/event/1735241+Macy+Gray"/>
+    <ov:machineTag>lastfm:event=1735241</ov:machineTag>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/34/36162683.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/64/36162683.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/126/36162683.jpg"/>
+    <ov:image rdf:resource="http://userserve-ak.last.fm/serve/252/36162683.jpg"/>
+    <event:place rdf:resource="http://lastfm.rdfize.com/venues/8781369"/>
+    <mo:performer rdf:resource="http://lastfm.rdfize.com/artists/Macy+Gray"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/event/1735241+Macy+Gray#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/34/36162683.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (small)</rdfs:label>
+    <terms:extent>small</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/64/36162683.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (medium)</rdfs:label>
+    <terms:extent>medium</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/126/36162683.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (large)</rdfs:label>
+    <terms:extent>large</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://userserve-ak.last.fm/serve/252/36162683.jpg">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+    <rdfs:label>Last FM Image: (extralarge)</rdfs:label>
+    <terms:extent>extralarge</terms:extent>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8781369">
+    <rdf:type rdf:resource="http://www.kanzaki.com/ns/music#Venue"/>
+    <rdfs:label>Hard Club</rdfs:label>
+    <geo:lat>41.140082</geo:lat>
+    <geo:long>-8.622347</geo:long>
+    <terms:coverage rdf:resource="http://lastfm.rdfize.com/venues/8781369#address"/>
+    <foaf:homepage rdf:resource="http://www.last.fm/venue/8781369+Hard+Club"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://www.last.fm/venue/8781369+Hard+Club#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/venues/8781369#address">
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Address"/>
+    <rdfs:label>Mercado Ferreira Borges, Porto, Portugal,  4050-252</rdfs:label>
+    <v:street-address>Mercado Ferreira Borges</v:street-address>
+    <v:locality>Porto</v:locality>
+    <v:country-name>Portugal</v:country-name>
+    <v:postal-code>4050-252</v:postal-code>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/artists/Macy+Gray">
+    <rdf:type rdf:resource="http://purl.org/ontology/mo/MusicArtist"/>
+    <rdfs:label>Macy Gray</rdfs:label>
+    <foaf:homepage rdf:resource="http://last.fm/music/Macy+Gray"/>
+    <owl:sameAs rdf:resource="http://linkeddata.uriburner.com/about/rdf/http://last.fm/music/Macy+Gray#this"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://lastfm.rdfize.com/?username=&amp;eventID=1735241&amp;artistName=&amp;venueID=&amp;output=rdf">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <rdfs:label>RDFization of last.fm event listing 1735241</rdfs:label>
+    <foaf:primaryTopic rdf:resource="http://lastfm.rdfize.com/events/1735241"/>
+    <terms:source rdf:resource="http://ws.audioscrobbler.com/2.0/?method=event.getInfo&amp;event=1735241&amp;api_key=3993920ee83ce2d266fd8c9408bf4971"/>
+    <terms:partOf rdf:resource="http://lastfm.rdfize.com/meta.n3#Dataset"/>
+    <terms:date>2010-11-07T08:44:06-08:00</terms:date>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/events/1735241"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/34/36162683.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/64/36162683.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/126/36162683.jpg"/>
+    <foaf:topic rdf:resource="http://userserve-ak.last.fm/serve/252/36162683.jpg"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8781369"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/venues/8781369#address"/>
+    <foaf:topic rdf:resource="http://lastfm.rdfize.com/artists/Macy+Gray"/>
+  </rdf:Description>
+
+</rdf:RDF>
