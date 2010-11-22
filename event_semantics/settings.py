@@ -28,7 +28,7 @@ MEDIA_ROOT = relative('media/')
 MEDIA_URL = '/media/'
 ADMIN_MEDIA_PREFIX = '/media/admin/'
 
-ROOT_URLCONF = 'EventSemantics.urls'
+ROOT_URLCONF = 'event_semantics.urls'
 
 INSTALLED_APPS = (
     'django.contrib.auth',
@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.admin',
+	'django_rdf'
 )
 
 TEMPLATE_DIRS = (
@@ -53,3 +54,5 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
 )
+
+DEFAULT_GRAPH_URI = 'http://www.owl-ontologies.com/MusicEvents.owl'
