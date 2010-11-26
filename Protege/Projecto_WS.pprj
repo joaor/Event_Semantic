@@ -1,4 +1,4 @@
-; Mon Nov 15 17:55:50 WET 2010
+; Fri Nov 26 17:00:49 WET 2010
 ; 
 ;+ (version "3.4.4")
 ;+ (build "Build 579")
@@ -764,6 +764,9 @@
 	(property_list [XY_Instance_890])
 	(widget_class_name "edu.stanford.smi.protegex.owl.ui.widget.OWLFormWidget"))
 
+([KB_479516_Class0] of  Map
+)
+
 ([KB_632156_Instance_0] of  String
 
 	(name "OWL-PREDEFINED-PROFILE-URI")
@@ -944,9 +947,6 @@
 	(property_list [KB_635552_Instance_9]))
 
 ([KB_635552_Instance_9] of  Property_List
-)
-
-([KB_640000_Class0] of  Map
 )
 
 ([KB_691299_Instance_398] of  Widget
