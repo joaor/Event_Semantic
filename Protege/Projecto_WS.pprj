@@ -1,4 +1,4 @@
-; Fri Nov 26 17:00:49 WET 2010
+; Sat Nov 27 15:59:15 WET 2010
 ; 
 ;+ (version "3.4.4")
 ;+ (build "Build 579")
@@ -6,11 +6,11 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[Projecto_WS_ProjectKB_Class61]
-		[Projecto_WS_ProjectKB_Class62]
-		[Projecto_WS_ProjectKB_Class63]
-		[Projecto_WS_ProjectKB_Class64]
-		[Projecto_WS_ProjectKB_Class65]))
+		[Projecto_WS_ProjectKB_Class71]
+		[Projecto_WS_ProjectKB_Class72]
+		[Projecto_WS_ProjectKB_Class73]
+		[Projecto_WS_ProjectKB_Class74]
+		[Projecto_WS_ProjectKB_Class75]))
 
 ([CLSES_TAB] of  Widget
 
@@ -5851,36 +5851,36 @@
 ([Projecto_WS_ProjectKB_Class60] of  Property_List
 )
 
-([Projecto_WS_ProjectKB_Class61] of  String
-
-	(name "http://www.w3.org/2002/07/owl#Class")
-	(string_value "%3ANAME"))
-
-([Projecto_WS_ProjectKB_Class62] of  String
-
-	(name ":INSTANCE-ANNOTATION")
-	(string_value "%3AANNOTATION-TEXT"))
-
-([Projecto_WS_ProjectKB_Class63] of  String
-
-	(name ":META-CLASS")
-	(string_value "%3ANAME"))
-
-([Projecto_WS_ProjectKB_Class64] of  String
-
-	(name ":PAL-CONSTRAINT")
-	(string_value "%3APAL-NAME"))
-
-([Projecto_WS_ProjectKB_Class65] of  String
-
-	(name "http://www.w3.org/2002/07/owl#Thing")
-	(string_value "%3ANAME"))
-
 ([Projecto_WS_ProjectKB_Class7] of  Widget
 
 	(is_hidden TRUE)
 	(property_list [Projecto_WS_ProjectKB_Class8])
 	(widget_class_name "edu.stanford.smi.protegex.server_changes.prompt.UsersTab"))
+
+([Projecto_WS_ProjectKB_Class71] of  String
+
+	(name "http://www.w3.org/2002/07/owl#Class")
+	(string_value "%3ANAME"))
+
+([Projecto_WS_ProjectKB_Class72] of  String
+
+	(name ":INSTANCE-ANNOTATION")
+	(string_value "%3AANNOTATION-TEXT"))
+
+([Projecto_WS_ProjectKB_Class73] of  String
+
+	(name ":META-CLASS")
+	(string_value "%3ANAME"))
+
+([Projecto_WS_ProjectKB_Class74] of  String
+
+	(name ":PAL-CONSTRAINT")
+	(string_value "%3APAL-NAME"))
+
+([Projecto_WS_ProjectKB_Class75] of  String
+
+	(name "http://www.w3.org/2002/07/owl#Thing")
+	(string_value "%3ANAME"))
 
 ([Projecto_WS_ProjectKB_Class8] of  Property_List
 )
