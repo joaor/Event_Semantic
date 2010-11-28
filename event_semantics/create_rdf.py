@@ -8,7 +8,7 @@ from django_rdf import graph
 
 from events.semantic import ontologies
 from xml.dom.minidom import parseString
-
+from pprint import pprint
 
 def strip_accents(s):
    return ''.join((c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn'))
@@ -26,10 +26,7 @@ events_folder = '/Users/joaorodrigues/Documents/5_ano/ws/Projecto/Projecto_WS/Da
 artists_folder = '/Users/joaorodrigues/Documents/5_ano/ws/Projecto/Projecto_WS/Data/artists/'
 albums_folder = '/Users/joaorodrigues/Documents/5_ano/ws/Projecto/Projecto_WS/Data/albums/'
 repeat = False
-a = 0
-b= 0
 album_number = 1
-cdata = "<!\[CDATA\[(.*?<a.*?a>\.)*"
 
 for filename in os.listdir(events_folder)[1:]:
 	f = open("%s/%s" % (events_folder,filename), 'r')
@@ -95,9 +92,21 @@ for filename in os.listdir(artists_folder)[1:]:
 	rdf = ''
 	for line in f:
 		rdf +=line
-	rdf = re.sub(cdata,'', rdf)
-	rdf = rdf.replace("]]>",'')
-	print filename
+	i = rdf.index('<summary>')
+	j = rdf.index('</summary>')
+	summary = rdf[i+9:j]
+	summary = summary.replace("]]>",'')
+	summary = summary.replace("<![CDATA[",'')
+	summary = re.sub("<.*?>.*?</.*?>",'', summary)
+	rdf = rdf[:i+9] + summary + rdf[j:]
+	i = rdf.index('<content>')
+	j = rdf.index('</content>')
+	content = rdf[i+9:j]
+	content = content.replace("]]>",'')
+	content = content.replace("<![CDATA[",'')
+	content = re.sub("<.*?>.*?</.*?>",'', content)
+	content = re.sub("</.*?>",'', content)
+	rdf = rdf[:i+9] + content + rdf[j:]
 	xml = parseString(rdf)
 	lfm = xml.getElementsByTagName("lfm")[0]
 	art = lfm.getElementsByTagName("artist")[0]
@@ -112,11 +121,9 @@ for filename in os.listdir(artists_folder)[1:]:
 			graph.add((artist,ontologies['me']['Genre'],Literal(artist_genre)))
 		bio = art.getElementsByTagName("bio")[0]
 		summary = getText(bio.getElementsByTagName("summary")[0].childNodes)
-		print summary
-		#graph.add((artist,ontologies['me']['Summary'],Literal(summary)))
-		#description = getText(bio.getElementsByTagName("content")[0].childNodes)
-		#graph.add((artist,ontologies['me']['Description'],Literal(description)))
-		#print description
+		graph.add((artist,ontologies['me']['Summary'],Literal(summary)))
+		description = getText(bio.getElementsByTagName("content")[0].childNodes)
+		graph.add((artist,ontologies['me']['Description'],Literal(description)))
 
 for filename in os.listdir(albums_folder)[1:]:
 	f = open("%s/%s" % (albums_folder,filename), 'r')
@@ -140,18 +147,7 @@ for filename in os.listdir(albums_folder)[1:]:
 			except:
 				continue
 		
-mylist = list(set(artist_list))
-print len(mylist)	
-print a
-print b
-				
-#graph.add((ontologies['me']['artist1'],ontologies['rdf']['type'],ontologies['me']['Artist']))
-#graph.add((ontologies['me']['artist1'],ontologies['me']['Description'],Literal('ola, sou o artista1')))
-
-#graph.add((ontologies['me']['event1'],ontologies['me']['performed_by'],ontologies['me']['artist1']))
-
-from pprint import pprint
-#pprint(list(graph))
+pprint(list(graph))
 
 
 # just think .whatever((s, p, o))
