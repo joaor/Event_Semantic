@@ -4,7 +4,9 @@
 <head> 
     <title> EventSemantic </title> 
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />  
-    <link rel="stylesheet" href="style.css" type="text/css" /> 
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="menusheet" href="menu.css" type="text/css" />
+  	<script type="text/javascript" src="menu.js"></script>
 </head> 
 
 <body>
@@ -28,7 +30,7 @@
                 <div class="nav">
                     <ul class="menu">
                         <li><a href="home_page.html"><span><span>Home</span></span></a></li>
-                        <li><a href="#" ><span><span>Events</span></span></a></li>
+                        <li><a href="#" class=" active"><span><span>Events</span></span></a></li>
                         <li><a href="home_page.html"><span><span>Contact</span></span></a>
                     </ul>
                     <div class="l"></div>
@@ -151,25 +153,49 @@
                         </div>
                     </div>
             
-                    <div class="Block"">
+                    <div class="Block" style="height: 105px;">
                         <div class="Block-body"> 
-                            <div class="BlockHeader">
-                                Categories
-                                <div class="l"></div>
-                                <div class="r"><div></div></div>
-                            </div>
+   
                         <div class="BlockContent">
                             <div class="BlockContent-body" style="text-align: center">
-                                    <div style="width: 50%; float: left">
-                                        <h3><a href="#">Rock</a></h3>
-                                        <h3><a href="#">Pop</a></h3>
-                                        <h3><a href="#">Metal</a></h3>
-                                    </div>
-                                    <div style="width: 50%; float: right">
-                                        <h3><a href="#">Rap</a></h3>
-                                        <h3><a href="#">Classic</a></h3>
-                                        <h3><a href="#">House</a></h3>
-                                    </div>
+                                  
+                                  <div id="leftContainer">
+		<div id="dhtmlgoodies_menu">
+		    <ul>
+		    
+			    <li><a href="#">Categories</a>
+
+			    	<ul>
+			    		<li><a href="#">Rock</a></li>
+			    		<li><a href="#">Pop</a></li>
+			    		<li><a href="#">Rap</a></li>
+			    		<li><a href="#">Metal</a></li>
+
+			    		<li><a href="#">Classic</a></li>
+			    	</ul>
+			    </li>
+			    <li><a href="#">Date</a>
+
+			    	<ul>
+			    		<li><a href="#">This Week</a></li>
+			    		<li><a href="#">This Month</a></li>
+			    		<li><a href="#">Next Month</a></li>
+			    		<li><a href="#">This Year</a></li>
+
+			    	</ul>
+			    </li>
+			    <li><a href="#">Place</a>
+			    	<ul>
+
+			    		<li><a href="#">North</a></li>
+			    		<li><a href="#">Center</a></li>
+			    		<li><a href="#">South</a></li>
+			    	</ul>
+			    </li>
+
+    		</div>
+	    </div>
+                                  
                             </div>
                         </div>
                     </div>
@@ -183,6 +209,9 @@
                     <div class="Block-cr"><div></div></div>
                     <div class="Block-cc"></div>
                     </div>
+                    
+                    
+                    
                     
                     <div class="Block" >
                         <div class="Block-body"> 
