@@ -165,6 +165,6 @@ pprint(list(graph))
 # who is what age?
 #pprint(list(graph.subject_objects(ontologies['me']['description'])))	
 
-#print list(graph.query(""" SELECT ?cenas WHERE { ?cenas me:takes_place ?a . ?a me:Name "MusicBox" . } """, initNs=ontologies))
+print list(graph.query(""" SELECT ?cenas WHERE { ?cenas me:takes_place ?a . ?a me:Name "MusicBox" . } """, initNs=ontologies))
 
 #graph.commit()
