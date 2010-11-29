@@ -432,9 +432,9 @@ div.Header  div
 {
   width: 100%;
   height: 100%;
-  background-image: url('images/my_logo.jpg');
+  background-image: url('images/my_logo2.jpg');
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center right;
   text-align: left;
 }
 /* end Header */
@@ -465,7 +465,7 @@ div.Header  div
 .logo-name a
 {
   text-decoration: none;
-  color: #FFFFFF !important;
+  color: #000000 !important;
 }
 
 .logo-text
@@ -474,7 +474,7 @@ div.Header  div
   font-family: Arial;
   font-style: normal;
   font-weight: normal;
-  color: #F2F2F2 !important;
+  color: #000000 !important;
 }
 /* end Logo */
 
