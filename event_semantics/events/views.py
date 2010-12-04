@@ -13,3 +13,6 @@ def render(request, template, opts = {}):
     
 def home(request):
 	return render(request,'events/home.html')
+	
+def contact(request):
+	return render(request,'events/contact.html')
