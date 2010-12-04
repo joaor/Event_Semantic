@@ -36,7 +36,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.admin',
-	'django_rdf'
+	'django_rdf',
+	'events',
 )
 
 TEMPLATE_DIRS = (
