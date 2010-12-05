@@ -33,18 +33,17 @@
                     <div class="BlockContent-body"> 
 
                         <div style="float: left; width: 25%">
-                          <li><b>Artist: </b>
+                          <b>Artist: </b>
 							<a href="artist_page.html">{{event.get_main_artist.get_name}}</a>
 							{% if event.has_more_artists %}
-								and Others
+								and others
 							{% endif %}
-						  </li>
                         </div>
                         <div style="float: left; width: 25%">
-                          <li><b>Place: </b>{{event.get_place.get_name}}</li>
+                          <b>Place: </b>{{event.get_place.get_name}}
                         </div>
                         <div style="float: left; width: 25%">
-                          <li><b>Date: </b>{{event.get_date}}</li>
+                          <b>Date: </b>{{event.get_date}}
                         </div>
                         
                     </div>
