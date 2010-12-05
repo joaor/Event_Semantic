@@ -3,11 +3,15 @@
 {% block main_menu%}
 <ul class="menu">
 	<li><a href="{% url home %}"><span><span>Home</span></span></a></li>
-	<li><a href="{% url browsing %}"><span><span>Events</span></span></a></li>
+	<li><a href="{% url events %}"><span><span>Events</span></span></a></li>
 	<li><a href="{% url contact %}"  class="active" ><span><span>Contact</span></span></a>    
 </ul>
 {% endblock %}
 
+{% block scroll%}
+<div class="Block" style="height: 500px">
+{% endblock %}
+	
 {% block content%}
 <div class="BlockContent">
 	<div class="BlockContent-body"> 

@@ -2,3 +2,4 @@
 *.db
 *.pyc
 event_semantics/src
+event_semantics/db/rdf/

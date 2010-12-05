@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block main_menu%}
+<ul class="menu">
+	<li><a href="{% url home %}"><span><span>Home</span></span></a></li>
+	<li><a href="{% url events %}"  class="active" ><span><span>Events</span></span></a></li>
+	<li><a href="{% url contact %}"><span><span>Contact</span></span></a>    
+</ul>
+{% endblock %}
+
+{% block scroll%}
+<div class="Block" style="height: 500px; overflow-y: scroll">
+{% endblock %}
+
+{% block content%}
+<div class="BlockContent" >
+    <div class="BlockContent-body">	
+		{% for event in event_list%}
+        <div class="Block" style="width:47%; float: left" >
+            <div class="Block-body" > 
+                <div class="BlockHeader">
+                    {{event.me__Name}}
+                    <div class="l"></div>
+                    <div class="r"><div></div></div>
+                </div>
+                <div class="BlockContent">
+                    <div class="BlockContent-body"> 
+                    
+                        <a href="event_page.html"><img src="images/spectacles.gif" name="but" alt="an image" style="float: left; margin-right: 1em; width: 90px; height: 90px;"></a>
+                        <p><b>Artist:</b> <a href="artist_page.html">{{(event.me__performed_by).me__Name}}</a></p>
+                        <p><b>Place:</b> {{event.me__takes_place}}</p>
+                        <p><b>Date:</b> {{event.me__Date}}</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="Block-tl"></div>
+            <div class="Block-tr"><div></div></div>
+            <div class="Block-bl"><div></div></div>
+            <div class="Block-br"><div></div></div>
+            <div class="Block-tc"><div></div></div>
+            <div class="Block-bc"><div></div></div>
+            <div class="Block-cl"><div></div></div>
+            <div class="Block-cr"><div></div></div>
+            <div class="Block-cc"></div>   
+        </div>  
+		{% endfor %}
+		
+     
+<ul id="pagination-flickr">
+    <li class="next"><a href="?page=2">Next »</a></li>
+    <li class="active">1</li>
+    <li class="previous-off">« Previous</li>
+</ul> 
+</div>
+</div>
+{% endblock %}

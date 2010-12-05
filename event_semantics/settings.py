@@ -57,3 +57,5 @@ MIDDLEWARE_CLASSES = (
 )
 
 DEFAULT_GRAPH_URI = 'http://www.owl-ontologies.com/MusicEvents.owl'
+
+RDF_DATABASE_NAME = relative('db/rdf')
