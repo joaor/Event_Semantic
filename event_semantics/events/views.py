@@ -27,3 +27,7 @@ def events(request):
 	for ev in graph.query(""" SELECT ?event WHERE { ?event rdf:type me:Event . } """):
 		event_list.append(Event(ev))
 	return render(request,'events/event_list.html', {'event_list' : event_list})
+	
+def artist_detail(request,artist_id):
+	print artist_id
+	return render(request,'events/contact.html')

@@ -34,7 +34,7 @@
 
                         <div style="float: left; width: 25%">
                           <b>Artist: </b>
-							<a href="artist_page.html">{{event.get_main_artist.get_name}}</a>
+							<a href="{% url artist-detail event.get_main_artist.id %}">{{event.get_main_artist.get_name}}</a>
 							{% if event.has_more_artists %}
 								and others
 							{% endif %}

@@ -7,9 +7,13 @@ class RDFObject(object):
 	def __init__(self, uri):
 		super(RDFObject, self).__init__()
 		self.uri = uri
+		self.id = str(uri)[46:]
 		
 	def get_name(self):
-		return self.simple_query("Name",str)
+		name = self.simple_query("Name",str)
+		if not name:
+			return self.id.replace('+',' ')
+		return name
 
 	def get_description(self):
 		return self.simple_query("Description",str)
