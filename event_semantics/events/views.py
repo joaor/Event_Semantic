@@ -10,6 +10,8 @@ from django.conf import settings
 from django_rdf import graph
 from events.semantic import ontologies
 
+from events.get_rdf import *
+
 # Helper
 def render(request, template, opts = {}):
     return render_to_response(template, opts, context_instance=RequestContext(request))
@@ -23,11 +25,5 @@ def contact(request):
 def events(request):
 	event_list = []
 	for ev in graph.query(""" SELECT ?event WHERE { ?event rdf:type me:Event . } """):
-		#print dir(ev)
-		for e in graph.query(""" SELECT ?nm WHERE { ?ev me:Name ?nm . } """, initBindings={'ev': ev}):
-			print e
-		for e in graph.query(""" SELECT ?nm WHERE { ?ev me:Name ?nm . } """, initBindings={'ev': ev}):
-			print e
-		#event_list.append(graph.get(uri=i))
-	#return render(request,'events/event_list.html', {'event_list' : event_list, 'graph' : graph})
-	return render(request,'events/contact.html')
+		event_list.append(Event(ev))
+	return render(request,'events/event_list.html', {'event_list' : event_list})

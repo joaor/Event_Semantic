@@ -167,4 +167,4 @@ pprint(list(graph))
 
 print list(graph.query(""" SELECT ?cenas WHERE { ?cenas me:takes_place ?a . ?a me:Name "MusicBox" . } """, initNs=ontologies))
 
-#graph.commit()
+graph.commit()

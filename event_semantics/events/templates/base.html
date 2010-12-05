@@ -5,6 +5,7 @@
     <title> EventSemantic </title> 
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />  
 	<link rel="stylesheet" type="text/css" href="/media/css/style.css" media="screen"/>
+	{% block headers%}{% endblock %}
 </head> 
 
 <body>
@@ -45,10 +46,11 @@
                                 <div class="Block-cr"><div></div></div>
                                 <div class="Block-cc"></div>
                             	{% block content%}{% endblock %}
+								{% block pagination%}{% endblock %}
                             </div>
                         </div>
                     </div>
-            
+            		{% block browsing_menu%}{% endblock %}
                     <div class="Block" >
                         <div class="Block-body"> 
                             <div class="BlockHeader" >
