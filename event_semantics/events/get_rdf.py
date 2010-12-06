@@ -10,39 +10,59 @@ class RDFObject(object):
 		self.id = str(uri)[46:]
 		
 	def get_name(self):
-		name = self.simple_query("Name",str)
+		name = self.single_query("Name",str)
 		if not name:
 			return self.id.replace('+',' ')
 		return name
 
 	def get_description(self):
-		return self.simple_query("Description",str)
+		return self.single_query("Description",str).replace('\\n','</br>')
 			
-	def simple_query(self,prop,func):
+	def single_query(self,prop,func):
 		for p in graph.query(""" SELECT ?prop WHERE { ?inst me:%s ?prop . } """ % prop, initBindings={'inst': self.uri}):
-			return func(p) 
+			return func(p)
+	
+	def multiple_query(self,prop,func):
+		return map(lambda a: func(a), graph.query(""" SELECT ?art WHERE { ?ev me:%s ?art . } """ % prop, initBindings={'ev': self.uri}))
 
+	def inverse_multiple_query(self,prop,func):
+		return map(lambda a: func(a), graph.query(""" SELECT ?ev WHERE { ?ev me:%s ?art . } """ % prop, initBindings={'art': self.uri}))
+
+	
 	def __str__(self):
 		return self.get_name()
 
 class Event(RDFObject):
 	def get_date(self):
-		return self.simple_query("Date",str)
+		return self.single_query("Date",str)
 	
 	def get_place(self):
-		return self.simple_query("takes_place",Place)
+		return self.single_query("takes_place",Place)
 			
 	def get_artists(self):
-		return map(lambda a: Artist(a), graph.query(""" SELECT ?art WHERE { ?ev me:performed_by ?art . } """, initBindings={'ev': self.uri}))
+		return self.multiple_query("performed_by",Artist)
 	
 	def get_main_artist(self):
-		return self.simple_query("performed_by",Artist)
+		return self.single_query("performed_by",Artist)
 		
 	def has_more_artists(self):
 		return len(graph.query(""" SELECT ?art WHERE { ?ev me:performed_by ?art . } """, initBindings={'ev': self.uri})) > 1
 		
 class Artist(RDFObject):
-	pass
+	def get_genre_list(self):
+		return ", ".join(self.multiple_query("Genre",str))
+
+	def get_album_list(self):
+		return ", ".join(map(lambda a: a.get_name(), self.multiple_query("recorded",Album)))
+
+	def get_event_list(self):
+		return self.inverse_multiple_query("performed_by",Event)
+		
+	def get_summary(self):
+		return self.single_query("Summary",str).replace('\\n','</br>')
 
 class Place(RDFObject):
+	pass
+
+class Album(RDFObject):
 	pass

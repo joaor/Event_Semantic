@@ -14,7 +14,7 @@ from events.get_rdf import *
 
 # Helper
 def render(request, template, opts = {}):
-    return render_to_response(template, opts, context_instance=RequestContext(request))
+	return render_to_response(template, opts, context_instance=RequestContext(request))
     
 def home(request):
 	return render(request,'events/home.html')
@@ -29,5 +29,5 @@ def events(request):
 	return render(request,'events/event_list.html', {'event_list' : event_list})
 	
 def artist_detail(request,artist_id):
-	print artist_id
-	return render(request,'events/contact.html')
+	artist = Artist(ontologies['me'][artist_id])
+	return render(request,'events/artist.html', {'artist' : artist})
