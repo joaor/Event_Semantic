@@ -16,7 +16,11 @@ class RDFObject(object):
 		return name
 
 	def get_description(self):
-		return self.single_query("Description",str).replace('\\n','</br>')
+		try:
+			desc = self.single_query("Description",str).replace('\\n','</br>')
+		except:
+			return "No description avaiable"
+		return desc
 			
 	def single_query(self,prop,func):
 		for p in graph.query(""" SELECT ?prop WHERE { ?inst me:%s ?prop . } """ % prop, initBindings={'inst': self.uri}):
@@ -28,7 +32,6 @@ class RDFObject(object):
 	def inverse_multiple_query(self,prop,func):
 		return map(lambda a: func(a), graph.query(""" SELECT ?ev WHERE { ?ev me:%s ?art . } """ % prop, initBindings={'art': self.uri}))
 
-	
 	def __str__(self):
 		return self.get_name()
 
@@ -62,7 +65,20 @@ class Artist(RDFObject):
 		return self.single_query("Summary",str).replace('\\n','</br>')
 
 class Place(RDFObject):
-	pass
+	def get_address(self):
+		return self.single_query("Address",str)
+		
+	def get_postal(self):
+		return self.single_query("Postal",str)
+		
+	def get_locality(self):
+		return self.single_query("Locality",str)
+		
+	def get_country(self):
+		return self.single_query("Country",str)
+		
+	def get_complete_address(self):
+		return "%s, %s %s, %s" % (self.get_address(),self.get_postal(),self.get_locality(),self.get_country())
 
 class Album(RDFObject):
 	pass

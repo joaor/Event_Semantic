@@ -22,7 +22,7 @@
 		{% for event in event_list%}
         <div class="Block" style="width:96%; float: left" >
             <div class="Block-body"> 
-                <a href="event_page.html">
+                <a href="{% url event-detail event.id %}">
                     <div class="BlockHeader">
                         {{event.get_name}}
                         <div class="l"></div>

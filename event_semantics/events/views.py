@@ -31,3 +31,7 @@ def events(request):
 def artist_detail(request,artist_id):
 	artist = Artist(ontologies['me'][artist_id])
 	return render(request,'events/artist.html', {'artist' : artist})
+	
+def event_detail(request,event_id):
+	event = Event(ontologies['me'][event_id])
+	return render(request,'events/event.html', {'event' : event})

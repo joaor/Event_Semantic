@@ -18,9 +18,9 @@
                      <p><b>Albums: </b>{{artist.get_album_list}}</p>
                      <p><b>Events: </b> 
 						{% for event in artist.get_event_list %}
-							<a href= "event_page.html">{{event.get_name}}</a>,
+							<a href= "{% url event-detail event.id %}">{{event.get_name}}</a>
 						{% endfor %}
-					</p>
+					 </p>
                      <p><b>Summary: </b>{{artist.get_summary}}</p>
                      <p><b>Description: </b>{{artist.get_description}}</p>
                  </p>
