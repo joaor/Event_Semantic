@@ -3,23 +3,22 @@ from events.semantic import ontologies
 
 
 class RDFObject(object):
-	"""docstring for RDFObject"""
 	def __init__(self, uri):
 		super(RDFObject, self).__init__()
 		self.uri = uri
-		self.id = str(uri)[46:]
+		self.id = unicode(self.uri)[46:]
 		
 	def get_name(self):
-		name = self.single_query("Name",str)
+		name = self.single_query("Name",unicode)
 		if not name:
 			return self.id.replace('+',' ')
 		return name
 
 	def get_description(self):
 		try:
-			desc = self.single_query("Description",str).replace('\\n','</br>')
+			desc = self.single_query("Description",unicode)
 		except:
-			return "No description avaiable"
+			return u'No description avaiable'
 		return desc
 			
 	def single_query(self,prop,func):
@@ -36,8 +35,11 @@ class RDFObject(object):
 		return self.get_name()
 
 class Event(RDFObject):
+	def get_name(self):
+		return u'%s @ %s' % (super(Event,self).get_name(),self.get_place().get_name())
+			
 	def get_date(self):
-		return self.single_query("Date",str)
+		return self.single_query("Date",unicode)
 	
 	def get_place(self):
 		return self.single_query("takes_place",Place)
@@ -53,32 +55,32 @@ class Event(RDFObject):
 		
 class Artist(RDFObject):
 	def get_genre_list(self):
-		return ", ".join(self.multiple_query("Genre",str))
+		return u', '.join(self.multiple_query("Genre",unicode))
 
 	def get_album_list(self):
-		return ", ".join(map(lambda a: a.get_name(), self.multiple_query("recorded",Album)))
+		return u', '.join(map(lambda a: a.get_name(), self.multiple_query("recorded",Album)))
 
 	def get_event_list(self):
 		return self.inverse_multiple_query("performed_by",Event)
 		
 	def get_summary(self):
-		return self.single_query("Summary",str).replace('\\n','</br>')
+		return self.single_query("Summary",unicode)
 
 class Place(RDFObject):
 	def get_address(self):
-		return self.single_query("Address",str)
+		return self.single_query("Address",unicode)
 		
 	def get_postal(self):
-		return self.single_query("Postal",str)
+		return self.single_query("Postal",unicode)
 		
 	def get_locality(self):
-		return self.single_query("Locality",str)
+		return self.single_query("Locality",unicode)
 		
 	def get_country(self):
-		return self.single_query("Country",str)
+		return self.single_query("Country",unicode)
 		
 	def get_complete_address(self):
-		return "%s, %s %s, %s" % (self.get_address(),self.get_postal(),self.get_locality(),self.get_country())
+		return u'%s, %s %s, %s' % (self.get_address(),self.get_postal(),self.get_locality(),self.get_country())
 
 class Album(RDFObject):
 	pass

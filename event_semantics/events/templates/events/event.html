@@ -22,7 +22,7 @@
                 <p><b>Place: </b>{{event.get_place.get_name}}</p>
 				<p><b>Address: </b>{{event.get_place.get_complete_address}} </p>
                 <p><b>Date: </b>{{event.get_date}}</p>
-                <p><b>Description: </b>{{event.get_description}}</p>
+                <p><b>Description: </b>{{event.get_description|safe|linebreaks}}</p>
                 <div style="clear: left;"></div>
             </div>         
         </div>
