@@ -7,4 +7,5 @@ urlpatterns = patterns('events.views',
 	url(r'^events/$', 'events', name="events"),
 	url(r'^artist/(?P<artist_id>.+)/$', 'artist_detail', name="artist-detail"),
 	url(r'^event/(?P<event_id>.+)/$', 'event_detail', name="event-detail"),
+	url(r'^genre/(?P<genre_id>.+)/$', 'genre', name="genre"),
 )

@@ -86,12 +86,11 @@
 <li><a href="#">Categories</a>
 
 <ul>
-	<li><a href="#">Rock</a></li>
-	<li><a href="#">Pop</a></li>
-	<li><a href="#">Rap</a></li>
-	<li><a href="#">Metal</a></li>
-
-	<li><a href="#">Classic</a></li>
+	<li><a href="{% url genre 'pop' %}">Pop</a></li>
+	<li><a href="{% url genre 'rock' %}">Rock</a></li>
+	<li><a href="{% url genre 'metal' %}">Metal</a></li>
+	<li><a href="{% url genre 'jazz' %}">Jazz</a></li>
+	<li><a href="{% url genre 'classic' %}">Classic</a></li>
 </ul>
 </li>
 <li><a href="#">Date</a>

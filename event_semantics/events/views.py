@@ -35,3 +35,12 @@ def artist_detail(request,artist_id):
 def event_detail(request,event_id):
 	event = Event(ontologies['me'][event_id])
 	return render(request,'events/event.html', {'event' : event})
+
+def genre(request,genre_id):
+	artist_list = []
+	event_list = []
+	for pf in graph.query(""" SELECT ?art WHERE { ?art rdf:type me:Performer . ?art me:Genre ?g . FILTER (regex(?g, "^%s+?", "i")) } """ % genre_id):
+		artist_list.append(Artist(pf))
+	for pf in artist_list:
+		event_list += pf.get_event_list()
+	return render(request,'events/event_list.html', {'event_list' : event_list})
