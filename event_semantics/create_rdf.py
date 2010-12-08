@@ -63,7 +63,7 @@ def get_month(m):
 		return (12,'December')
 	else:
 		pass
-		
+	
 place_list = []
 artist_list = []
 events_folder = '/Users/joaorodrigues/Documents/5_ano/ws/Projecto/Projecto_WS/Data/events/'
@@ -88,6 +88,7 @@ for filename in os.listdir(events_folder)[1:]:
 			graph.add((event,ontologies['me']['Name'],Literal(event_name)))
 			event_date = getText(description.getElementsByTagName("terms:date")[0].childNodes)
 			ev_date = ontologies['me'][str(id_number)]
+			graph.add((ev_date,ontologies['rdf']['type'],ontologies['me']['Date'])) 	
 			d = event_date.split(",")
 			graph.add((ev_date,ontologies['me']['DayName'],Literal(get_day(d[0]))))
 			dt = d[1].split()
@@ -212,7 +213,7 @@ for filename in os.listdir(albums_folder)[1:]:
 			except:
 				continue
 		
-pprint(list(graph))
+#pprint(list(graph))
 
 
 # just think .whatever((s, p, o))
@@ -233,3 +234,4 @@ pprint(list(graph))
 #print list(graph.query(""" SELECT ?cenas WHERE { ?cenas me:takes_place ?a . ?a me:Name "MusicBox" . } """, initNs=ontologies))
 
 graph.commit()
+

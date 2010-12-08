@@ -46,10 +46,25 @@ def genre(request,genre_id):
 	return render(request,'events/event_list.html', {'event_list' : event_list})
 	
 def event_date(request,date_id):
-	pass
-	#Tue, 14 Dec 2010 21:30:00
-	#acrescentar campo weekday e mes, type date?
-	
+	now = datetime.datetime.now()
+	if date_id == 'past':
+		pass
+	elif date_id == 'week':
+		week_number = now.isocalendar()[1]
+		event_list = []
+		for dt in graph.query(""" SELECT ?d WHERE { ?d rdf:type me:Date . ?d me:WeekNumber %d . } """ % week_number ):
+			for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:starts_at ?d . } """, initBindings={'d': dt} ):
+				event_list.append(Event(ev))
+	elif date_id == 'this_month':
+		pass
+	elif date_id == 'next_month':
+		pass
+	elif date_id == 'year':
+		pass
+	else:
+		return render(request,'events/home.html')
+	return render(request,'events/event_list.html', {'event_list' : event_list})
+
 	
 	
 	
