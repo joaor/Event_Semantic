@@ -1,4 +1,4 @@
-; Sun Dec 05 15:52:03 WET 2010
+; Wed Dec 08 18:48:22 WET 2010
 ; 
 ;+ (version "3.4.4")
 ;+ (build "Build 579")
@@ -6,11 +6,11 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[Projecto_WS_ProjectKB_Class61]
-		[Projecto_WS_ProjectKB_Class62]
-		[Projecto_WS_ProjectKB_Class63]
-		[Projecto_WS_ProjectKB_Class64]
-		[Projecto_WS_ProjectKB_Class65]))
+		[Projecto_WS_ProjectKB_Class10091]
+		[Projecto_WS_ProjectKB_Class10092]
+		[Projecto_WS_ProjectKB_Class10093]
+		[Projecto_WS_ProjectKB_Class10094]
+		[Projecto_WS_ProjectKB_Class10095]))
 
 ([CLSES_TAB] of  Widget
 
@@ -267,9 +267,6 @@
 ([KB_024013_Instance_5] of  Property_List
 )
 
-([KB_058834_Class0] of  Map
-)
-
 ([KB_100699_Instance_0] of  Widget
 
 	(height 360)
@@ -377,6 +374,9 @@
 	(name ":DIRECT-TEMPLATE-SLOTS")
 	(property_list [KB_100699_Instance_11])
 	(widget_class_name "edu.stanford.smi.protege.widget.FormWidget"))
+
+([KB_126370_Class0] of  Map
+)
 
 ([KB_140180_Instance_0] of  Widget
 
@@ -5605,6 +5605,31 @@
 ([Projecto_WS_ProjectKB_Class10] of  Property_List
 )
 
+([Projecto_WS_ProjectKB_Class10091] of  String
+
+	(name ":INSTANCE-ANNOTATION")
+	(string_value "%3AANNOTATION-TEXT"))
+
+([Projecto_WS_ProjectKB_Class10092] of  String
+
+	(name "http://www.w3.org/2002/07/owl#Class")
+	(string_value "%3ANAME"))
+
+([Projecto_WS_ProjectKB_Class10093] of  String
+
+	(name ":PAL-CONSTRAINT")
+	(string_value "%3APAL-NAME"))
+
+([Projecto_WS_ProjectKB_Class10094] of  String
+
+	(name ":META-CLASS")
+	(string_value "%3ANAME"))
+
+([Projecto_WS_ProjectKB_Class10095] of  String
+
+	(name "http://www.w3.org/2002/07/owl#Thing")
+	(string_value "%3ANAME"))
+
 ([Projecto_WS_ProjectKB_Class11] of  Widget
 
 	(is_hidden TRUE)
@@ -5850,31 +5875,6 @@
 
 ([Projecto_WS_ProjectKB_Class60] of  Property_List
 )
-
-([Projecto_WS_ProjectKB_Class61] of  String
-
-	(name ":INSTANCE-ANNOTATION")
-	(string_value "%3AANNOTATION-TEXT"))
-
-([Projecto_WS_ProjectKB_Class62] of  String
-
-	(name "http://www.w3.org/2002/07/owl#Class")
-	(string_value "%3ANAME"))
-
-([Projecto_WS_ProjectKB_Class63] of  String
-
-	(name ":PAL-CONSTRAINT")
-	(string_value "%3APAL-NAME"))
-
-([Projecto_WS_ProjectKB_Class64] of  String
-
-	(name ":META-CLASS")
-	(string_value "%3ANAME"))
-
-([Projecto_WS_ProjectKB_Class65] of  String
-
-	(name "http://www.w3.org/2002/07/owl#Thing")
-	(string_value "%3ANAME"))
 
 ([Projecto_WS_ProjectKB_Class7] of  Widget
 

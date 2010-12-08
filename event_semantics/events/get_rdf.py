@@ -1,6 +1,6 @@
 from django_rdf import graph
 from events.semantic import ontologies
-
+import datetime
 
 class RDFObject(object):
 	def __init__(self, uri):
@@ -39,8 +39,8 @@ class Event(RDFObject):
 		return u'%s @ %s' % (super(Event,self).get_name(),self.get_place().get_name())
 			
 	def get_date(self):
-		return self.single_query("Date",unicode)
-	
+		return self.single_query("starts_at",Date)	
+			
 	def get_place(self):
 		return self.single_query("takes_place",Place)
 			
@@ -81,6 +81,37 @@ class Place(RDFObject):
 		
 	def get_complete_address(self):
 		return u'%s, %s %s, %s' % (self.get_address(),self.get_postal(),self.get_locality(),self.get_country())
+	
+class Date(RDFObject):
+	def get_name(self):
+		return u'%s, %s of %s %s - %sh%smin' % (self.get_day_name(),self.get_day_number(),self.get_month_name(),self.get_year(),self.get_hour(),self.get_min())
+	
+	def get_year(self):
+		return self.single_query("Year",unicode)
+
+	def get_month_number(self):
+		return self.single_query("MonthNumber",unicode)	
+	
+	def get_month_name(self):
+		return self.single_query("MonthName",unicode)
+
+	def get_day_number(self):
+		return self.single_query("DayNumber",unicode)
+
+	def get_day_name(self):
+		return self.single_query("DayName",unicode)
+
+	def get_week_number(self):
+		return self.single_query("WeekNumber",unicode)
+
+	def get_hour(self):
+		return self.single_query("Hour",unicode)
+
+	def get_min(self):
+		return self.single_query("Min",unicode)	
+
+	def get_sec(self):
+		return self.single_query("Sec",unicode)
 
 class Album(RDFObject):
 	pass

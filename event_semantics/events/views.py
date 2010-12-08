@@ -44,3 +44,12 @@ def genre(request,genre_id):
 	for pf in artist_list:
 		event_list += pf.get_event_list()
 	return render(request,'events/event_list.html', {'event_list' : event_list})
+	
+def event_date(request,date_id):
+	pass
+	#Tue, 14 Dec 2010 21:30:00
+	#acrescentar campo weekday e mes, type date?
+	
+	
+	
+	

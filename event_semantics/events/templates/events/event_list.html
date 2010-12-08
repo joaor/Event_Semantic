@@ -43,7 +43,7 @@
                           <b>Place: </b>{{event.get_place.get_name}}
                         </div>
                         <div style="float: left; width: 25%">
-                          <b>Date: </b>{{event.get_date}}
+                          <b>Date: </b>{{event.get_date.get_name}}
                         </div>
                         
                     </div>
@@ -84,7 +84,6 @@
 <ul>
 
 <li><a href="#">Categories</a>
-
 <ul>
 	<li><a href="{% url genre 'pop' %}">Pop</a></li>
 	<li><a href="{% url genre 'rock' %}">Rock</a></li>
@@ -94,18 +93,15 @@
 </ul>
 </li>
 <li><a href="#">Date</a>
-
 <ul>
-	<li><a href="#">This Week</a></li>
-	<li><a href="#">This Month</a></li>
-	<li><a href="#">Next Month</a></li>
-	<li><a href="#">This Year</a></li>
-
+	<li><a href="{% url date 'week' %}">This Week</a></li>
+	<li><a href="{% url date 'this_month' %}">This Month</a></li>
+	<li><a href="{% url date 'next_month' %}">Next Month</a></li>
+	<li><a href="{% url date 'year' %}">This Year</a></li>
 </ul>
 </li>
 <li><a href="#">Place</a>
 <ul>
-
 	<li><a href="#">North</a></li>
 	<li><a href="#">Center</a></li>
 	<li><a href="#">South</a></li>

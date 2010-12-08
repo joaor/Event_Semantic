@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 from rdflib import Namespace, Literal, URIRef
-
+import datetime
 import settings, os, unicodedata, re
 from django.core.management import setup_environ
 setup_environ(settings)
@@ -20,13 +20,57 @@ def getText(nodelist):
             rc.append(node.data)
     return ''.join(rc)
 
+def get_day(m):
+	if m == 'Mon':
+		return 'Monday'
+	elif m == 'Tue':
+		return 'Tuesday'
+	elif m == 'Wed':
+		return 'Wednesday'
+	elif m == 'Thu':
+		return 'Thursday'
+	elif m == 'Fri':
+		return 'Friday'
+	elif m == 'Sat':
+		return 'Saturday'
+	elif m == 'Sun':
+		return 'Sunday'
+	
+def get_month(m):
+	if m == 'Jan':
+		return (1,'January')
+	elif m == 'Feb':
+		return (2,'February')
+	elif m == 'Mar':
+		return (3,'March')
+	elif m == 'Apr':
+		return (4,'April')
+	elif m == 'May':
+		return (5,'May')
+	elif m == 'Jun':
+		return (6,'June')
+	elif m == 'Jul':
+		return (7,'July')
+	elif m == 'Aug':
+		return (8,'August')
+	elif m == 'Sep':
+		return (9,'September')
+	elif m == 'Oct':
+		return (10,'October')
+	elif m == 'Nov':
+		return (11,'November')
+	elif m == 'Dec':
+		return (12,'December')
+	else:
+		pass
+		
 place_list = []
 artist_list = []
 events_folder = '/Users/joaorodrigues/Documents/5_ano/ws/Projecto/Projecto_WS/Data/events/'
 artists_folder = '/Users/joaorodrigues/Documents/5_ano/ws/Projecto/Projecto_WS/Data/artists/'
 albums_folder = '/Users/joaorodrigues/Documents/5_ano/ws/Projecto/Projecto_WS/Data/albums/'
 repeat = False
-album_number = 1
+id_number = 1
 
 for filename in os.listdir(events_folder)[1:]:
 	f = open("%s/%s" % (events_folder,filename), 'r')
@@ -43,7 +87,28 @@ for filename in os.listdir(events_folder)[1:]:
 			event_name = getText(description.getElementsByTagName("rdfs:label")[0].childNodes).replace('\"',' ')
 			graph.add((event,ontologies['me']['Name'],Literal(event_name)))
 			event_date = getText(description.getElementsByTagName("terms:date")[0].childNodes)
-			graph.add((event,ontologies['me']['Date'],Literal(event_date)))
+			ev_date = ontologies['me'][str(id_number)]
+			d = event_date.split(",")
+			graph.add((ev_date,ontologies['me']['DayName'],Literal(get_day(d[0]))))
+			dt = d[1].split()
+			day = int(dt[0])
+			graph.add((ev_date,ontologies['me']['DayNumber'],Literal(day)))
+			month_nb,month_name = get_month(dt[1])
+			graph.add((ev_date,ontologies['me']['MonthNumber'],Literal(month_nb)))
+			graph.add((ev_date,ontologies['me']['MonthName'],Literal(month_name)))
+			year = int(dt[2])
+			graph.add((ev_date,ontologies['me']['Year'],Literal(year)))
+			weekday = datetime.date(year,month_nb,day).isocalendar()[1]
+			graph.add((ev_date,ontologies['me']['WeekNumber'],Literal(weekday)))
+			t = dt[3].split(":")
+			hour = int(t[0])
+			graph.add((ev_date,ontologies['me']['Hour'],Literal(hour)))
+			mi = int(t[1])
+			graph.add((ev_date,ontologies['me']['Min'],Literal(mi)))
+			sec = int(t[2])
+			graph.add((ev_date,ontologies['me']['Sec'],Literal(sec)))
+			graph.add((event,ontologies['me']['starts_at'],ev_date))
+			id_number += 1
 			d = description.getElementsByTagName("terms:description")
 			if len(d):
 				event_description = getText(d[0].childNodes)
@@ -136,14 +201,14 @@ for filename in os.listdir(albums_folder)[1:]:
 	if artist in artist_list:
 		for alb in info['Artist']['Albums'].keys():
 			try:
-				album = ontologies['me'][str(album_number)] 
+				album = ontologies['me'][str(id_number)] 
 				graph.add((album,ontologies['rdf']['type'],ontologies['me']['Album']))
 				album_name = str(alb)
 				graph.add((album,ontologies['me']['Name'],Literal(album_name)))
 				album_label = str(info['Artist']['Albums'][alb])
 				graph.add((album,ontologies['me']['Label'],Literal(album_label)))
 				graph.add((artist,ontologies['me']['recorded'],album))
-				album_number += 1
+				id_number += 1
 			except:
 				continue
 		
@@ -165,6 +230,6 @@ pprint(list(graph))
 # who is what age?
 #pprint(list(graph.subject_objects(ontologies['me']['description'])))	
 
-print list(graph.query(""" SELECT ?cenas WHERE { ?cenas me:takes_place ?a . ?a me:Name "MusicBox" . } """, initNs=ontologies))
+#print list(graph.query(""" SELECT ?cenas WHERE { ?cenas me:takes_place ?a . ?a me:Name "MusicBox" . } """, initNs=ontologies))
 
 graph.commit()

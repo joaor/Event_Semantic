@@ -11,6 +11,7 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xml:base="http://www.owl-ontologies.com/MusicEvents.owl">
   <owl:Ontology rdf:about=""/>
+  <rdfs:Class rdf:ID="Date"/>
   <rdfs:Class rdf:ID="Place"/>
   <rdfs:Class rdf:ID="Event"/>
   <rdfs:Class rdf:ID="Performer"/>
@@ -19,16 +20,55 @@
     <rdfs:domain rdf:resource="#Performer"/>
     <rdfs:range rdf:resource="#Album"/>
   </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="starts_at">
+    <rdfs:range rdf:resource="#Date"/>
+    <rdfs:domain rdf:resource="#Event"/>
+  </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="performed_by">
     <rdfs:domain rdf:resource="#Event"/>
     <rdfs:range rdf:resource="#Performer"/>
   </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="DayNumber">
+    <rdfs:domain rdf:resource="#Date"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:ID="Summary">
     <rdfs:domain rdf:resource="#Performer"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="Min">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="#Date"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="WeekNumber">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="#Date"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="MonthNumber">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="#Date"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
   </owl:DatatypeProperty>
   <owl:DatatypeProperty rdf:ID="Genre">
     <rdfs:domain rdf:resource="#Performer"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="Hour">
+    <rdfs:domain rdf:resource="#Date"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="Year">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="#Date"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="Sec">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="#Date"/>
   </owl:DatatypeProperty>
   <owl:FunctionalProperty rdf:ID="Label">
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -40,10 +80,15 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="#Event"/>
   </owl:FunctionalProperty>
-  <owl:FunctionalProperty rdf:ID="Date">
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  <owl:FunctionalProperty rdf:ID="DayName">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="#Event"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Date"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="MonthName">
+    <rdfs:domain rdf:resource="#Date"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </owl:FunctionalProperty>
   <owl:FunctionalProperty rdf:ID="Adress">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -55,11 +100,6 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </owl:FunctionalProperty>
-  <owl:FunctionalProperty rdf:ID="Postal">
-    <rdfs:domain rdf:resource="#Place"/>
-    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-  </owl:FunctionalProperty>
   <owl:FunctionalProperty rdf:ID="Name">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -70,9 +110,15 @@
           <rdfs:Class rdf:about="#Event"/>
           <rdfs:Class rdf:about="#Performer"/>
           <rdfs:Class rdf:about="#Place"/>
+          <rdfs:Class rdf:about="#Date"/>
         </owl:unionOf>
       </owl:Class>
     </rdfs:domain>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:ID="Postal">
+    <rdfs:domain rdf:resource="#Place"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
   </owl:FunctionalProperty>
   <owl:FunctionalProperty rdf:ID="Long">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
