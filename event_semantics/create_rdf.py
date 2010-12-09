@@ -1,6 +1,7 @@
-from datetime import datetime, timedelta
+from datetime import timedelta
 from rdflib import Namespace, Literal, URIRef
-import datetime
+from time import mktime
+
 import settings, os, unicodedata, re
 from django.core.management import setup_environ
 setup_environ(settings)
@@ -99,6 +100,7 @@ for filename in os.listdir(events_folder)[1:]:
 			graph.add((ev_date,ontologies['me']['MonthName'],Literal(month_name)))
 			year = int(dt[2])
 			graph.add((ev_date,ontologies['me']['Year'],Literal(year)))
+			import datetime
 			weekday = datetime.date(year,month_nb,day).isocalendar()[1]
 			graph.add((ev_date,ontologies['me']['WeekNumber'],Literal(weekday)))
 			t = dt[3].split(":")
@@ -108,6 +110,11 @@ for filename in os.listdir(events_folder)[1:]:
 			graph.add((ev_date,ontologies['me']['Min'],Literal(mi)))
 			sec = int(t[2])
 			graph.add((ev_date,ontologies['me']['Sec'],Literal(sec)))
+			from datetime import datetime
+			s = "%.2d %.2d %.2d %.2d %.2d %d" % (hour,mi,sec,day,month_nb,year)
+			time_func = datetime.strptime(s,"%H %M %S %d %m %Y")
+			timestamp = mktime(time_func.timetuple())
+			graph.add((ev_date,ontologies['me']['Timestamp'],Literal(int(timestamp))))			
 			graph.add((event,ontologies['me']['starts_at'],ev_date))
 			id_number += 1
 			d = description.getElementsByTagName("terms:description")

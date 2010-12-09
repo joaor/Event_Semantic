@@ -12,6 +12,8 @@ from events.semantic import ontologies
 
 from events.get_rdf import *
 
+import time
+
 # Helper
 def render(request, template, opts = {}):
 	return render_to_response(template, opts, context_instance=RequestContext(request))
@@ -46,24 +48,37 @@ def genre(request,genre_id):
 	return render(request,'events/event_list.html', {'event_list' : event_list})
 	
 def event_date(request,date_id):
+	event_list = []
 	now = datetime.datetime.now()
 	if date_id == 'past':
-		pass
+		timestp = int(time.time())
+		for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:starts_at ?d . ?d rdf:type me:Date . ?d me:Timestamp ?t . FILTER (?t < %d) . } """ % timestp ):
+			event_list.append(Event(ev))
 	elif date_id == 'week':
 		week_number = now.isocalendar()[1]
-		event_list = []
-		for dt in graph.query(""" SELECT ?d WHERE { ?d rdf:type me:Date . ?d me:WeekNumber %d . } """ % week_number ):
-			for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:starts_at ?d . } """, initBindings={'d': dt} ):
-				event_list.append(Event(ev))
-	elif date_id == 'this_month':
-		pass
+		event_list = get_events_by_date(now.year,'WeekNumber',week_number)
+	elif date_id == 'this_month':	
+		event_list = get_events_by_date(now.year,'MonthNumber',now.month)
 	elif date_id == 'next_month':
-		pass
+		month = now.month + 1
+		year = now.year
+		if month == 13:
+			month = 1
+			year += 1
+		event_list = get_events_by_date(year,'MonthNumber',month)
 	elif date_id == 'year':
-		pass
-	else:
-		return render(request,'events/home.html')
+		event_list = get_events_by_date(now.year)
 	return render(request,'events/event_list.html', {'event_list' : event_list})
+	
+def get_events_by_date(*args):
+	event_list = []
+	if len(args) == 1:
+		for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:starts_at ?d . ?d rdf:type me:Date . ?d me:Year %d . } """ % args[0]):
+			event_list.append(Event(ev))
+	elif len(args) == 3:
+		for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:starts_at ?d . ?d rdf:type me:Date . ?d me:Year %d . ?d me:%s %d . } """ % (args[0],args[1],args[2]) ):
+			event_list.append(Event(ev))
+	return event_list
 
 	
 	
