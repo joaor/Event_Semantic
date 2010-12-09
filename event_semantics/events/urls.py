@@ -10,4 +10,5 @@ urlpatterns = patterns('events.views',
 	url(r'^genre/(?P<genre_id>.+)/$', 'event_genre', name="genre"),
 	url(r'^date/(?P<date_id>.+)/$', 'event_date', name="date"),
 	url(r'^zone/(?P<zone_id>.+)/$', 'event_zone', name="zone"),
+	url(r'^search/$', 'event_search', name="search"),
 )

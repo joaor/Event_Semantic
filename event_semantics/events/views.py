@@ -69,7 +69,17 @@ def event_date(request,date_id):
 	elif date_id == 'year':
 		event_list = get_events_by_date(now.year)
 	return render(request,'events/event_list.html', {'event_list' : event_list})
-	
+
+def get_events_by_date(*args):
+	event_list = []
+	if len(args) == 1:
+		for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:starts_at ?d . ?d rdf:type me:Date . ?d me:Year %d . } """ % args[0]):
+			event_list.append(Event(ev))
+	elif len(args) == 3:
+		for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:starts_at ?d . ?d rdf:type me:Date . ?d me:Year %d . ?d me:%s %d . } """ % (args[0],args[1],args[2]) ):
+			event_list.append(Event(ev))
+	return event_list
+			
 def event_zone(request,zone_id):
 	event_list = []
 	lat_north = 41
@@ -84,16 +94,15 @@ def event_zone(request,zone_id):
 		for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:takes_place ?p . ?p rdf:type me:Place . ?p me:Lat ?l . FILTER (?l < %d) . } """ % lat_south ):
 			event_list.append(Event(ev))
 	return render(request,'events/event_list.html', {'event_list' : event_list})
-	
-def get_events_by_date(*args):
+
+def event_search(request):
 	event_list = []
-	if len(args) == 1:
-		for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:starts_at ?d . ?d rdf:type me:Date . ?d me:Year %d . } """ % args[0]):
-			event_list.append(Event(ev))
-	elif len(args) == 3:
-		for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:starts_at ?d . ?d rdf:type me:Date . ?d me:Year %d . ?d me:%s %d . } """ % (args[0],args[1],args[2]) ):
-			event_list.append(Event(ev))
-	return event_list
+	words = request.GET['search_words'].split()
+	#TODO: semantic search
+	return render(request,'events/event_list.html', {'event_list' : event_list})
+	
+		
+
 
 	
 	

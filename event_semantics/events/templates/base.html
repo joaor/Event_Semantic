@@ -61,8 +61,8 @@
                         <div class="BlockContent">
                             <div class="BlockContent-body">
                         
-                                <form method="get" id="searchform" action="search_results.html">
-                                    <input type="text" value="" name="s" id="s" style="width: 95%;" />
+                                <form method="get" id="searchform" action="{% url search %}">
+                                    <input type="text" value="" name="search_words" id="s" style="width: 95%;" />
                                     <button class="Button" type="submit" name="search">
                                         <span class="btn">
                                             <span class="t">Search</span>
