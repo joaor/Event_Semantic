@@ -38,7 +38,7 @@ def event_detail(request,event_id):
 	event = Event(ontologies['me'][event_id])
 	return render(request,'events/event.html', {'event' : event})
 
-def genre(request,genre_id):
+def event_genre(request,genre_id):
 	artist_list = []
 	event_list = []
 	for pf in graph.query(""" SELECT ?art WHERE { ?art rdf:type me:Performer . ?art me:Genre ?g . FILTER (regex(?g, "^%s+?", "i")) } """ % genre_id):
@@ -68,6 +68,21 @@ def event_date(request,date_id):
 		event_list = get_events_by_date(year,'MonthNumber',month)
 	elif date_id == 'year':
 		event_list = get_events_by_date(now.year)
+	return render(request,'events/event_list.html', {'event_list' : event_list})
+	
+def event_zone(request,zone_id):
+	event_list = []
+	lat_north = 41
+	lat_south = 39
+	if zone_id == 'north':
+		for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:takes_place ?p . ?p rdf:type me:Place . ?p me:Lat ?l . FILTER (?l > %d) . } """ % lat_north ):
+			event_list.append(Event(ev))
+	elif zone_id == 'center':
+		for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:takes_place ?p . ?p rdf:type me:Place . ?p me:Lat ?l . FILTER (?l < %d && ?l > %d) . } """ % (lat_north,lat_south) ):
+			event_list.append(Event(ev))
+	elif zone_id == 'south':
+		for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:takes_place ?p . ?p rdf:type me:Place . ?p me:Lat ?l . FILTER (?l < %d) . } """ % lat_south ):
+			event_list.append(Event(ev))
 	return render(request,'events/event_list.html', {'event_list' : event_list})
 	
 def get_events_by_date(*args):
