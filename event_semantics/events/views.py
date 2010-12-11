@@ -81,8 +81,9 @@ def get_objects(tp,dic):
 	l = []
 	q = ['%s rdf:type me:%s' % (obj_dic[tp][1],tp)]
 	for k in dic.keys():
-		q.append('%s me:%s %s' % (obj_dic[tp][1],obj_dic[k][0],obj_dic[k][1]) )
-		q.append('%s rdf:type me:%s' % (obj_dic[k][1],k) )	
+		if k != tp:
+			q.append('%s me:%s %s' % (obj_dic[tp][1],obj_dic[k][0],obj_dic[k][1]) )
+			q.append('%s rdf:type me:%s' % (obj_dic[k][1],k) )	
 		for i in dic[k]:
 			q.append('%s me:%s %s' % (obj_dic[k][1],i[0],i[1]))
 			if len(i) == 3: #Filter
@@ -96,17 +97,17 @@ def get_objects(tp,dic):
 
 def event_search(request):
 	event_list = []
-	d = {'artist':[],'event':[],'day':[],'month':[],'year':[],'hour':[],'locality':[],'genre':[]}
+	d = {'artist':(['Performer','Name'],[]),'event':(['Event','Name'],[]),'day':(['Date','DayNumber'],[]),'month':(['Date','MonthName'],[]),'year':(['Date','Year'],[]),'hour':(['Date','Hour'],[]),'locality':(['Place','Locality'],[]),'genre':(['Performer','Genre'],[])}
 	ambiguous = []
 	l = []
 	words = request.GET['search_words'].split()
 	for word in words:
 		if l:
 			if l[0] in d.keys():
-				d[l[0]].append(word)
+				d[l[0]][1].append(word)
 				l.pop()
 			elif word in d.keys():
-				d[word].append(l[0])
+				d[word][1].append(l[0])
 				l.pop()
 			else:
 				ambiguous.append(l.pop())
@@ -115,6 +116,17 @@ def event_search(request):
 			l.append(word)
 	if l:
 		ambiguous.append(l.pop())	
+		
+	query_dic = {}
+	for i in d.keys():
+		if d[i][1]:
+			if i in ['day','year','hour']:
+				if d[i][0][0] in query_dic.keys():
+					query_dic[d[i][0][0]].append((d[i][0][1],d[i][1][0]))
+				else:
+					query_dic[d[i][0][0]] = [(d[i][0][1],d[i][1][0])]
+	print query_dic
+	event_list = get_objects('Event', query_dic )
 	print d
 	print ambiguous
 	#TODO: artist: lady gaga,joana ; hour: 5 artist
