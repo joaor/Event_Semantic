@@ -97,7 +97,7 @@ def get_objects(tp,dic):
 
 def event_search(request):
 	event_list = []
-	d = {'artist':(['Performer','Name'],[]),'event':(['Event','Name'],[]),'day':(['Date','DayNumber'],[]),'month':(['Date','MonthName'],[]),'year':(['Date','Year'],[]),'hour':(['Date','Hour'],[]),'locality':(['Place','Locality'],[]),'genre':(['Performer','Genre'],[])}
+	d = {'artist':(['Performer','Name','?an'],[]),'event':(['Event','Name','?en'],[]),'day':(['Date','DayNumber','?dn'],[]),'month':(['Date','MonthName','?mn'],[]),'year':(['Date','Year','?y'],[]),'hour':(['Date','Hour','?h'],[]),'locality':(['Place','Locality','?lo'],[]),'genre':(['Performer','Genre','?g'],[])}
 	ambiguous = []
 	l = []
 	words = request.GET['search_words'].split()
@@ -116,15 +116,21 @@ def event_search(request):
 			l.append(word)
 	if l:
 		ambiguous.append(l.pop())	
-		
 	query_dic = {}
 	for i in d.keys():
 		if d[i][1]:
 			if i in ['day','year','hour']:
-				if d[i][0][0] in query_dic.keys():
-					query_dic[d[i][0][0]].append((d[i][0][1],d[i][1][0]))
-				else:
-					query_dic[d[i][0][0]] = [(d[i][0][1],d[i][1][0])]
+				prop = (d[i][0][1],d[i][1][0])
+			else:
+				f = 'FILTER (regex(%s, "^%s+?", "i"))' % (d[i][0][2],d[i][1][0])
+				prop = (d[i][0][1],d[i][0][2],f)
+				
+			if d[i][0][0] in query_dic.keys():
+				query_dic[d[i][0][0]].append(prop)
+			else:
+				query_dic[d[i][0][0]] = [prop]
+				
+				
 	print query_dic
 	event_list = get_objects('Event', query_dic )
 	print d
