@@ -14,6 +14,8 @@ from events.get_rdf import *
 
 import time
 
+obj_dic = {'Performer': ('performed_by','?art',Artist),'Date' : ('starts_at','?d',Date) , 'Event': ('','?ev',Event), 'Place': ('takes_place','?p',Place)}
+
 # Helper
 def render(request, template, opts = {}):
 	return render_to_response(template, opts, context_instance=RequestContext(request))
@@ -39,12 +41,9 @@ def event_detail(request,event_id):
 	return render(request,'events/event.html', {'event' : event})
 
 def event_genre(request,genre_id):
-	artist_list = []
 	event_list = []
-	for pf in graph.query(""" SELECT ?art WHERE { ?art rdf:type me:Performer . ?art me:Genre ?g . FILTER (regex(?g, "^%s+?", "i")) } """ % genre_id):
-		artist_list.append(Artist(pf))
-	for pf in artist_list:
-		event_list += pf.get_event_list()
+	f = 'FILTER (regex(?g, "^%s+?", "i"))' % genre_id
+	event_list = get_objects('Event', {'Performer' : [('Genre','?g',f)] } )
 	return render(request,'events/event_list.html', {'event_list' : event_list})
 	
 def event_date(request,date_id):
@@ -52,53 +51,78 @@ def event_date(request,date_id):
 	now = datetime.datetime.now()
 	if date_id == 'past':
 		timestp = int(time.time())
-		for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:starts_at ?d . ?d rdf:type me:Date . ?d me:Timestamp ?t . FILTER (?t < %d) . } """ % timestp ):
-			event_list.append(Event(ev))
+		f = 'FILTER (?t < %d)' % timestp
+		event_list = get_objects('Event', {'Date' : [('Timestamp','?t',f)] } )
 	elif date_id == 'week':
 		week_number = now.isocalendar()[1]
-		event_list = get_events_by_date(now.year,'WeekNumber',week_number)
+		event_list = get_objects('Event', {'Date' : [('Year',str(now.year)),('WeekNumber',str(week_number))] } )
 	elif date_id == 'this_month':	
-		event_list = get_events_by_date(now.year,'MonthNumber',now.month)
+		event_list = get_objects('Event', {'Date' : [('Year',str(now.year)),('MonthNumber',str(now.month))] } )
 	elif date_id == 'next_month':
 		month = now.month + 1
 		year = now.year
 		if month == 13:
 			month = 1
 			year += 1
-		event_list = get_events_by_date(year,'MonthNumber',month)
+		event_list = get_objects('Event', {'Date' : [('Year',str(year)),('MonthNumber',str(month))] } )
 	elif date_id == 'year':
-		event_list = get_events_by_date(now.year)
+		event_list = get_objects('Event', {'Date' : [('Year',str(now.year))] } )
 	return render(request,'events/event_list.html', {'event_list' : event_list})
 
-def get_events_by_date(*args):
-	event_list = []
-	if len(args) == 1:
-		for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:starts_at ?d . ?d rdf:type me:Date . ?d me:Year %d . } """ % args[0]):
-			event_list.append(Event(ev))
-	elif len(args) == 3:
-		for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:starts_at ?d . ?d rdf:type me:Date . ?d me:Year %d . ?d me:%s %d . } """ % (args[0],args[1],args[2]) ):
-			event_list.append(Event(ev))
-	return event_list
-			
+def get_objects(tp,dic):
+	l = []
+	q = ['%s rdf:type me:%s' % (obj_dic[tp][1],tp)]
+	for k in dic.keys():
+		q.append('%s me:%s %s' % (obj_dic[tp][1],obj_dic[k][0],obj_dic[k][1]) )
+		q.append('%s rdf:type me:%s' % (obj_dic[k][1],k) )	
+		for i in dic[k]:
+			q.append('%s me:%s %s' % (obj_dic[k][1],i[0],i[1]))
+			if len(i) == 3: #Filter
+				q.append(i[2])
+	s = " . ".join(q)
+	qy = """ SELECT %s WHERE { %s . } """ % (obj_dic[tp][1],s)
+	print qy
+	for inst in graph.query(qy):
+		l.append(obj_dic[tp][2](inst))
+	return l
+		
 def event_zone(request,zone_id):
 	event_list = []
 	lat_north = 41
 	lat_south = 39
 	if zone_id == 'north':
-		for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:takes_place ?p . ?p rdf:type me:Place . ?p me:Lat ?l . FILTER (?l > %d) . } """ % lat_north ):
-			event_list.append(Event(ev))
+		lat_filter = 'FILTER (?l > %d)' % lat_north
 	elif zone_id == 'center':
-		for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:takes_place ?p . ?p rdf:type me:Place . ?p me:Lat ?l . FILTER (?l < %d && ?l > %d) . } """ % (lat_north,lat_south) ):
-			event_list.append(Event(ev))
+		lat_filter = 'FILTER (?l < %d && ?l > %d)' %  (lat_north,lat_south)
 	elif zone_id == 'south':
-		for ev in graph.query(""" SELECT ?ev WHERE { ?ev rdf:type me:Event . ?ev me:takes_place ?p . ?p rdf:type me:Place . ?p me:Lat ?l . FILTER (?l < %d) . } """ % lat_south ):
-			event_list.append(Event(ev))
+		lat_filter = 'FILTER (?l < %d)' % lat_south
+	event_list = get_objects('Event', {'Place' : [('Lat','?l',lat_filter)] } )
 	return render(request,'events/event_list.html', {'event_list' : event_list})
 
 def event_search(request):
 	event_list = []
+	d = {'artist':[],'event':[],'day':[],'month':[],'year':[],'hour':[],'locality':[],'genre':[]}
+	ambiguous = []
+	l = []
 	words = request.GET['search_words'].split()
-	#TODO: semantic search
+	for word in words:
+		if l:
+			if l[0] in d.keys():
+				d[l[0]].append(word)
+				l.pop()
+			elif word in d.keys():
+				d[word].append(l[0])
+				l.pop()
+			else:
+				ambiguous.append(l.pop())
+				l.append(word)
+		else:
+			l.append(word)
+	if l:
+		ambiguous.append(l.pop())	
+	print d
+	print ambiguous
+	#TODO: artist: lady gaga,joana ; hour: 5 artist
 	return render(request,'events/event_list.html', {'event_list' : event_list})
 	
 		
