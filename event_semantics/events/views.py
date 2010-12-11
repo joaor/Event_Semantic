@@ -27,9 +27,7 @@ def contact(request):
 	return render(request,'events/contact.html')
 	
 def events(request):
-	event_list = []
-	for ev in graph.query(""" SELECT ?event WHERE { ?event rdf:type me:Event . } """):
-		event_list.append(Event(ev))
+	event_list = get_objects('Event', {} )
 	return render(request,'events/event_list.html', {'event_list' : event_list})
 	
 def artist_detail(request,artist_id):
@@ -41,13 +39,11 @@ def event_detail(request,event_id):
 	return render(request,'events/event.html', {'event' : event})
 
 def event_genre(request,genre_id):
-	event_list = []
 	f = 'FILTER (regex(?g, "^%s+?", "i"))' % genre_id
 	event_list = get_objects('Event', {'Performer' : [('Genre','?g',f)] } )
 	return render(request,'events/event_list.html', {'event_list' : event_list})
 	
 def event_date(request,date_id):
-	event_list = []
 	now = datetime.datetime.now()
 	if date_id == 'past':
 		timestp = int(time.time())
@@ -69,6 +65,18 @@ def event_date(request,date_id):
 		event_list = get_objects('Event', {'Date' : [('Year',str(now.year))] } )
 	return render(request,'events/event_list.html', {'event_list' : event_list})
 
+def event_zone(request,zone_id):
+	lat_north = 41
+	lat_south = 39
+	if zone_id == 'north':
+		lat_filter = 'FILTER (?l > %d)' % lat_north
+	elif zone_id == 'center':
+		lat_filter = 'FILTER (?l < %d && ?l > %d)' %  (lat_north,lat_south)
+	elif zone_id == 'south':
+		lat_filter = 'FILTER (?l < %d)' % lat_south
+	event_list = get_objects('Event', {'Place' : [('Lat','?l',lat_filter)] } )
+	return render(request,'events/event_list.html', {'event_list' : event_list})
+	
 def get_objects(tp,dic):
 	l = []
 	q = ['%s rdf:type me:%s' % (obj_dic[tp][1],tp)]
@@ -85,19 +93,6 @@ def get_objects(tp,dic):
 	for inst in graph.query(qy):
 		l.append(obj_dic[tp][2](inst))
 	return l
-		
-def event_zone(request,zone_id):
-	event_list = []
-	lat_north = 41
-	lat_south = 39
-	if zone_id == 'north':
-		lat_filter = 'FILTER (?l > %d)' % lat_north
-	elif zone_id == 'center':
-		lat_filter = 'FILTER (?l < %d && ?l > %d)' %  (lat_north,lat_south)
-	elif zone_id == 'south':
-		lat_filter = 'FILTER (?l < %d)' % lat_south
-	event_list = get_objects('Event', {'Place' : [('Lat','?l',lat_filter)] } )
-	return render(request,'events/event_list.html', {'event_list' : event_list})
 
 def event_search(request):
 	event_list = []
