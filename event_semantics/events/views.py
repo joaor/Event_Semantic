@@ -39,7 +39,7 @@ def event_detail(request,event_id):
 	return render(request,'events/event.html', {'event' : event})
 
 def event_genre(request,genre_id):
-	f = 'FILTER (regex(?g, "^%s+?", "i"))' % genre_id
+	f = 'FILTER (regex(?g, "%s+?", "i"))' % genre_id
 	event_list = get_objects('Event', {'Performer' : [('Genre','?g',f)] } )
 	return render(request,'events/event_list.html', {'event_list' : event_list})
 	
@@ -78,7 +78,6 @@ def event_zone(request,zone_id):
 	return render(request,'events/event_list.html', {'event_list' : event_list})
 	
 def get_objects(tp,dic):
-	l = []
 	q = ['%s rdf:type me:%s' % (obj_dic[tp][1],tp)]
 	for k in dic.keys():
 		if k != tp:
@@ -90,11 +89,8 @@ def get_objects(tp,dic):
 				q.append(i[2])
 	s = " . ".join(q)
 	qy = """ SELECT %s WHERE { %s . } """ % (obj_dic[tp][1],s)
-	print qy
-	for inst in graph.query(qy):
-		l.append(obj_dic[tp][2](inst))
-	return l
-
+	return map(lambda inst: obj_dic[tp][2](inst), list(set(graph.query(qy))) )
+	
 def event_search(request):
 	event_list = []
 	d = {'artist':(['Performer','Name','?an'],[]),'event':(['Event','Name','?en'],[]),'day':(['Date','DayNumber','?dn'],[]),'month':(['Date','MonthName','?mn'],[]),'year':(['Date','Year','?y'],[]),'hour':(['Date','Hour','?h'],[]),'locality':(['Place','Locality','?lo'],[]),'genre':(['Performer','Genre','?g'],[])}
@@ -116,26 +112,39 @@ def event_search(request):
 			l.append(word)
 	if l:
 		ambiguous.append(l.pop())	
+	
 	query_dic = {}
 	for i in d.keys():
 		if d[i][1]:
 			if i in ['day','year','hour']:
 				prop = (d[i][0][1],d[i][1][0])
 			else:
-				f = 'FILTER (regex(%s, "^%s+?", "i"))' % (d[i][0][2],d[i][1][0])
+				f = 'FILTER (regex(%s, "%s+?", "i"))' % (d[i][0][2],d[i][1][0])
 				prop = (d[i][0][1],d[i][0][2],f)
 				
 			if d[i][0][0] in query_dic.keys():
 				query_dic[d[i][0][0]].append(prop)
 			else:
 				query_dic[d[i][0][0]] = [prop]
-				
-				
-	print query_dic
-	event_list = get_objects('Event', query_dic )
+	
+	if query_dic:
+		event_list = get_objects('Event', query_dic )
+	
 	print d
 	print ambiguous
-	#TODO: artist: lady gaga,joana ; hour: 5 artist
+	
+	for i in ambiguous:
+		q1 = '''?ev rdf:type me:Event . ?ev me:Name ?ename . OPTIONAL { ?ev me:Description ?edes . } 
+		?ev me:starts_at ?d . ?d me:DayName ?dnm . ?d me:MonthName ?mnm . ?d me:Year ?y . ?d me:Hour ?h . 
+		?ev me:performed_by ?art . ?art me:Name ?aname . ?art me:Genre ?gr . 
+		?ev me:takes_place ?p . ?p me:Locality ?l . 
+		FILTER ( regex(?ename, "%s+?", "i") || regex(?edes, "%s+?", "i") || regex(?dnm, "%s+?", "i") || 
+		regex(?mnm, "%s+?", "i") || regex(?y, "%s+?", "i") || regex(?h, "%s+?", "i") || regex(?aname, "%s+?", "i") || 
+		regex(?gr, "%s+?", "i") || regex(?l, "%s+?", "i"))''' % (i,i,i,i,i,i,i,i,i)
+		q = """ SELECT ?ev WHERE { %s . } """ % (q1)
+		print q
+		event_list += map(lambda a: Event(a), list(set(graph.query(q))) ) 
+	
 	return render(request,'events/event_list.html', {'event_list' : event_list})
 	
 		
