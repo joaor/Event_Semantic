@@ -89,6 +89,7 @@ def get_objects(tp,dic):
 				q.append(i[2])
 	s = " . ".join(q)
 	qy = """ SELECT %s WHERE { %s . } """ % (obj_dic[tp][1],s)
+	print qy
 	return map(lambda inst: obj_dic[tp][2](inst), list(set(graph.query(qy))) )
 	
 def event_search(request):
@@ -117,7 +118,11 @@ def event_search(request):
 	for i in d.keys():
 		if d[i][1]:
 			if i in ['day','year','hour']:
-				prop = (d[i][0][1],d[i][1][0])
+				try: 
+					val = int(d[i][1][0])
+					prop = (d[i][0][1],d[i][1][0])
+				except:
+					continue
 			else:
 				f = 'FILTER (regex(%s, "%s+?", "i"))' % (d[i][0][2],d[i][1][0])
 				prop = (d[i][0][1],d[i][0][2],f)
@@ -130,11 +135,8 @@ def event_search(request):
 	if query_dic:
 		event_list = get_objects('Event', query_dic )
 	
-	print d
-	print ambiguous
-	
 	for i in ambiguous:
-		q1 = '''?ev rdf:type me:Event . ?ev me:Name ?ename . OPTIONAL { ?ev me:Description ?edes . } 
+		q1 = '''?ev rdf:type me:Event . ?ev me:Name ?ename .
 		?ev me:starts_at ?d . ?d me:DayName ?dnm . ?d me:MonthName ?mnm . ?d me:Year ?y . ?d me:Hour ?h . 
 		?ev me:performed_by ?art . ?art me:Name ?aname . ?art me:Genre ?gr . 
 		?ev me:takes_place ?p . ?p me:Locality ?l . 
@@ -142,8 +144,13 @@ def event_search(request):
 		regex(?mnm, "%s+?", "i") || regex(?y, "%s+?", "i") || regex(?h, "%s+?", "i") || regex(?aname, "%s+?", "i") || 
 		regex(?gr, "%s+?", "i") || regex(?l, "%s+?", "i"))''' % (i,i,i,i,i,i,i,i,i)
 		q = """ SELECT ?ev WHERE { %s . } """ % (q1)
-		print q
-		event_list += map(lambda a: Event(a), list(set(graph.query(q))) ) 
+
+		events = map(lambda a: Event(a), list(set(graph.query(q))) ) 
+		if event_list:
+			ids = map(lambda a: a.id,events)
+			event_list = filter(lambda a: a.id in ids,event_list)
+		else:
+			event_list = events
 	
 	return render(request,'events/event_list.html', {'event_list' : event_list})
 	
