@@ -1,0 +1,128 @@
+{% extends 'base.html' %}
+
+{% block headers%}
+<script type="text/javascript" src="/media/script/menu.js"></script>
+{% endblock %}
+
+{% block main_menu%}
+<ul class="menu">
+	<li><a href="{% url home %}"><span><span>Home</span></span></a></li>
+	<li><a href="{% url events %}"  class="active" ><span><span>Events</span></span></a></li>
+	<li><a href="{% url contact %}"><span><span>Contact</span></span></a>    
+</ul>
+{% endblock %}
+
+{% block scroll%}
+<div class="Block" style="height: 500px; overflow-y: scroll">
+{% endblock %}
+
+{% block content%}
+<div class="BlockContent" >
+    <div class="BlockContent-body">	
+		{% for event in event_list%}
+        <div class="Block" style="width:96%; float: left" >
+            <div class="Block-body"> 
+                <a href="{% url event-detail event.id %}">
+                    <div class="BlockHeader">
+                        {{event.get_name}}
+                        <div class="l"></div>
+                        <div class="r"><div></div></div>
+                    </div>
+                </a>
+                <div class="BlockContent">
+                    <div class="BlockContent-body"> 
+
+                        <div style="float: left; width: 25%">
+                          <b>Artist: </b>
+							<a href="{% url artist-detail event.get_main_artist.id %}">{{event.get_main_artist.get_name}}</a>
+							{% if event.has_more_artists %}
+								and others
+							{% endif %}
+                        </div>
+                        <div style="float: left; width: 25%">
+                          <b>Place: </b>{{event.get_place.get_name}}
+                        </div>
+                        <div style="float: left; width: 25%">
+                          <b>Date: </b>{{event.get_date.get_name}}
+                        </div>
+                        
+                    </div>
+                </div> 
+            </div>
+            <div class="Block-tl"></div>
+            <div class="Block-tr"><div></div></div>
+            <div class="Block-bl"><div></div></div>
+            <div class="Block-br"><div></div></div>
+            <div class="Block-tc"><div></div></div>
+            <div class="Block-bc"><div></div></div>
+            <div class="Block-cl"><div></div></div>
+            <div class="Block-cr"><div></div></div>
+            <div class="Block-cc"></div>   
+        </div>  
+		{% endfor %}
+	</div>
+</div>
+{% endblock %}
+
+{% block pagination%}
+<ul id="pagination-flickr">
+    <li class="next"><a href="?page=2">Next »</a></li>
+    <li class="active">1</li>
+    <li class="previous-off">« Previous</li>
+</ul>
+{% endblock %}
+
+{% block browsing_menu%}
+<div class="Block" style="height: 105px;">
+    <div class="Block-body"> 
+
+    <div class="BlockContent">
+        <div class="BlockContent-body" style="text-align: center">
+              
+              <div id="leftContainer">
+<div id="dhtmlgoodies_menu">
+<ul>
+
+<li><a href="#">Categories</a>
+<ul>
+	<li><a href="{% url genre 'pop' %}">Pop</a></li>
+	<li><a href="{% url genre 'rock' %}">Rock</a></li>
+	<li><a href="{% url genre 'metal' %}">Metal</a></li>
+	<li><a href="{% url genre 'jazz' %}">Jazz</a></li>
+	<li><a href="{% url genre 'classic' %}">Classic</a></li>
+</ul>
+</li>
+<li><a href="#">Date</a>
+<ul>
+	<li><a href="{% url date 'past' %}">Past Weeks</a></li>
+	<li><a href="{% url date 'week' %}">This Week</a></li>
+	<li><a href="{% url date 'this_month' %}">This Month</a></li>
+	<li><a href="{% url date 'next_month' %}">Next Month</a></li>
+	<li><a href="{% url date 'year' %}">This Year</a></li>
+</ul>
+</li>
+<li><a href="#">Place</a>
+<ul>
+	<li><a href="{% url zone 'north' %}">North</a></li>
+	<li><a href="{% url zone 'center' %}">Center</a></li>
+	<li><a href="{% url zone 'south' %}">South</a></li>
+</ul>
+</li>
+
+</div>
+</div>
+              
+        </div>
+    </div>
+</div>
+<div class="Block-tl"></div>
+<div class="Block-tr"><div></div></div>
+<div class="Block-bl"><div></div></div>
+<div class="Block-br"><div></div></div>
+<div class="Block-tc"><div></div></div>
+<div class="Block-bc"><div></div></div>
+<div class="Block-cl"><div></div></div>
+<div class="Block-cr"><div></div></div>
+<div class="Block-cc"></div>
+</div>
+{% endblock %}

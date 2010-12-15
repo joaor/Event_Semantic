@@ -92,6 +92,7 @@ a:hover
   position: relative;
   overflow: hidden;
   z-index: 0;
+
   width: 900px;
   
   
@@ -180,6 +181,7 @@ a:hover
   overflow: hidden;
   z-index: -1;
   bottom: 0;
+
   left: 0;
   width: 30px;
   height: 30px;
@@ -241,6 +243,7 @@ a:hover
 {
   background: none;
   behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + (function(){var t=document.getElementsByTagName('link');for(var i=0;i<t.length;i++){var l=t[i];if(l.href&&/style\\.css$/.test(l.href))return l.href.replace('style.css','');}return '';})()+"images/Sheet-s.png',sizingMethod='crop')");
+
 }
 
 .Sheet-tc 
@@ -523,6 +526,7 @@ div.Header  div
 {
   visibility: visible;
   top: 100%;
+
 }
 
 .menu li li:hover>ul
@@ -831,6 +835,7 @@ div.Header  div
 }
 
 .menu a.active span
+
 {
   background-position: right -46px;
 }
@@ -925,7 +930,6 @@ button.Button, a.Button
 }
 
 .Button .r 
-
 
 {
   display: block;
@@ -1123,6 +1127,7 @@ button.Button, a.Button
 {
   background: none;
   behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + (function(){var t=document.getElementsByTagName('link');for(var i=0;i<t.length;i++){var l=t[i];if(l.href&&/style\\.css$/.test(l.href))return l.href.replace('style.css','');}return '';})()+"images/Block-s.png',sizingMethod='crop')");
+
 }
 
 .Block-br 
@@ -1384,6 +1389,7 @@ button.Button, a.Button
 * html .BlockHeader .l
 {
   width: expression(this.parentNode.offsetWidth-11+'px');
+
 }
 
 .BlockHeader .r 
@@ -1682,6 +1688,7 @@ text-decoration:none;
 	text-align:center;
 	background-color:#E2EBED;
 	font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
+
 	margin:0px;
 	padding:0px;
 }
@@ -1794,4 +1801,5 @@ text-decoration:none;
 	color:#FFF;	/* White text */
 	background-color:grey;	/* Blue background */
 }
+
 

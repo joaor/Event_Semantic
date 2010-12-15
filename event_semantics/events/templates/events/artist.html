@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block main_menu%}
+<ul class="menu">
+	<li><a href="{% url home %}"><span><span>Home</span></span></a></li>
+	<li><a href="{% url events %}"  class="active" ><span><span>Events</span></span></a></li>
+	<li><a href="{% url contact %}"><span><span>Contact</span></span></a>    
+</ul>
+{% endblock %}
+
+{% block content %}
+<div class="BlockContent">
+     <div class="BlockContent-body">
+         <div class="post" id="post-9">
+             <h2><a href="#" rel="bookmark" title="link to music event">{{artist.get_name}}</a></h2>
+             <div class="entry">
+                     <p><b>Genre: </b>{{artist.get_genre_list}}</p>
+                     <p><b>Albums: </b>{{artist.get_album_list}}</p>
+                     <p><b>Events: </b> 
+						{% for event in artist.get_event_list %}
+							<a href= "{% url event-detail event.id %}">{{event.get_name}}</a>
+							{% if not forloop.last %}
+							|
+							{% endif %}
+						{% endfor %}
+					 </p>
+                     <p><b>Summary: </b>{{artist.get_summary|safe|linebreaks}}</p>
+                     <p><b>Description: </b>{{artist.get_description|safe|linebreaks}}</p>
+                 </p>
+                 <div style="clear: left;"></div>
+             </div>
+         </div>
+     </div>
+</div>
+{% endblock %}
