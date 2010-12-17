@@ -131,13 +131,14 @@ def event_search(request):
 				query_dic[d[i][0][0]].append(prop)
 			else:
 				query_dic[d[i][0][0]] = [prop]
-	
+	print d
+	print ambiguous
 	if query_dic:
 		event_list = get_objects('Event', query_dic )
 	
 	for i in ambiguous:
 		q1 = '''?ev rdf:type me:Event . ?ev me:Name ?ename .
-		?ev me:starts_at ?d . ?d me:DayName ?dnm . ?d me:MonthName ?mnm . ?d me:Year ?y . ?d me:Hour ?h . 
+		?ev me:starts_at ?d . ?d me:DayNumber ?dnm . ?d me:MonthName ?mnm . ?d me:Year ?y . ?d me:Hour ?h . 
 		?ev me:performed_by ?art . ?art me:Name ?aname . ?art me:Genre ?gr . 
 		?ev me:takes_place ?p . ?p me:Locality ?l . 
 		FILTER ( regex(?ename, "%s+?", "i") || regex(?edes, "%s+?", "i") || regex(?dnm, "%s+?", "i") || 
@@ -149,6 +150,8 @@ def event_search(request):
 		if event_list:
 			ids = map(lambda a: a.id,events)
 			event_list = filter(lambda a: a.id in ids,event_list)
+			if not event_list:
+				break
 		else:
 			event_list = events
 	
