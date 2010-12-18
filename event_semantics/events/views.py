@@ -93,10 +93,11 @@ def get_objects(tp,dic):
 	return map(lambda inst: obj_dic[tp][2](inst), list(set(graph.query(qy))) )
 	
 def event_search(request):
-	event_list = []
 	d = {'artist':(['Performer','Name','?an'],[]),'event':(['Event','Name','?en'],[]),'day':(['Date','DayNumber','?dn'],[]),'month':(['Date','MonthName','?mn'],[]),'year':(['Date','Year','?y'],[]),'hour':(['Date','Hour','?h'],[]),'place':(['Place','Locality','?lo'],[]),'genre':(['Performer','Genre','?g'],[])}
 	ambiguous = []
 	l = []
+	event_list = []
+	dics = []
 	words = request.GET['search_words'].split()
 	weight = len(words)
 	
@@ -117,7 +118,6 @@ def event_search(request):
 	if l:
 		ambiguous.append((l.pop(),weight))	
 
-	dics = []
 	for i in d.keys():
 		wds = d[i][1]
 		for j in wds:			
@@ -146,90 +146,36 @@ def event_search(request):
 		regex(?mnm, "%s+?", "i") || regex(?y, "%s+?", "i") || regex(?h, "%s+?", "i") || regex(?aname, "%s+?", "i") || 
 		regex(?gr, "%s+?", "i") || regex(?l, "%s+?", "i"))''' % (val,val,val,val,val,val,val,val,val)
 		q = """ SELECT ?ev WHERE { %s . } """ % (q1)
-
 		evts = map(lambda a: Event(a), list(set(graph.query(q))) ) 
 		for e in evts:
 			e.weight = i[1]
 		dics.append(evts)
 	
-	print dics		
-	for i in dics:
-		print map(lambda a: a.weight,i)
-	print d
-	print ambiguous
+	if dics:
+		event_list = reduce(event_match,dics)
+		event_list = sorted(event_list,cmp= lambda a,b: cmp(b.weight,a.weight))
 	
-	#reduce
-	
-	return render(request,'events/event_list.html', {'event_list' : event_list})
-	
-'''
-def event_search(request):
-	event_list = []
-	d = {'artist':(['Performer','Name','?an'],[]),'event':(['Event','Name','?en'],[]),'day':(['Date','DayNumber','?dn'],[]),'month':(['Date','MonthName','?mn'],[]),'year':(['Date','Year','?y'],[]),'hour':(['Date','Hour','?h'],[]),'locality':(['Place','Locality','?lo'],[]),'genre':(['Performer','Genre','?g'],[])}
-	ambiguous = []
-	l = []
-	words = request.GET['search_words'].split()
-	for word in words:
-		if l:
-			if l[0] in d.keys():
-				d[l[0]][1].append(word)
-				l.pop()
-			elif word in d.keys():
-				d[word][1].append(l[0])
-				l.pop()
-			else:
-				ambiguous.append(l.pop())
-				l.append(word)
-		else:
-			l.append(word)
-	if l:
-		ambiguous.append(l.pop())	
-	
-	query_dic = {}
-	for i in d.keys():
-		if d[i][1]:
-			if i in ['day','year','hour']:
-				try: 
-					val = int(d[i][1][0])
-					prop = (d[i][0][1],d[i][1][0])
-				except:
-					continue
-			else:
-				f = 'FILTER (regex(%s, "%s+?", "i"))' % (d[i][0][2],d[i][1][0])
-				prop = (d[i][0][1],d[i][0][2],f)
-				
-			if d[i][0][0] in query_dic.keys():
-				query_dic[d[i][0][0]].append(prop)
-			else:
-				query_dic[d[i][0][0]] = [prop]
-	print d
-	print ambiguous
-	if query_dic:
-		event_list = get_objects('Event', query_dic )
-	
-	for i in ambiguous:
-		q1 = '?ev rdf:type me:Event . ?ev me:Name ?ename .
-		?ev me:starts_at ?d . ?d me:DayNumber ?dnm . ?d me:MonthName ?mnm . ?d me:Year ?y . ?d me:Hour ?h . 
-		?ev me:performed_by ?art . ?art me:Name ?aname . ?art me:Genre ?gr . 
-		?ev me:takes_place ?p . ?p me:Locality ?l . 
-		FILTER ( regex(?ename, "%s+?", "i") || regex(?edes, "%s+?", "i") || regex(?dnm, "%s+?", "i") || 
-		regex(?mnm, "%s+?", "i") || regex(?y, "%s+?", "i") || regex(?h, "%s+?", "i") || regex(?aname, "%s+?", "i") || 
-		regex(?gr, "%s+?", "i") || regex(?l, "%s+?", "i"))' % (i,i,i,i,i,i,i,i,i)
-		q = """ SELECT ?ev WHERE { %s . } """ % (q1)
-
-		events = map(lambda a: Event(a), list(set(graph.query(q))) ) 
-		if event_list:
-			ids = map(lambda a: a.id,events)
-			event_list = filter(lambda a: a.id in ids,event_list)
-			if not event_list:
-				break
-		else:
-			event_list = events
+	#print dics		
+	#for i in dics:
+	#	print map(lambda a: a.weight,i)
+	#print d
+	#print ambiguous
+	#print map(lambda a: a.weight,event_list)
 	
 	return render(request,'events/event_list.html', {'event_list' : event_list})
-'''		
+
+def event_match(l1,l2):
+	ids_l1 = map(lambda a: a.id,l1)
+	ids_l2 = map(lambda a: a.id,l2)
+	for elm in l1:
+		if elm.id in ids_l2:
+			l = [i for i in l2 if i.id==elm.id]
+			elm.weight += l[0].weight 
+	for elm in l2:
+		if elm.id not in ids_l1:
+			l1.append(elm)
+	return l1
 
 
-	
 	
 	
