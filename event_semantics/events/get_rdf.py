@@ -7,6 +7,7 @@ class RDFObject(object):
 		super(RDFObject, self).__init__()
 		self.uri = uri
 		self.id = unicode(self.uri)[46:]
+		self.weight = 0
 		
 	def get_name(self):
 		name = self.single_query("Name",unicode)

@@ -94,6 +94,77 @@ def get_objects(tp,dic):
 	
 def event_search(request):
 	event_list = []
+	d = {'artist':(['Performer','Name','?an'],[]),'event':(['Event','Name','?en'],[]),'day':(['Date','DayNumber','?dn'],[]),'month':(['Date','MonthName','?mn'],[]),'year':(['Date','Year','?y'],[]),'hour':(['Date','Hour','?h'],[]),'place':(['Place','Locality','?lo'],[]),'genre':(['Performer','Genre','?g'],[])}
+	ambiguous = []
+	l = []
+	words = request.GET['search_words'].split()
+	weight = len(words)
+	
+	for word in words:
+		if l:
+			if l[0] in d.keys():
+				d[l[0]][1].append((word,weight))
+				l.pop()
+			elif word in d.keys():
+				d[word][1].append((l[0],weight))
+				l.pop()
+			else:
+				ambiguous.append((l.pop(),weight))
+				l.append(word)
+			weight -= 1
+		else:
+			l.append(word)
+	if l:
+		ambiguous.append((l.pop(),weight))	
+
+	dics = []
+	for i in d.keys():
+		wds = d[i][1]
+		for j in wds:			
+			if i in ['day','year','hour']:
+				try: 
+					val = int(j)
+					prop = (d[i][0][1],j[0])
+				except:
+					continue
+			else:
+				f = 'FILTER (regex(%s, "%s+?", "i"))' % (d[i][0][2],j[0])
+				prop = (d[i][0][1],d[i][0][2],f)
+				
+			evts = get_objects('Event', {d[i][0][0]:[prop]} )
+			for e in evts:
+				e.weight = j[1]
+			dics.append(evts)
+	
+	for i in ambiguous:
+		val = i[0]
+		q1 = '''?ev rdf:type me:Event . ?ev me:Name ?ename .
+		?ev me:starts_at ?d . ?d me:DayNumber ?dnm . ?d me:MonthName ?mnm . ?d me:Year ?y . ?d me:Hour ?h . 
+		?ev me:performed_by ?art . ?art me:Name ?aname . ?art me:Genre ?gr . 
+		?ev me:takes_place ?p . ?p me:Locality ?l . 
+		FILTER ( regex(?ename, "%s+?", "i") || regex(?edes, "%s+?", "i") || regex(?dnm, "%s+?", "i") || 
+		regex(?mnm, "%s+?", "i") || regex(?y, "%s+?", "i") || regex(?h, "%s+?", "i") || regex(?aname, "%s+?", "i") || 
+		regex(?gr, "%s+?", "i") || regex(?l, "%s+?", "i"))''' % (val,val,val,val,val,val,val,val,val)
+		q = """ SELECT ?ev WHERE { %s . } """ % (q1)
+
+		evts = map(lambda a: Event(a), list(set(graph.query(q))) ) 
+		for e in evts:
+			e.weight = i[1]
+		dics.append(evts)
+	
+	print dics		
+	for i in dics:
+		print map(lambda a: a.weight,i)
+	print d
+	print ambiguous
+	
+	#reduce
+	
+	return render(request,'events/event_list.html', {'event_list' : event_list})
+	
+'''
+def event_search(request):
+	event_list = []
 	d = {'artist':(['Performer','Name','?an'],[]),'event':(['Event','Name','?en'],[]),'day':(['Date','DayNumber','?dn'],[]),'month':(['Date','MonthName','?mn'],[]),'year':(['Date','Year','?y'],[]),'hour':(['Date','Hour','?h'],[]),'locality':(['Place','Locality','?lo'],[]),'genre':(['Performer','Genre','?g'],[])}
 	ambiguous = []
 	l = []
@@ -137,13 +208,13 @@ def event_search(request):
 		event_list = get_objects('Event', query_dic )
 	
 	for i in ambiguous:
-		q1 = '''?ev rdf:type me:Event . ?ev me:Name ?ename .
+		q1 = '?ev rdf:type me:Event . ?ev me:Name ?ename .
 		?ev me:starts_at ?d . ?d me:DayNumber ?dnm . ?d me:MonthName ?mnm . ?d me:Year ?y . ?d me:Hour ?h . 
 		?ev me:performed_by ?art . ?art me:Name ?aname . ?art me:Genre ?gr . 
 		?ev me:takes_place ?p . ?p me:Locality ?l . 
 		FILTER ( regex(?ename, "%s+?", "i") || regex(?edes, "%s+?", "i") || regex(?dnm, "%s+?", "i") || 
 		regex(?mnm, "%s+?", "i") || regex(?y, "%s+?", "i") || regex(?h, "%s+?", "i") || regex(?aname, "%s+?", "i") || 
-		regex(?gr, "%s+?", "i") || regex(?l, "%s+?", "i"))''' % (i,i,i,i,i,i,i,i,i)
+		regex(?gr, "%s+?", "i") || regex(?l, "%s+?", "i"))' % (i,i,i,i,i,i,i,i,i)
 		q = """ SELECT ?ev WHERE { %s . } """ % (q1)
 
 		events = map(lambda a: Event(a), list(set(graph.query(q))) ) 
@@ -156,8 +227,7 @@ def event_search(request):
 			event_list = events
 	
 	return render(request,'events/event_list.html', {'event_list' : event_list})
-	
-		
+'''		
 
 
 	
