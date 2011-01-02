@@ -42,6 +42,28 @@ def event_genre(request,genre_id):
 	f = 'FILTER (regex(?g, "%s+?", "i"))' % genre_id
 	event_list = get_objects('Event', {'Performer' : [('Genre','?g',f)] } )
 	return render(request,'events/event_list.html', {'event_list' : event_list})
+		
+curr_date = 'all_dates'
+curr_genre = 'all_genre'
+curr_zone = 'all_zones'
+
+def act_date(request,date_id):
+	global curr_date
+	curr_date = date_id
+	return browsing(request)
+	
+def act_genre(request,genre_id):
+	global curr_genre
+	curr_genre = genre_id
+	return browsing(request)
+		
+def act_zone(request,zone_id):
+	global curr_zone
+	curr_zone = zone_id
+	return browsing(request)
+
+def browsing(request):
+	return render(request,'events/contact.html')
 	
 def event_date(request,date_id):
 	now = datetime.datetime.now()
