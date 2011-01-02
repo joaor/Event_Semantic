@@ -92,6 +92,7 @@ a:hover
   position: relative;
   overflow: hidden;
   z-index: 0;
+
   width: 900px;
   
   
@@ -180,6 +181,7 @@ a:hover
   overflow: hidden;
   z-index: -1;
   bottom: 0;
+
   left: 0;
   width: 30px;
   height: 30px;
@@ -241,6 +243,7 @@ a:hover
 {
   background: none;
   behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + (function(){var t=document.getElementsByTagName('link');for(var i=0;i<t.length;i++){var l=t[i];if(l.href&&/style\\.css$/.test(l.href))return l.href.replace('style.css','');}return '';})()+"/media/images/Sheet-s.png',sizingMethod='crop')");
+
 }
 
 .Sheet-tc 
@@ -523,6 +526,7 @@ div.Header  div
 {
   visibility: visible;
   top: 100%;
+
 }
 
 .menu li li:hover>ul
@@ -705,6 +709,7 @@ div.Header  div
 {
   background-position: left top;
   background-repeat: no-repeat;
+  /*background-color: black;*/
   background-image: url('/media/images/nav.png');
 }
 
@@ -715,6 +720,24 @@ div.Header  div
   behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + (function(){var t=document.getElementsByTagName('link');for(var i=0;i<t.length;i++){var l=t[i];if(l.href&&/style\\.css$/.test(l.href))return l.href.replace('style.css','');}return '';})()+"/media/images/nav.png',sizingMethod='crop')");
 }
 /* end Menu */
+
+.browseDate
+{
+    float:left;
+    width: 16%;
+    text-align:center;
+    color: #000000;
+    margin: 10px 0px;
+}
+
+.browseDate a.active
+{
+    background-color: #e1e4e5;
+    -moz-border-radius: 5px 1px;
+    border: 1px solid #acacac;
+    padding: 3px 20px;
+    color: #acacac;
+}
 
 /* begin MenuItem */
 .menu ul li
@@ -830,6 +853,7 @@ div.Header  div
 }
 
 .menu a.active span
+
 {
   background-position: right -46px;
 }
@@ -924,6 +948,7 @@ button.Button, a.Button
 }
 
 .Button .r 
+
 {
   display: block;
   position: absolute;
@@ -1120,6 +1145,7 @@ button.Button, a.Button
 {
   background: none;
   behavior: expression(this.runtimeStyle.filter?'':this.runtimeStyle.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + (function(){var t=document.getElementsByTagName('link');for(var i=0;i<t.length;i++){var l=t[i];if(l.href&&/style\\.css$/.test(l.href))return l.href.replace('style.css','');}return '';})()+"/media/images/Block-s.png',sizingMethod='crop')");
+
 }
 
 .Block-br 
@@ -1381,6 +1407,7 @@ button.Button, a.Button
 * html .BlockHeader .l
 {
   width: expression(this.parentNode.offsetWidth-11+'px');
+
 }
 
 .BlockHeader .r 
@@ -1679,6 +1706,7 @@ text-decoration:none;
 	text-align:center;
 	background-color:#E2EBED;
 	font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
+
 	margin:0px;
 	padding:0px;
 }
@@ -1769,6 +1797,7 @@ text-decoration:none;
 .dhtmlgoodies_subMenu ul{
 	margin:0px;
 	padding:0px;	
+
 }
 .dhtmlgoodies_subMenu ul li{
 	list-style-type:none;
@@ -1790,4 +1819,5 @@ text-decoration:none;
 	color:#FFF;	/* White text */
 	background-color:grey;	/* Blue background */
 }
+
 
