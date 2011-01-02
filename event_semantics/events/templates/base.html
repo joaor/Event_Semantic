@@ -31,7 +31,7 @@
                     {% block main_menu%}{% endblock %}
                     <ul class="menu" style="width:31%; float:right">
                         <li><form method="get" id="searchform" action="{% url search %}">
-                                <input type="text" value="" name="search_words" id="s" size="38"/>
+                                <input type="text" value="" name="search_words" id="s" size="35"/>
                                 <input type="submit" name="search" id="s1" value="search"/>
                             </form>
                         </li>
@@ -41,7 +41,6 @@
                 </div>
   
                 <div class="contentLayout">
-                    <div class="content" >
                 		{% block scroll%}{% endblock %}
                             <div class="Block-body">
                                 

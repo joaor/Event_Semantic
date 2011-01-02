@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block main_menu%}
-<ul class="menu">
+<ul class="menu" style="float:left">
 	<li><a href="{% url home %}" class="active" ><span><span>Home</span></span></a></li>
 	<li><a href="{% url events %}"><span><span>Events</span></span></a></li>
 	<li><a href="{% url contact %}"><span><span>Contact</span></span></a>    
@@ -9,7 +9,8 @@
 {% endblock %}
 
 {% block scroll%}
-<div class="Block" style="height: 500px">
+<div class="content" style="width:100%">
+<div class="Block" >
 {% endblock %}
 
 {% block content%}

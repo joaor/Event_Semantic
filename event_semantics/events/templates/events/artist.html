@@ -1,11 +1,16 @@
 {% extends 'base.html' %}
 
 {% block main_menu%}
-<ul class="menu">
+<ul class="menu" style="float:left">
 	<li><a href="{% url home %}"><span><span>Home</span></span></a></li>
 	<li><a href="{% url events %}"  class="active" ><span><span>Events</span></span></a></li>
 	<li><a href="{% url contact %}"><span><span>Contact</span></span></a>    
 </ul>
+{% endblock %}
+
+{% block scroll%}
+<div class="content" style="width:100%">
+<div class="Block" >
 {% endblock %}
 
 {% block content %}
