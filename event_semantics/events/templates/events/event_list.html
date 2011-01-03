@@ -16,24 +16,23 @@
 {% block content%}
 <div class="BlockContent" >
     <div class="BlockContent-body">
-
         <div class= "browseDate">
-            <a href="" class="active"><strong>All Events</strong></a>
+            <a href="{% url date 'all_dates' %}" {% if date == "all_dates" %}class="active"{% endif %}><strong>All Events</strong></a>
         </div>
         <div class= "browseDate">
-            <a href=""><strong>Last Week</strong></a>
+            <a href="{% url date 'past' %}" {% if date == "past" %}class="active"{% endif %}><strong>Past Weeks</strong></a>
         </div>
         <div class= "browseDate">
-            <a href=""><strong>This Week</strong></a>
+            <a href="{% url date 'week' %}" {% if date == "week" %}class="active"{% endif %}><strong>This Week</strong></a>
         </div> 
         <div class= "browseDate">
-            <a href=""><strong>This Month</strong></a>
+            <a href="{% url date 'this_month' %}" {% if date == "this_month" %}class="active"{% endif %}><strong>This Month</strong></a>
         </div>
         <div class= "browseDate">
-            <a href=""><strong>Next Month</strong></a>
+            <a href="{% url date 'next_month' %}" {% if date == "next_month" %}class="active"{% endif %}><strong>Next Month</strong></a>
         </div>
         <div class= "browseDate">
-            <a href=""><strong>This Year</strong></a>
+            <a href="{% url date 'year' %}" {% if date == "year" %}class="active"{% endif %}><strong>This Year</strong></a>
         </div>
 
         
@@ -111,14 +110,14 @@
                             
                                 <form method="get" id="browsingCat" action="browsing_page.html">
                                     <div style = "width: 50%; float:left">
-                                        <input type="radio" name="group1" value="All" checked> All <br>
-                                        <input type="radio" name="group1" value="Rock"> Rock <br>
-                                        <input type="radio" name="group1" value="Pop"> Pop <br>
+                                        <input type="radio" name="group1" value="All" onClick="window.location = '{% url genre 'all_genre' %}'" {% if genre == "all_genre" %}checked{% endif %}> All <br>
+                                        <input type="radio" name="group1" value="Rock" onClick="window.location = '{% url genre 'rock' %}'" {% if genre == "rock" %}checked{% endif %}> Rock <br>
+                                        <input type="radio" name="group1" value="Pop" onClick="window.location = '{% url genre 'pop' %}'" {% if genre == "pop" %}checked{% endif %}> Pop <br>
                                     </div>
                                     <div style = "width: 50%; float:left">
-                                        <input type="radio" name="group1" value="Metal"> Metal <br>
-                                        <input type="radio" name="group1" value="Rap"> Rap <br>
-                                        <input type="radio" name="group1" value="Classic"> Classic <br>
+                                        <input type="radio" name="group1" value="Metal" onClick="window.location = '{% url genre 'metal' %}'" {% if genre == "metal" %}checked{% endif %}> Metal <br>
+                                        <input type="radio" name="group1" value="Jazz" onClick="window.location = '{% url genre 'jazz' %}'" {% if genre == "jazz" %}checked{% endif %}> Jazz <br>
+                                        <input type="radio" name="group1" value="Classic" onClick="window.location = '{% url genre 'classic' %}'" {% if genre == "classic" %}checked{% endif %}> Classic <br>
                                     </div>
                                 </form>
                                 
@@ -149,12 +148,12 @@
                             
                                 <form method="get" id="browsingPlace" action="browsing_page.html">
                                     <div style = "width:50%; float:left">
-                                        <input type="radio" name="group3" value="All" checked> All <br>
-                                        <input type="radio" name="group3" value="north"> North <br>
+                                        <input type="radio" name="group3" value="All" onClick="window.location = '{% url zone 'all_zones' %}'" {% if zone == "all_zones" %}checked{% endif %}> All <br>
+                                        <input type="radio" name="group3" value="north" onClick="window.location = '{% url zone 'north' %}'" {% if zone == "north" %}checked{% endif %}> North <br>
                                     </div>
                                     <div style = "width:50%; float:left">
-                                        <input type="radio" name="group3" value="centre"> Centre <br>
-                                        <input type="radio" name="group3" value="south"> South <br>
+                                        <input type="radio" name="group3" value="center" onClick="window.location = '{% url zone 'center' %}'" {% if zone == "center" %}checked{% endif %}> Center <br>
+                                        <input type="radio" name="group3" value="south" onClick="window.location = '{% url zone 'south' %}'" {% if zone == "south" %}checked{% endif %}> South <br>
                                     </div>
                                 </form>
                                 
