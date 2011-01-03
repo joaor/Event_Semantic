@@ -25,10 +25,20 @@ def home(request):
 	
 def contact(request):
 	return render(request,'events/contact.html')
-	
+
+all_events = []
+curr_date = 'all_dates'
+curr_genre = 'all_genre'
+curr_zone = 'all_zones'
+
 def events(request):
-	event_list = get_objects('Event', {} )
-	return render(request,'events/event_list.html', {'event_list' : event_list})
+	global all_events, curr_date, curr_genre, curr_zone
+	curr_date = 'all_dates'
+	curr_genre = 'all_genre'
+	curr_zone = 'all_zones'
+	if all_events == []:
+		all_events = get_objects('Event', {} )
+	return render(request,'events/event_list.html', {'event_list' : all_events, 'genre' : curr_genre, 'zone' : curr_zone, 'date' : curr_date})
 	
 def artist_detail(request,artist_id):
 	artist = Artist(ontologies['me'][artist_id])
@@ -38,34 +48,62 @@ def event_detail(request,event_id):
 	event = Event(ontologies['me'][event_id])
 	return render(request,'events/event.html', {'event' : event})
 
-def event_genre(request,genre_id):
-	f = 'FILTER (regex(?g, "%s+?", "i"))' % genre_id
-	event_list = get_objects('Event', {'Performer' : [('Genre','?g',f)] } )
-	return render(request,'events/event_list.html', {'event_list' : event_list})
+def act_date(request,date_id):
+	global curr_date
+	curr_date = date_id
+	return browsing(request)
 	
-def event_date(request,date_id):
+def act_genre(request,genre_id):
+	global curr_genre
+	curr_genre = genre_id
+	return browsing(request)
+		
+def act_zone(request,zone_id):
+	global curr_zone
+	curr_zone = zone_id
+	return browsing(request)
+
+def browsing(request):
+	global curr_date, curr_genre, curr_zone
+	d = event_date(curr_date)
+	d = event_genre(d,curr_genre)
+	d = event_zone(d,curr_zone)
+	print d
+	event_list = get_objects('Event', d )
+	return render(request,'events/event_list.html', {'event_list' : event_list, 'genre' : curr_genre, 'zone' : curr_zone, 'date' : curr_date})
+	
+def event_date(date_id):
 	now = datetime.datetime.now()
 	if date_id == 'past':
 		timestp = int(time.time())
 		f = 'FILTER (?t < %d)' % timestp
-		event_list = get_objects('Event', {'Date' : [('Timestamp','?t',f)] } )
+		return {'Date' : [('Timestamp','?t',f)] }
 	elif date_id == 'week':
 		week_number = now.isocalendar()[1]
-		event_list = get_objects('Event', {'Date' : [('Year',str(now.year)),('WeekNumber',str(week_number))] } )
+		return {'Date' : [('Year',str(now.year)),('WeekNumber',str(week_number))] }
 	elif date_id == 'this_month':	
-		event_list = get_objects('Event', {'Date' : [('Year',str(now.year)),('MonthNumber',str(now.month))] } )
+		return {'Date' : [('Year',str(now.year)),('MonthNumber',str(now.month))] }
 	elif date_id == 'next_month':
 		month = now.month + 1
 		year = now.year
 		if month == 13:
 			month = 1
 			year += 1
-		event_list = get_objects('Event', {'Date' : [('Year',str(year)),('MonthNumber',str(month))] } )
+		return {'Date' : [('Year',str(year)),('MonthNumber',str(month))] }
 	elif date_id == 'year':
-		event_list = get_objects('Event', {'Date' : [('Year',str(now.year))] } )
-	return render(request,'events/event_list.html', {'event_list' : event_list})
+		return {'Date' : [('Year',str(now.year))] }
+	else:
+		return {}
 
-def event_zone(request,zone_id):
+def event_genre(di,genre_id):
+	if genre_id == 'all_genre':
+		return di
+	else:
+		f = 'FILTER (regex(?g, "%s+?", "i"))' % genre_id
+		di['Performer'] = [('Genre','?g',f)]
+	return di
+	
+def event_zone(di,zone_id):
 	lat_north = 41
 	lat_south = 39
 	if zone_id == 'north':
@@ -74,8 +112,10 @@ def event_zone(request,zone_id):
 		lat_filter = 'FILTER (?l < %d && ?l > %d)' %  (lat_north,lat_south)
 	elif zone_id == 'south':
 		lat_filter = 'FILTER (?l < %d)' % lat_south
-	event_list = get_objects('Event', {'Place' : [('Lat','?l',lat_filter)] } )
-	return render(request,'events/event_list.html', {'event_list' : event_list})
+	else:
+		return di
+	di['Place'] = [('Lat','?l',lat_filter)]
+	return di
 	
 def get_objects(tp,dic):
 	q = ['%s rdf:type me:%s' % (obj_dic[tp][1],tp)]
@@ -161,8 +201,9 @@ def event_search(request):
 	#print d
 	#print ambiguous
 	#print map(lambda a: a.weight,event_list)
+	res = len(event_list)
 	
-	return render(request,'events/event_list.html', {'event_list' : event_list})
+	return render(request,'events/event_list.html', {'event_list' : event_list, 'genre' : curr_genre, 'zone' : curr_zone, 'date' : curr_date, 'results' : res})
 
 def event_match(l1,l2):
 	ids_l1 = map(lambda a: a.id,l1)
@@ -176,6 +217,6 @@ def event_match(l1,l2):
 			l1.append(elm)
 	return l1
 
-
+#MOSTRAR NUMERO DE RESUltaDOS POR PAGINA!!!
 	
 	
