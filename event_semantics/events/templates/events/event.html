@@ -48,14 +48,9 @@
        <div class="BlockContent">
            <div class="BlockContent-body">
                <div style="width: 85%; float:right">
-                 <li style="text-align: left"><a href="event_page.html" title="event #001">Lady gaga</a></li>
-                 <li style="text-align: left"><a href="event_page.html" title="event #002">Swedish house mafia</a></li>
-                 <li style="text-align: left"><a href="event_page.html" title="event #003">UHF</a></li>
-                 <li style="text-align: left"><a href="event_page.html" title="event #004">Anaquim</a></li>
-				<li style="text-align: left"><a href="event_page.html" title="event #001">Lady gaga</a></li>
-                 <li style="text-align: left"><a href="event_page.html" title="event #002">Swedish house mafia</a></li>
-                 <li style="text-align: left"><a href="event_page.html" title="event #003">UHF</a></li>
-                 <li style="text-align: left"><a href="event_page.html" title="event #004">Anaquim</a></li>
+				{% for event in event_list%}
+                 <li style="text-align: left"><a href="{% url event-detail event.id %}" >{{event.get_name}}</a></li>
+				{% endfor %}  
                </div>
             </div>
        </div>

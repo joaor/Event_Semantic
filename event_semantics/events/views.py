@@ -45,26 +45,47 @@ def artist_detail(request,artist_id):
 	return render(request,'events/artist.html', {'artist' : artist})
 	
 def event_detail(request,event_id):
-	gen = []
+	evts = []
 	event = Event(ontologies['me'][event_id])
 	
+	gen = []
 	for art in event.get_artists():
 		l = art.get_genre_list()
 		if l:
 			gen.append(l.split(', '))
 	gen = reduce(lambda a,b:a+b,gen)
 	gen = map(lambda a: get_objects('Event', event_genre({},a) ),gen)
-	gen = reduce(lambda a,b:a+b,gen) #todos os eventos do mesmo genero
-
+	gen = reduce(delete_repeated,gen) #todos os eventos do mesmo genero
+	for e in gen:
+		e.weight = 4
+	evts.append(gen)
+	
 	zon = get_objects('Event', event_zone({},event.get_place().get_zone())) #todos os eventos na mesma zona
+	for e in zon:
+		e.weight = 3
+	evts.append(zon)
 	
 	y = int(event.get_date().get_year())
 	m = int(event.get_date().get_month_number())
 	d = int(event.get_date().get_day_number())
 	dat = get_objects('Event', event_date('week', datetime.datetime(y,m,d) )) #todos os eventos na mesma semana
+	for e in dat:
+		e.weight = 2
+	evts.append(dat)
+	print len(evts)
+	if evts:
+		event_list = reduce(event_match,evts)
+		event_list = sorted(event_list,cmp= lambda a,b: cmp(b.weight,a.weight))
 	
-	return render(request,'events/event.html', {'event' : event})
+	return render(request,'events/event.html', {'event' : event, 'event_list' : event_list[:10]})
 
+def delete_repeated(l1,l2):
+	ids_l1 = map(lambda a: a.id,l1)
+	for e in l2:
+		if e.id not in ids_l1:
+			l1.append(e)
+	return l1
+	
 def act_date(request,date_id):
 	global curr_date
 	curr_date = date_id
