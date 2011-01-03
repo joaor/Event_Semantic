@@ -48,6 +48,13 @@ def event_detail(request,event_id):
 	evts = []
 	event = Event(ontologies['me'][event_id])
 	
+	arts = event.get_artists()
+	names = map(lambda a: a.get_name(),arts)
+	names = map(lambda a: get_objects('Event', {'Performer' : [('Name','?n','FILTER (regex(?n, "%s+?", "i"))' % a)] } ),names)
+	names = reduce(delete_repeated,names) #todos os eventos do mesmo artista
+	for e in names:
+		e.weight = 8
+	
 	gen = []
 	for art in event.get_artists():
 		l = art.get_genre_list()
@@ -57,25 +64,21 @@ def event_detail(request,event_id):
 	gen = map(lambda a: get_objects('Event', event_genre({},a) ),gen)
 	gen = reduce(delete_repeated,gen) #todos os eventos do mesmo genero
 	for e in gen:
-		e.weight = 4
-	evts.append(gen)
+		e.weight = 6
 	
 	zon = get_objects('Event', event_zone({},event.get_place().get_zone())) #todos os eventos na mesma zona
 	for e in zon:
-		e.weight = 3
-	evts.append(zon)
+		e.weight = 4
 	
 	y = int(event.get_date().get_year())
 	m = int(event.get_date().get_month_number())
 	d = int(event.get_date().get_day_number())
 	dat = get_objects('Event', event_date('week', datetime.datetime(y,m,d) )) #todos os eventos na mesma semana
 	for e in dat:
-		e.weight = 2
-	evts.append(dat)
-	print len(evts)
-	if evts:
-		event_list = reduce(event_match,evts)
-		event_list = sorted(event_list,cmp= lambda a,b: cmp(b.weight,a.weight))
+		e.weight = 3
+
+	event_list = reduce(event_match,[names,gen,zon,dat])
+	event_list = sorted(event_list,cmp= lambda a,b: cmp(b.weight,a.weight))
 	
 	return render(request,'events/event.html', {'event' : event, 'event_list' : event_list[:10]})
 
