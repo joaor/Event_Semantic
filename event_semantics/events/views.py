@@ -47,14 +47,21 @@ def artist_detail(request,artist_id):
 def event_detail(request,event_id):
 	gen = []
 	event = Event(ontologies['me'][event_id])
+	
 	for art in event.get_artists():
 		l = art.get_genre_list()
 		if l:
 			gen.append(l.split(', '))
 	gen = reduce(lambda a,b:a+b,gen)
-	gen = map(lambda a: get_objects('Event', {'Performer' : [('Genre','?g','FILTER (regex(?g, "%s+?", "i"))' % a)] }),gen)
+	gen = map(lambda a: get_objects('Event', event_genre({},a) ),gen)
 	gen = reduce(lambda a,b:a+b,gen) #todos os eventos do mesmo genero
+
+	zon = get_objects('Event', event_zone({},event.get_place().get_zone())) #todos os eventos na mesma zona
 	
+	y = int(event.get_date().get_year())
+	m = int(event.get_date().get_month_number())
+	d = int(event.get_date().get_day_number())
+	dat = get_objects('Event', event_date('week', datetime.datetime(y,m,d) )) #todos os eventos na mesma semana
 	
 	return render(request,'events/event.html', {'event' : event})
 
@@ -75,14 +82,13 @@ def act_zone(request,zone_id):
 
 def browsing(request):
 	global curr_date, curr_genre, curr_zone
-	d = event_date(curr_date)
+	d = event_date(curr_date,datetime.datetime.now())
 	d = event_genre(d,curr_genre)
 	d = event_zone(d,curr_zone)
 	event_list = get_objects('Event', d )
 	return render(request,'events/event_list.html', {'event_list' : event_list, 'genre' : curr_genre, 'zone' : curr_zone, 'date' : curr_date})
 	
-def event_date(date_id):
-	now = datetime.datetime.now()
+def event_date(date_id,now):
 	if date_id == 'past':
 		timestp = int(time.time())
 		f = 'FILTER (?t < %d)' % timestp
