@@ -201,8 +201,9 @@ def event_search(request):
 	#print d
 	#print ambiguous
 	#print map(lambda a: a.weight,event_list)
+	res = len(event_list)
 	
-	return render(request,'events/event_list.html', {'event_list' : event_list})
+	return render(request,'events/event_list.html', {'event_list' : event_list, 'genre' : curr_genre, 'zone' : curr_zone, 'date' : curr_date, 'results' : res})
 
 def event_match(l1,l2):
 	ids_l1 = map(lambda a: a.id,l1)
