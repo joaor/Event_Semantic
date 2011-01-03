@@ -9,7 +9,7 @@
 {% endblock %}
 
 {% block scroll%}
-<div class="content" >
+<div class="content" style="width: 69%">
 <div class="Block">
 {% endblock %}
 
@@ -36,7 +36,7 @@
 {% endblock %}
 
 {% block browsing_menu%}
-<div class="Block">
+<div class="Block" style="width: 30%;">
    <div class="Block-body">
        
        <div class="BlockHeader">
@@ -46,10 +46,12 @@
        </div>
        
        <div class="BlockContent">
-           <div class="BlockContent-body">
-               <div style="width: 85%; float:right">
-				{% for event in event_list%}
-                 <li style="text-align: left"><a href="{% url event-detail event.id %}" >{{event.get_name}}</a></li>
+           <div class="BlockContent-body" style="margin:11px 11px 0px 11px">
+               <div style="width: 93%; float:right">
+				{% for ev in event_list%}
+				{% if ev.id != event.id %}
+                 <li style="text-align: left"><a href="{% url event-detail ev.id %}" >{{ev.get_name}}</a></li><p></p>
+				{% endif %}  
 				{% endfor %}  
                </div>
             </div>
