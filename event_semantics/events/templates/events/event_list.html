@@ -10,7 +10,7 @@
 
 {% block scroll%}
 <div class="content" {% if results %}style="width:100%"{% endif %}>
-<div class="Block" style="height: 500px; overflow-y: scroll">
+<div class="Block">
 {% endblock %}
 
 {% block content%}
@@ -38,11 +38,10 @@
         <div class= "browseDate">
             <a href="{% url date 'year' %}" {% if date == "year" %}class="active"{% endif %}><strong>This Year</strong></a>
         </div>
+{% else %}
+      	<h2>Search Results ({{results}})</h2>
 {% endif %}
-
-		{% if results %}
-        	<h2>Search Results ({{results}})</h2>
-		{% endif %}
+		<div class="resultBlock">
 		
         {% for event in event_list%}
         <div class="Block" style="width:96%; float: left" >
@@ -85,6 +84,7 @@
             <div class="Block-cc"></div>   
         </div>  
 		{% endfor %}    
+		</div> 
     </div>
 </div>
 {% endblock %}

@@ -195,12 +195,6 @@ def event_search(request):
 		event_list = reduce(event_match,dics)
 		event_list = sorted(event_list,cmp= lambda a,b: cmp(b.weight,a.weight))
 	
-	#print dics		
-	#for i in dics:
-	#	print map(lambda a: a.weight,i)
-	#print d
-	#print ambiguous
-	#print map(lambda a: a.weight,event_list)
 	res = len(event_list)
 	
 	return render(request,'events/event_list.html', {'event_list' : event_list, 'genre' : curr_genre, 'zone' : curr_zone, 'date' : curr_date, 'results' : res})
@@ -217,6 +211,4 @@ def event_match(l1,l2):
 			l1.append(elm)
 	return l1
 
-#MOSTRAR NUMERO DE RESUltaDOS POR PAGINA!!!
-	
 	
