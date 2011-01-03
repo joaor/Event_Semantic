@@ -80,6 +80,15 @@ class Place(RDFObject):
 	def get_country(self):
 		return self.single_query("Country",unicode)
 		
+	def get_zone(self):	
+		lat = self.single_query("Lat",float)
+		if lat > 41:
+			return 'north'
+		elif lat < 41 and lat > 39:
+			return 'center'
+		else:
+			return 'south'
+		
 	def get_complete_address(self):
 		return u'%s, %s %s, %s' % (self.get_address(),self.get_postal(),self.get_locality(),self.get_country())
 	

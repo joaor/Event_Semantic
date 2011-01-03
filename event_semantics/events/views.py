@@ -45,9 +45,47 @@ def artist_detail(request,artist_id):
 	return render(request,'events/artist.html', {'artist' : artist})
 	
 def event_detail(request,event_id):
+	evts = []
 	event = Event(ontologies['me'][event_id])
-	return render(request,'events/event.html', {'event' : event})
+	
+	gen = []
+	for art in event.get_artists():
+		l = art.get_genre_list()
+		if l:
+			gen.append(l.split(', '))
+	gen = reduce(lambda a,b:a+b,gen)
+	gen = map(lambda a: get_objects('Event', event_genre({},a) ),gen)
+	gen = reduce(delete_repeated,gen) #todos os eventos do mesmo genero
+	for e in gen:
+		e.weight = 4
+	evts.append(gen)
+	
+	zon = get_objects('Event', event_zone({},event.get_place().get_zone())) #todos os eventos na mesma zona
+	for e in zon:
+		e.weight = 3
+	evts.append(zon)
+	
+	y = int(event.get_date().get_year())
+	m = int(event.get_date().get_month_number())
+	d = int(event.get_date().get_day_number())
+	dat = get_objects('Event', event_date('week', datetime.datetime(y,m,d) )) #todos os eventos na mesma semana
+	for e in dat:
+		e.weight = 2
+	evts.append(dat)
+	print len(evts)
+	if evts:
+		event_list = reduce(event_match,evts)
+		event_list = sorted(event_list,cmp= lambda a,b: cmp(b.weight,a.weight))
+	
+	return render(request,'events/event.html', {'event' : event, 'event_list' : event_list[:10]})
 
+def delete_repeated(l1,l2):
+	ids_l1 = map(lambda a: a.id,l1)
+	for e in l2:
+		if e.id not in ids_l1:
+			l1.append(e)
+	return l1
+	
 def act_date(request,date_id):
 	global curr_date
 	curr_date = date_id
@@ -65,15 +103,13 @@ def act_zone(request,zone_id):
 
 def browsing(request):
 	global curr_date, curr_genre, curr_zone
-	d = event_date(curr_date)
+	d = event_date(curr_date,datetime.datetime.now())
 	d = event_genre(d,curr_genre)
 	d = event_zone(d,curr_zone)
-	print d
 	event_list = get_objects('Event', d )
 	return render(request,'events/event_list.html', {'event_list' : event_list, 'genre' : curr_genre, 'zone' : curr_zone, 'date' : curr_date})
 	
-def event_date(date_id):
-	now = datetime.datetime.now()
+def event_date(date_id,now):
 	if date_id == 'past':
 		timestp = int(time.time())
 		f = 'FILTER (?t < %d)' % timestp
@@ -195,12 +231,6 @@ def event_search(request):
 		event_list = reduce(event_match,dics)
 		event_list = sorted(event_list,cmp= lambda a,b: cmp(b.weight,a.weight))
 	
-	#print dics		
-	#for i in dics:
-	#	print map(lambda a: a.weight,i)
-	#print d
-	#print ambiguous
-	#print map(lambda a: a.weight,event_list)
 	res = len(event_list)
 	
 	return render(request,'events/event_list.html', {'event_list' : event_list, 'genre' : curr_genre, 'zone' : curr_zone, 'date' : curr_date, 'results' : res})
@@ -217,6 +247,4 @@ def event_match(l1,l2):
 			l1.append(elm)
 	return l1
 
-#MOSTRAR NUMERO DE RESUltaDOS POR PAGINA!!!
-	
 	
