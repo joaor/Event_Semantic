@@ -2,8 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <script type="text/javascript">
+var all = 'images/map.png';
+var selected = all;
 function mapClick(img){
-document.getElementById('map').src = img;
+    if (selected != img){
+        selected = img;
+    }
+    else{
+        selected = all;
+    }
+    document.getElementById('map').src = selected;
 }
 </script>
 
@@ -203,9 +211,9 @@ document.getElementById('map').src = img;
                                     <div class="Block-body">
                                         
                                         <div class="BlockContent">
-                                            <div class="BlockContent-body">
+                                            <div class="BlockContent-body" style="margin:5px 15px 5px 0px;">
                                             
-                                                <img id="map" src='images/map.png' border="0" height="200" width="100" align="right" usemap="#ptmap"/>
+                                                <img id="map" src='images/map.png' border="0" height="200" width="110" align="right" usemap="#ptmap"/>
                                                     <map name="ptmap">
                                                         <area shape ="rect" coords ="0,0,100,66" alt="North" OnClick="mapClick('images/map_north.png')"/>
                                                         <area shape ="rect" coords ="0,66,100,132" alt="Center" OnClick="mapClick('images/map_center.png')"/>
