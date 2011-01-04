@@ -16,18 +16,29 @@
 {% block content %}
 <div class="BlockContent">
     <div class="BlockContent-body">
-        <div class="post" id="post-9">
-            <h2><a href="#" rel="bookmark" title="link to music event">{{event.get_name}}</a></h2>
+        <div class="post" id="post-9" about='{% url event-detail event.id %}' typeof='me:Event'>
+            <h2><a property='me:Name' href="#">{{event.get_name}}</a></h2>
             <div class="entry">
-                <p><b>Artist: </b> 
+                <p rel='me:performed_by'>
+					<b>Artist: </b> 
 					{% for artist in event.get_artists %}
-						<a href= "{% url artist-detail artist.id %}">{{artist.get_name}}</a>
+					<span about='{% url artist-detail artist.id %}' typeof='me:Performer'>
+						<a property='me:Name' href= "{% url artist-detail artist.id %}">{{artist.get_name}}</a>
+					</span>
 					{% endfor %}
 				 </p>
-                <p><b>Place: </b>{{event.get_place.get_name}}</p>
+                <p rel='me:takes_place' >
+					<span about='{{event.get_place.uri}}' typeof='me:Place'>
+					<b>Place: </b><span property='me:Name'>{{event.get_place.get_name}}</span>
+					</span>
+				</p>
 				<p><b>Address: </b>{{event.get_place.get_complete_address}} </p>
-                <p><b>Date: </b>{{event.get_date.get_name}}</p>
-                <p><b>Description: </b>{{event.get_description|safe|linebreaks}}</p>
+                <p rel='me:starts_at'>
+					<span about='{{event.get_date.uri}}' typeof='me:Date'>
+					<b>Date: </b><span property='me:Name'>{{event.get_date.get_name}}</span>
+					</span>
+				</p>
+                <p><b>Description: </b><span property='me:Description'>{{event.get_description|safe|linebreaks}}</span></p>
                 <div style="clear: left;"></div>
             </div>         
         </div>
@@ -50,7 +61,9 @@
                <div style="width: 93%; float:right">
 				{% for ev in event_list%}
 				{% if ev.id != event.id %}
-                 <li style="text-align: left"><a href="{% url event-detail ev.id %}" >{{ev.get_name}}</a></li><p></p>
+				<span about='{% url event-detail ev.id %}' typeof='me:Event'>
+                 <li style="text-align: left"><a property='me:Name' href="{% url event-detail ev.id %}" >{{ev.get_name}}</a></li><p></p>
+				</span>
 				{% endif %}  
 				{% endfor %}  
                </div>

@@ -16,21 +16,28 @@
 {% block content %}
 <div class="BlockContent">
      <div class="BlockContent-body">
-         <div class="post" id="post-9">
-             <h2><a href="#" rel="bookmark" title="link to music event">{{artist.get_name}}</a></h2>
+         <div class="post" id="post-9" about='{% url artist-detail artist.id %}' typeof='me:Performer'>
+             <h2><a property='me:Name' href="#">{{artist.get_name}}</a></h2>
              <div class="entry">
-                     <p><b>Genre: </b>{{artist.get_genre_list}}</p>
-                     <p><b>Albums: </b>{{artist.get_album_list}}</p>
-                     <p><b>Events: </b> 
+                     <p><b>Genre: </b><span property='me:Genre'>{{artist.get_genre_list}}</span></p>
+					<p rel='me:recorded'>
+						<span typeof='me:Album'>
+						<b>Albums: </b>{{artist.get_album_list}}
+						</span>
+					</p>
+					<p rel='me:performed_by'>
+						<b>Events: </b> 
 						{% for event in artist.get_event_list %}
-							<a href= "{% url event-detail event.id %}">{{event.get_name}}</a>
-							{% if not forloop.last %}
-							|
-							{% endif %}
+						<span about='{% url event-detail event.id %}' typeof='me:Event'>
+							<a property='me:Name' href= "{% url event-detail event.id %}">{{event.get_name}}</a>
+						</span>
+						{% if not forloop.last %}
+						|
+						{% endif %}
 						{% endfor %}
 					 </p>
-                     <p><b>Summary: </b>{{artist.get_summary|safe|linebreaks}}</p>
-                     <p><b>Description: </b>{{artist.get_description|safe|linebreaks}}</p>
+                     <p><b>Summary: </b><span property='me:Summary'>{{artist.get_summary|safe|linebreaks}}</span></p>
+                     <p><b>Description: </b><span property='me:Description'>{{artist.get_description|safe|linebreaks}}</span></p>
                  </p>
                  <div style="clear: left;"></div>
              </div>
