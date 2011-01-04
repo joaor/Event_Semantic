@@ -44,9 +44,9 @@
 		<div class="resultBlock">
 		
         {% for event in event_list%}
-        <div class="Block" style="width:96%; float: left" >
+        <div class="Block" style="width:96%; float: left" about='{% url event-detail event.id %}' typeof='me:Event'>
             <div class="Block-body"> 
-                <a href="{% url event-detail event.id %}">
+                <a property='me:Name' href="{% url event-detail event.id %}">
                     <div class="BlockHeader">
                         {{event.get_name}}
                         <div class="l"></div>
@@ -55,19 +55,24 @@
                 </a>
                 <div class="BlockContent">
                     <div class="BlockContent-body"> 
-
-                        <div style="float: left; width: 33%">
+                        <div style="float: left; width: 33%" rel='me:performed_by'>
                           <b>Artist: </b>
-							<a href="{% url artist-detail event.get_main_artist.id %}">{{event.get_main_artist.get_name}}</a>
+						<span about='{% url artist-detail event.get_main_artist.id %}' typeof='me:Performer'>
+							<a property='me:Name' href= "{% url artist-detail event.get_main_artist.id %}">{{event.get_main_artist.get_name}}</a>
+						</span>
 							{% if event.has_more_artists %}
 								and others
 							{% endif %}
                         </div>
-                        <div style="float: left; width: 33%">
-                          <b>Place: </b>{{event.get_place.get_name}}
+                        <div style="float: left; width: 33%" rel='me:takes_place'>
+                          	<span about='{{event.get_place.uri}}' typeof='me:Place'>
+							<b>Place: </b><span property='me:Name'>{{event.get_place.get_name}}</span>
+							</span>
                         </div>
-                        <div style="float: left; width: 33%">
-                          <b>Date: </b>{{event.get_date.get_name}}
+                        <div style="float: left; width: 33%" rel='me:starts_at'>
+                          	<span about='{{event.get_date.uri}}' typeof='me:Date'>
+							<b>Date: </b><span property='me:Name'>{{event.get_date.get_name}}</span>
+							</span>
                         </div>
                         
                     </div>
