@@ -1,6 +1,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
+<script type="text/javascript">
+function mapClick(img){
+document.getElementById('map').src = img;
+}
+</script>
+
+
 <head> 
     <title> EventSemantic </title> 
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />  
@@ -50,6 +57,7 @@
                             <div class="Block-body">
                                 
                                 <div class="Block-tl"></div>
+
                                 <div class="Block-tr"><div></div></div>
                                 <div class="Block-bl"><div></div></div>
                                 <div class="Block-br"><div></div></div>
@@ -197,7 +205,15 @@
                                         <div class="BlockContent">
                                             <div class="BlockContent-body">
                                             
-                                                <form method="get" id="browsingPlace" action="browsing_page.html">
+                                                <img id="map" src='images/map.png' border="0" height="200" width="100" align="right" usemap="#ptmap"/>
+                                                    <map name="ptmap">
+                                                        <area shape ="rect" coords ="0,0,100,66" alt="North" OnClick="mapClick('images/map_north.png')"/>
+                                                        <area shape ="rect" coords ="0,66,100,132" alt="Center" OnClick="mapClick('images/map_center.png')"/>
+                                                        <area shape ="rect" coords ="0,132,100,200" alt="South" OnClick="mapClick('images/map_south.png')"/>
+                                                    </map>
+
+                                            
+                                               <!-- <form method="get" id="browsingPlace" action="browsing_page.html">
                                                     <div style = "width:50%; float:left">
                                                         <input type="radio" name="group3" value="All" checked> All <br>
                                                         <input type="radio" name="group3" value="north"> North <br>
@@ -206,7 +222,7 @@
                                                         <input type="radio" name="group3" value="centre"> Centre <br>
                                                         <input type="radio" name="group3" value="south"> South <br>
                                                     </div>
-                                                </form>
+                                                </form>-->
                                                 
                                              </div>
                                         </div>
