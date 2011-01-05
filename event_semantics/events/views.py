@@ -51,20 +51,22 @@ def event_detail(request,event_id):
 	arts = event.get_artists()
 	names = map(lambda a: a.get_name(),arts)
 	names = map(lambda a: get_objects('Event', {'Performer' : [('Name','?n','FILTER (regex(?n, "%s+?", "i"))' % a)] } ),names)
-	names = reduce(delete_repeated,names) #todos os eventos do mesmo artista
-	for e in names:
-		e.weight = 8
+	if names:
+		names = reduce(delete_repeated,names) #todos os eventos do mesmo artista
+		for e in names:
+			e.weight = 8
 	
 	gen = []
 	for art in event.get_artists():
 		l = art.get_genre_list()
 		if l:
 			gen.append(l.split(', '))
-	gen = reduce(lambda a,b:a+b,gen)
-	gen = map(lambda a: get_objects('Event', event_genre({},a) ),gen)
-	gen = reduce(delete_repeated,gen) #todos os eventos do mesmo genero
-	for e in gen:
-		e.weight = 6
+	if gen:
+		gen = reduce(lambda a,b:a+b,gen)
+		gen = map(lambda a: get_objects('Event', event_genre({},a) ),gen)
+		gen = reduce(delete_repeated,gen) #todos os eventos do mesmo genero
+		for e in gen:
+			e.weight = 6
 	
 	zon = get_objects('Event', event_zone({},event.get_place().get_zone())) #todos os eventos na mesma zona
 	for e in zon:
