@@ -181,7 +181,7 @@ def event_search(request):
 	dics = []
 	words = request.GET['search_words'].split()
 	weight = len(words)
-	
+	print words
 	for word in words:
 		if l:
 			if l[0] in d.keys():
@@ -198,13 +198,16 @@ def event_search(request):
 			l.append(word)
 	if l:
 		ambiguous.append((l.pop(),weight))	
-
+	
+	print ambiguous
+	print d
+	
 	for i in d.keys():
 		wds = d[i][1]
 		for j in wds:			
 			if i in ['day','year','hour']:
 				try: 
-					val = int(j)
+					val = int(j[0])
 					prop = (d[i][0][1],j[0])
 				except:
 					continue
@@ -238,7 +241,7 @@ def event_search(request):
 	
 	res = len(event_list)
 	
-	return render(request,'events/event_list.html', {'event_list' : event_list, 'genre' : curr_genre, 'zone' : curr_zone, 'date' : curr_date, 'results' : res})
+	return render(request,'events/event_list.html', {'event_list' : event_list, 'results' : res})
 
 def event_match(l1,l2):
 	ids_l1 = map(lambda a: a.id,l1)
